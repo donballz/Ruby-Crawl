@@ -1,0 +1,232 @@
+--- !ruby/object:MyThread
+tNum: 303374
+tUrl: http://www.actuarialoutpost.com/actuarial_discussion_forum/showthread.php?t=303374&pp=40&page=1
+tPosts:
+- !ruby/object:Post
+  pNum: 8347820
+  pPoster: Linus
+  pTime: !ruby/object:DateTime 2015-12-21 11:26:00.000000000 Z
+  pQuoted: {}
+  pPost: 'My intention is one day (Wednesday) ONLY, though if it spills over into
+    Thursday, that will be okay. It will be a true blitz though, with one or two hour
+    deadlines, so if you sign up, prepare to BLITZen! '
+- !ruby/object:Post
+  pNum: 8348076
+  pPoster: Browncoat
+  pTime: !ruby/object:DateTime 2015-12-21 12:54:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Darn, I thought it was going to be a text adventure game. Good luck, though.
+    To the EC!!! '
+- !ruby/object:Post
+  pNum: 8348080
+  pPoster: Vorian Atreides
+  pTime: !ruby/object:DateTime 2015-12-21 12:55:00.000000000 Z
+  pQuoted: {}
+  pPost: 'In. '
+- !ruby/object:Post
+  pNum: 8348563
+  pPoster: Bingboing
+  pTime: !ruby/object:DateTime 2015-12-21 14:39:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Yes please. '
+- !ruby/object:Post
+  pNum: 8348589
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2015-12-21 14:43:00.000000000 Z
+  pQuoted: {}
+  pPost: 'In like Finn '
+- !ruby/object:Post
+  pNum: 8349581
+  pPoster: Browncoat
+  pTime: !ruby/object:DateTime 2015-12-22 10:11:00.000000000 Z
+  pQuoted: {}
+  pPost: 'His name is spelled "Phineas" and I''ve never heard anyone call him "Phin"
+    for short. {jpshakehead.gif} '
+- !ruby/object:Post
+  pNum: 8350060
+  pPoster: Linus
+  pTime: !ruby/object:DateTime 2015-12-22 13:44:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I think I''m going to need more than three players... '
+- !ruby/object:Post
+  pNum: 8350066
+  pPoster: ShundayBloodyShunday
+  pTime: !ruby/object:DateTime 2015-12-22 13:47:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Pick me! Pick me!! '
+- !ruby/object:Post
+  pNum: 8350153
+  pPoster: jalapeno29
+  pTime: !ruby/object:DateTime 2015-12-22 14:14:00.000000000 Z
+  pQuoted: {}
+  pPost: 'In! '
+- !ruby/object:Post
+  pNum: 8350857
+  pPoster: Domingo Montoya
+  pTime: !ruby/object:DateTime 2015-12-23 09:22:00.000000000 Z
+  pQuoted: {}
+  pPost: 'If this is done by lunch I''ll play. Hoping to leave around 1 cst '
+- !ruby/object:Post
+  pNum: 8350859
+  pPoster: Abelian Grape
+  pTime: !ruby/object:DateTime 2015-12-23 09:22:00.000000000 Z
+  pQuoted: {}
+  pPost: 'wtf is this '
+- !ruby/object:Post
+  pNum: 8350863
+  pPoster: Domingo Montoya
+  pTime: !ruby/object:DateTime 2015-12-23 09:24:00.000000000 Z
+  pQuoted:
+    Abelian Grape: 0
+  pPost: 'Quote: Originally Posted by Abelian Grape wtf is this if you don''t know,
+    you can''t afford it '
+- !ruby/object:Post
+  pNum: 8350884
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2015-12-23 09:37:00.000000000 Z
+  pQuoted: {}
+  pPost: 'you forgot to send me my role PM brah '
+- !ruby/object:Post
+  pNum: 8350889
+  pPoster: Vorian Atreides
+  pTime: !ruby/object:DateTime 2015-12-23 09:40:00.000000000 Z
+  pQuoted:
+    Childish Gambino: 0
+  pPost: 'Quote: Originally Posted by Childish Gambino you forgot to send me my role
+    PM brah {agreepost.gif} '
+- !ruby/object:Post
+  pNum: 8350929
+  pPoster: jalapeno29
+  pTime: !ruby/object:DateTime 2015-12-23 10:02:00.000000000 Z
+  pQuoted:
+    Childish Gambino: 0
+  pPost: 'Quote: Originally Posted by Childish Gambino you forgot to send me my role
+    PM brah you are the first elf that dies because you were trampled to death by
+    Blitzen. '
+- !ruby/object:Post
+  pNum: 8350935
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2015-12-23 10:04:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Blitzen. I didn''t even get that. '
+- !ruby/object:Post
+  pNum: 8351047
+  pPoster: Bingboing
+  pTime: !ruby/object:DateTime 2015-12-23 11:04:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Vote:Linus '
+- !ruby/object:Post
+  pNum: 8351076
+  pPoster: Domingo Montoya
+  pTime: !ruby/object:DateTime 2015-12-23 11:14:00.000000000 Z
+  pQuoted:
+    Bingboing: 0
+  pPost: 'Quote: Originally Posted by Bingboing Vote:Linus Vote:Bingboing Unvote:Bingboing
+    {bighug.gif} '
+- !ruby/object:Post
+  pNum: 8351257
+  pPoster: Linus
+  pTime: !ruby/object:DateTime 2015-12-23 12:26:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Sorry kids, I just couldn''t make it happen with only five players. '
+- !ruby/object:Post
+  pNum: 8351264
+  pPoster: Vorian Atreides
+  pTime: !ruby/object:DateTime 2015-12-23 12:28:00.000000000 Z
+  pQuoted:
+    Linus: 0
+  pPost: 'Quote: Originally Posted by Linus Sorry kids, I just couldn''t make it happen
+    with only five players. SLBCFT '
+- !ruby/object:Post
+  pNum: 8351726
+  pPoster: IHateExams
+  pTime: !ruby/object:DateTime 2015-12-23 15:50:00.000000000 Z
+  pQuoted: {}
+  pPost: 'sounds like fun '
+- !ruby/object:Post
+  pNum: 8351736
+  pPoster: urysohn
+  pTime: !ruby/object:DateTime 2015-12-23 15:57:00.000000000 Z
+  pQuoted: {}
+  pPost: 'IN! '
+- !ruby/object:Post
+  pNum: 8351809
+  pPoster: Linus
+  pTime: !ruby/object:DateTime 2015-12-23 16:30:00.000000000 Z
+  pQuoted: {}
+  pPost: "{jpshakehead.gif} Unless we play from 9 am to 1 pm tomorrow... "
+- !ruby/object:Post
+  pNum: 8351827
+  pPoster: Vorian Atreides
+  pTime: !ruby/object:DateTime 2015-12-23 16:38:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Perhaps on Monday? {shrug.gif} '
+- !ruby/object:Post
+  pNum: 8351835
+  pPoster: Linus
+  pTime: !ruby/object:DateTime 2015-12-23 16:40:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I''m off on Monday. '
+- !ruby/object:Post
+  pNum: 8352010
+  pPoster: Vorian Atreides
+  pTime: !ruby/object:DateTime 2015-12-23 20:01:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Good. Then you''ll have plenty of time to run the game w/o distractions
+    from work. {tomato.gif} '
+- !ruby/object:Post
+  pNum: 8352217
+  pPoster: IHateExams
+  pTime: !ruby/object:DateTime 2015-12-24 09:18:00.000000000 Z
+  pQuoted:
+    Linus: 0
+  pPost: 'Quote: Originally Posted by Linus {jpshakehead.gif} Unless we play from
+    9 am to 1 pm tomorrow... {popcorn.gif} '
+- !ruby/object:Post
+  pNum: 8352229
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2015-12-24 09:27:00.000000000 Z
+  pQuoted:
+    Vorian Atreides: 0
+  pPost: 'Quote: Originally Posted by Vorian Atreides Good. Then you''ll have plenty
+    of time to run the game w/o distractions from work. {tomato.gif} ctm "'':;?/.{[}]|\~`!@#$%^&*()_-+= '
+- !ruby/object:Post
+  pNum: 8357837
+  pPoster: BruteForce
+  pTime: !ruby/object:DateTime 2015-12-31 13:36:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I''m in if you do this next week! '
+tPostLog:
+- 8347820
+- 8348076
+- 8348080
+- 8348563
+- 8348589
+- 8349581
+- 8350060
+- 8350066
+- 8350153
+- 8350857
+- 8350859
+- 8350863
+- 8350884
+- 8350889
+- 8350929
+- 8350935
+- 8351047
+- 8351076
+- 8351257
+- 8351264
+- 8351726
+- 8351736
+- 8351809
+- 8351827
+- 8351835
+- 8352010
+- 8352217
+- 8352229
+- 8357837
+tTitle: " The Night Before The Night Before Christmas EC Blitz(en) Game Interest Thread
+  - Actuarial Outpost"
+curDate: !ruby/object:DateTime 2016-03-16 22:34:38.836782000 -04:00
+tOP: Linus

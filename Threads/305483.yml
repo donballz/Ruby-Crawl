@@ -1,0 +1,2513 @@
+--- !ruby/object:MyThread
+tNum: 305483
+tUrl: http://www.actuarialoutpost.com/actuarial_discussion_forum/showthread.php?t=305483&pp=40&page=1
+tPosts:
+- !ruby/object:Post
+  pNum: 8422633
+  pPoster: Captain Oveur
+  pTime: !ruby/object:DateTime 2016-02-17 12:46:00.000000000 Z
+  pQuoted: {}
+  pPost: 'How much more money can this guy possibly have left? '
+- !ruby/object:Post
+  pNum: 8422658
+  pPoster: SirVLCIV
+  pTime: !ruby/object:DateTime 2016-02-17 12:56:00.000000000 Z
+  pQuoted:
+    Captain Oveur: 8422633
+  pPost: 'Quote: Originally Posted by Captain Oveur How much more money can this guy
+    possibly have left? I''ve heard he doesn''t really spend much, he''s been letting
+    SuperPACs do most of his spending for him. '
+- !ruby/object:Post
+  pNum: 8422663
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-02-17 12:58:00.000000000 Z
+  pQuoted: {}
+  pPost: 'After all, he does originally come from the land of rarefied Super-PAC donors. '
+- !ruby/object:Post
+  pNum: 8422703
+  pPoster: Hartke
+  pTime: !ruby/object:DateTime 2016-02-17 13:15:00.000000000 Z
+  pQuoted:
+    SirVLCIV: 8422658
+  pPost: 'Quote: Originally Posted by SirVLCIV I''ve heard he doesn''t really spend
+    much, he''s been letting SuperPACs do most of his spending for him. according
+    to wiki, his PACs are out of money. https://en.wikipedia.org/wiki/Republ...rimaries,_2016 '
+- !ruby/object:Post
+  pNum: 8422706
+  pPoster: SirVLCIV
+  pTime: !ruby/object:DateTime 2016-02-17 13:16:00.000000000 Z
+  pQuoted:
+    Hartke: 8422703
+  pPost: 'Quote: Originally Posted by Hartke according to wiki, his PACs are out of
+    money. https://en.wikipedia.org/wiki/Republ...rimaries,_2016 PAC &lt;&gt; SuperPAC
+    Difficulty in judging cash on hand for SuperPACs is they can get an extra $5M
+    tomorrow from a big infusion. '
+- !ruby/object:Post
+  pNum: 8422711
+  pPoster: Captain Oveur
+  pTime: !ruby/object:DateTime 2016-02-17 13:18:00.000000000 Z
+  pQuoted:
+    SirVLCIV: 8422706
+  pPost: 'Quote: Originally Posted by SirVLCIV PAC != SuperPAC Difficulty in judging
+    cash on hand for SuperPACs is they can get an extra $5M tomorrow from a big infusion.
+    IFYP '
+- !ruby/object:Post
+  pNum: 8422800
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-17 13:55:00.000000000 Z
+  pQuoted: {}
+  pPost: 'You guys know how I''m all &quot;lmao polls,&quot; but this was interesting:
+    http://www.usatoday.com/story/news/p...able/80452560/ Quote: &#8226; Clinton loses
+    by 2 points to Trump (43%-45%), 1 point to Cruz (44%-45%), 6 points to Rubio (42%-48%)
+    and 11 points to Kasich (38%-49%). That''s a weaker standing than the former secretary
+    of State showed in December''s survey, when she narrowly led Trump and Cruz and
+    trailed Rubio by just 2 points. Republicans'' best chance to beat Clinton is a
+    Rubio/Kasich type, needing Ohio and Florida to win, and it looks like they''re
+    going to nominate somebody who thinks climate change is a concept invented by
+    the Chinese {rotfl.gif} Can''t make this stuff up '
+- !ruby/object:Post
+  pNum: 8422810
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-02-17 13:58:00.000000000 Z
+  pQuoted:
+    swimmer92: 8422800
+  pPost: 'Quote: Originally Posted by swimmer92 You guys know how I''m all &quot;lmao
+    polls,&quot; but this was interesting: http://www.usatoday.com/story/news/p...able/80452560/
+    Republicans'' best chance to beat Clinton is a Rubio/Kasich type, needing Ohio
+    and Florida to win, and it looks like they''re going to nominate somebody who
+    thinks climate change is a concept invented by the Chinese {rotfl.gif} Can''t
+    make this stuff up Don''t overestimate Florida''s love for Rubio. '
+- !ruby/object:Post
+  pNum: 8422815
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-17 14:00:00.000000000 Z
+  pQuoted:
+    nonlnear: 8422810
+  pPost: 'Quote: Originally Posted by nonlnear Don''t overestimate Florida''s love
+    for Rubio. I''m not. '
+- !ruby/object:Post
+  pNum: 8422821
+  pPoster: SirVLCIV
+  pTime: !ruby/object:DateTime 2016-02-17 14:03:00.000000000 Z
+  pQuoted:
+    swimmer92: 8422800
+  pPost: 'Quote: Originally Posted by swimmer92 You guys know how I''m all &quot;lmao
+    polls,&quot; but this was interesting: http://www.usatoday.com/story/news/p...able/80452560/
+    Republicans'' best chance to beat Clinton is a Rubio/Kasich type, needing Ohio
+    and Florida to win, and it looks like they''re going to nominate somebody who
+    thinks climate change is a concept invented by the Chinese {rotfl.gif} Can''t
+    make this stuff up Kasich as presidential nominee and Rubio as VP is the Republicans''
+    top chance at the presidency. I think Rubio gets destroyed in general election.
+    He would not debate well 1v1. '
+- !ruby/object:Post
+  pNum: 8422823
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 14:03:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich blew his load in NH, you can''t win a poker tournament in level 1.
+    Trump/ Kasich sounds like a pretty good ticket imo '
+- !ruby/object:Post
+  pNum: 8422845
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-17 14:11:00.000000000 Z
+  pQuoted:
+    win diesel: 8422823
+  pPost: 'Quote: Originally Posted by win diesel Kasich blew his load in NH, you can''t
+    win a poker tournament in level 1. Trump/ Kasich sounds like a pretty good ticket
+    imo Write it down. If you''re right I''ll order you your next Shakeology batch
+    imo '
+- !ruby/object:Post
+  pNum: 8422860
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 14:17:00.000000000 Z
+  pQuoted:
+    swimmer92: 8422845
+  pPost: 'Quote: Originally Posted by swimmer92 Write it down. If you''re right I''ll
+    order you your next Shakeology batch imo Cool, thanks. I love a freeroll imo '
+- !ruby/object:Post
+  pNum: 8422870
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-17 14:20:00.000000000 Z
+  pQuoted:
+    SirVLCIV: 8422821
+  pPost: 'Quote: Originally Posted by SirVLCIV Kasich as presidential nominee and
+    Rubio as VP is the Republicans'' top chance at the presidency. I think Rubio gets
+    destroyed in general election. He would not debate well 1v1. I love Kasich but
+    I think the size of the &quot;angry conservative&quot; voting bloc this year pretty
+    much rules him out as the nominee. They haven''t been paying attention to him
+    so far, but if the spotlight turns toward him, and this bloc finds out that he
+    &quot;expanded Obamacare&quot; in Ohio, his candidacy could die a swift death.
+    In an unlikely GE situation, his electability would hinge on how well he controls
+    his message. A lot of people don''t know this outside Ohio, but he has a bit of
+    a temper and has made a few gaffes that would hurt him in the GE. See: http://www.cleveland.com/open/index....calls_pol.html
+    I don''t know how many of those videos might be floating around out there, and
+    I hope he can keep from generate any new ones if he finds himself in the spotlight. '
+- !ruby/object:Post
+  pNum: 8422889
+  pPoster: WillTreaty
+  pTime: !ruby/object:DateTime 2016-02-17 14:27:00.000000000 Z
+  pQuoted:
+    swimmer92: 8422800
+  pPost: 'Quote: Originally Posted by swimmer92 You guys know how I''m all &quot;lmao
+    polls,&quot; but this was interesting: http://www.usatoday.com/story/news/p...able/80452560/
+    Republicans'' best chance to beat Clinton is a Rubio/Kasich type, needing Ohio
+    and Florida to win, and it looks like they''re going to nominate somebody who
+    thinks climate change is a concept invented by the Chinese {rotfl.gif} Can''t
+    make this stuff up Yet, in your poll, Hillary still loses to him. What does that
+    say about the dems? &lt;I''m not a Trump fan btw&gt; '
+- !ruby/object:Post
+  pNum: 8422911
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-17 14:32:00.000000000 Z
+  pQuoted: {}
+  pPost: 'This is the bad stuff about him? Quote: Then Kasich stills himself and bellows,
+    &quot;He''s an idiot! We just can''t act that way. What people resent are people
+    who are in the government who don''t treat the client with respect.&quot; Thumbs
+    up, IMO. '
+- !ruby/object:Post
+  pNum: 8422934
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-17 14:38:00.000000000 Z
+  pQuoted:
+    WillTreaty: 8422889
+  pPost: 'Quote: Originally Posted by WillTreaty Yet, in your poll, Hillary still
+    loses to him. What does that say about the dems? &lt;I''m not a Trump fan btw&gt;
+    We don''t like Hillary. This isn''t news '
+- !ruby/object:Post
+  pNum: 8423307
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-17 17:41:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I''m starting to contest the conventional wisdom of adding someone to a
+    ticket simply to win one state. John Edwards didn''t help John Kerry win North
+    Carolina. Al Gore didn''t even win his home state. There is no guarantee a Rubio
+    can pull Florida on the ticket when he''s coming in 3rd place in his own state
+    party''s primary. Rubio already decided he''s not running for Senate re-election
+    so he runs risk of disappearing like Charlie Crist or Scott Brown. Kasich may
+    do better with Ohio, but what else does he bring in? How is Kasich brand all that
+    different from Mitt Romney? Old ''statesman'' moderates who expanded policies
+    tied to Obamacare. Would Kasich campaign as supporting Obamacare or opposing it?
+    Can he really argue he would have opposed most of it if he supported Medicaid
+    expansion? I don''t have a problem with him expanding Medicaid, but it becomes
+    a messaging problem when you try take nuanced stanced on existing legislation.
+    Moving as close to center as possible has risks. If it appears that you''re apologizing
+    for your party''s stances just to get to middle, and the other party is championing
+    the benefits of opposing policies that you''re trying to compromise towards, many
+    folks on fence may decide siding with opposition is the best bet and clear choice.
+    People tend to prefer the clear choice instead of the nuanced one. Kasich also
+    supported the Iraq War. He can be as moderate a uniter he wants, but once they
+    know about his Lehman Brother ties and prior support for Iraq War, he''ll be painted
+    as another out-of-touch rightwinger under the shadow of George W Bush just like
+    the rest of them. I think Trump with a Department of Defense VP is a better ticket. '
+- !ruby/object:Post
+  pNum: 8423314
+  pPoster: YetAnotherCareerChanger
+  pTime: !ruby/object:DateTime 2016-02-17 17:51:00.000000000 Z
+  pQuoted: {}
+  pPost: 'What are the standard deviations on these polls? Is winning by 1-2-3-etc
+    points actually significant or just something to talk about? I''d doubt it''s
+    statistically significant but I''ve been wrong once or twice. '
+- !ruby/object:Post
+  pNum: 8423328
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-17 18:04:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Another thing is that a poll showing specific person (Hillary Clinton) doing
+    badly when lined up against generic opposition candidate doesn''t mean much. I
+    wouldn''t be surprised if some of deviation in favor of Kasich or Rubio is because
+    their perception overlaps somewhat with ''generic opposition'' candidate. By the
+    time the general election rolls around, people will know who the 2 major party
+    candidates are. '
+- !ruby/object:Post
+  pNum: 8423334
+  pPoster: Len Myers
+  pTime: !ruby/object:DateTime 2016-02-17 18:09:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423328
+  pPost: 'Quote: Originally Posted by Sentinel By the time the general election rolls
+    around, people will know who the 2 major party candidates are. One would hope
+    so. '
+- !ruby/object:Post
+  pNum: 8423384
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-17 18:47:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423307
+  pPost: 'Quote: Originally Posted by Sentinel I''m starting to contest the conventional
+    wisdom of adding someone to a ticket simply to win one state. John Edwards didn''t
+    help John Kerry win North Carolina. Al Gore didn''t even win his home state. There
+    is no guarantee a Rubio can pull Florida on the ticket when he''s coming in 3rd
+    place in his own state party''s primary. Rubio already decided he''s not running
+    for Senate re-election so he runs risk of disappearing like Charlie Crist or Scott
+    Brown. Kasich may do better with Ohio, but what else does he bring in? How is
+    Kasich brand all that different from Mitt Romney? Old ''statesman'' moderates
+    who expanded policies tied to Obamacare. Would Kasich campaign as supporting Obamacare
+    or opposing it? Can he really argue he would have opposed most of it if he supported
+    Medicaid expansion? I don''t have a problem with him expanding Medicaid, but it
+    becomes a messaging problem when you try take nuanced stanced on existing legislation.
+    Moving as close to center as possible has risks. If it appears that you''re apologizing
+    for your party''s stances just to get to middle, and the other party is championing
+    the benefits of opposing policies that you''re trying to compromise towards, many
+    folks on fence may decide siding with opposition is the best bet and clear choice.
+    People tend to prefer the clear choice instead of the nuanced one. Kasich also
+    supported the Iraq War. He can be as moderate a uniter he wants, but once they
+    know about his Lehman Brother ties and prior support for Iraq War, he''ll be painted
+    as another out-of-touch rightwinger under the shadow of George W Bush just like
+    the rest of them. I think Trump with a Department of Defense VP is a better ticket.
+    Kasich definitely opposed Obamacare, no question about that. The Medicaid expansion
+    was him being a governor and trying to make the best of the situation from a state
+    level perspective rather than making a decision on principle. This issue only
+    hurts him in the primary, and it probably helps him in the GE on average. I really
+    don''t think he is a &quot;move to the middle kinda guy&quot;, which is why he''s
+    so appealing. I think he''s a conservative but you kinda know where he stands.
+    But, he''s taking a huge risk by trying to sound like a rational human being in
+    the Republican primaries. '
+- !ruby/object:Post
+  pNum: 8423401
+  pPoster: willel2338
+  pTime: !ruby/object:DateTime 2016-02-17 19:04:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423307
+  pPost: 'Quote: Originally Posted by Sentinel I''m starting to contest the conventional
+    wisdom of adding someone to a ticket simply to win one state. John Edwards didn''t
+    help John Kerry win North Carolina. Al Gore didn''t even win his home state. There
+    is no guarantee a Rubio can pull Florida on the ticket when he''s coming in 3rd
+    place in his own state party''s primary. Rubio already decided he''s not running
+    for Senate re-election so he runs risk of disappearing like Charlie Crist or Scott
+    Brown. Kasich may do better with Ohio, but what else does he bring in? How is
+    Kasich brand all that different from Mitt Romney? Old ''statesman'' moderates
+    who expanded policies tied to Obamacare. Would Kasich campaign as supporting Obamacare
+    or opposing it? Can he really argue he would have opposed most of it if he supported
+    Medicaid expansion? I don''t have a problem with him expanding Medicaid, but it
+    becomes a messaging problem when you try take nuanced stanced on existing legislation.
+    Moving as close to center as possible has risks. If it appears that you''re apologizing
+    for your party''s stances just to get to middle, and the other party is championing
+    the benefits of opposing policies that you''re trying to compromise towards, many
+    folks on fence may decide siding with opposition is the best bet and clear choice.
+    People tend to prefer the clear choice instead of the nuanced one. Kasich also
+    supported the Iraq War. He can be as moderate a uniter he wants, but once they
+    know about his Lehman Brother ties and prior support for Iraq War, he''ll be painted
+    as another out-of-touch rightwinger under the shadow of George W Bush just like
+    the rest of them. I think Trump with a Department of Defense VP is a better ticket.
+    Fair points. Well made. However, I disagree with most of what you wrote. Ronald
+    Reagan expanded Medicaid five times. You can expand Medicaid and still be anti-Obamacare.
+    As most of us here know, the Medicaid expansion was a fraction of the PPACA. Plus,
+    there was a ton of (free to Ohio) federal money on the table. I think he can survive
+    that. In fact, while it certainly doesn''t help him with the GOP, expanding Medicaid
+    likely helps him a good bit in the general election. Moving to the center is not
+    a liability in the general. Poli Sci 101 dictates that one move to the center
+    away from the base in a general election. Nobody on the far right is going to
+    vote for Hillary/Bernie instead of Kasich or vice versa. It''s a two party system--and
+    it''s a race for the swing voters in the swing states, just like it''s always
+    been. I don''t understand what you''re talking about re: nuanced vs. clear choice.
+    I think maybe you''re trying too hard? As far as Kasich not being dissimilar to
+    Romney. I agree. And, while I do think Kasich''s (significantly longer) record
+    is more impressive than Romney''s, I''m not certain he has to be too much different.
+    Romney was running against the political tour de force of incumbent Obama. (Hillary/Bernie
+    are (obviously!) not Obama.. that''s self-evident.) Romney was within 5 points
+    of Obama in the general while McCain was blown out by more than 10 points. I don''t
+    think those results indicate Romney was a terrible choice. In retrospect, I don''t
+    know that any living politician could have unseated Obama in 2012. Re: Gore and
+    Edwards not winning their home states Those aren''t exactly swing states! It''s
+    apples and oranges. Kasich is beloved in Ohio. Even in liberal stalwart Cuyahoga
+    County, he crushed his Democratic rival when he was running for governor. And,
+    if you look at the electoral college map, I don''t see that a GOP is going to
+    win the election without BOTH Ohio AND Florida. Kasich doesn''t have to be the
+    nominee, but he should definitely be on the ticket. '
+- !ruby/object:Post
+  pNum: 8423414
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-17 19:15:00.000000000 Z
+  pQuoted:
+    crabber: 8423384
+  pPost: 'Quote: Originally Posted by crabber Kasich definitely opposed Obamacare,
+    no question about that. He opposed it back then? Ok. Does he oppose it now or
+    want to overturn it? Does he want to replace it with something better? Or doe
+    he want to build on it like Hillary Clinton does? Quote: The Medicaid expansion
+    was him being a governor and trying to make the best of the situation from a state
+    level perspective rather than making a decision on principle. This issue only
+    hurts him in the primary, and it probably helps him in the GE on average. That
+    may have been good for Ohio but its hard to paint yourself as opponent to legislation
+    when you helped implement one of its key components. Medicaid for able bodied
+    individuals under 133% of federal poverty level is a key component of Obamacare.
+    &quot;The opposition to [Obamacare] was really either political or ideological,&quot;
+    Ohio Gov. John Kasich (R) told the Associated Press earlier this month. &quot;I
+    don''t think that holds water against real flesh and blood, and real improvements
+    in people''s lives.&quot; He also summarily dismissed the idea that a Republican-controlled
+    Senate would repeal the program.[b] https://www.washingtonpost.com/news/...care-big-time/
+    The article says he walked back the comments. I don''t have a problem with him
+    choosing to do this in his state, but its hard to paint him as a leader of opposition
+    if you''re signing onto and helped implement arguably the most liberal component
+    of Obamacare. Quote: I really don''t think he is a &quot;move to the middle kinda
+    guy&quot;, which is why he''s so appealing. I think he''s a conservative but you
+    kinda know where he stands. But, he''s taking a huge risk by trying to sound like
+    a rational human being in the Republican primaries. Do a lot of Americans know
+    where he stands? He supported the Iraq War, but now opposes it because there were
+    no weapons of mass destruction. Hardly different from Hillary Clinton. I seem
+    to recall him justifying the war in the last debate. Where does he actually stand
+    or does he want to forget about it? Do lot of people know that he supports bank
+    bailouts and was an executive at Lehman Brothers until the ship went down? https://www.youtube.com/watch?v=KJg66eMLosk
+    It seems like it would be very easy to paint him like a Mitt Romney or John Kerry
+    figure in this election. '
+- !ruby/object:Post
+  pNum: 8423421
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-02-17 19:27:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich has raised most of his money after 1/1 so you cant use a 12/31 filing.
+    His town hall approach he is currently employing is cheaper than TV ads. He is
+    not Romney for accomplishments. He was the budget chairman when the country turned
+    from deficits to surpluses. I never thought that would happen in my lifetime.
+    The people that say he was a 1 state wonder are making things up. Many candidates
+    have to do well in either Iowa or NH to get the money to go further. He is set
+    for the Midwest states and parts of the south where he has better support. Newt
+    will support hi in Georgia. Trent Lott will help him in Alabama. Expect him to
+    last through March 15. Hard to tell why Jeb, Marco or Ted should go on if they
+    get crushed in their backyard. Cruz has a ton of evangelicals in SC and getting
+    beat on that vote. Jeb''s brother is very popular and Marco has the endorsement
+    of a popular governor. No way Kasich joins Trump. I am biased as I have wanted
+    Kasich to run since 2000 and have given money to his campaign on multiple occasions.
+    After SC, a total of 4% of the delegates will be determined. It is a long slog. '
+- !ruby/object:Post
+  pNum: 8423425
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-02-17 19:39:00.000000000 Z
+  pQuoted: {}
+  pPost: 'And by the way, it''s possible for people to want to be fiscally responsible
+    and balance the budget and still show compassion so that people get proper medical
+    care and campaigns don''t get hijacked by ridiculous money and character assassination
+    campaigning. More people are closer to the central with minor differences. Any
+    candidate will have individual positions you disagree with and may have actually
+    made some mistakes along the way. As an example, if Kasich worked for Morgan Stanley
+    versus Lehman would it really be any better? '
+- !ruby/object:Post
+  pNum: 8423427
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-17 19:40:00.000000000 Z
+  pQuoted:
+    willel2338: 8423401
+  pPost: 'Quote: Originally Posted by willel2338 Fair points. Well made. However,
+    I disagree with most of what you wrote. Ronald Reagan expanded Medicaid five times.
+    You can expand Medicaid and still be anti-Obamacare. As most of us here know,
+    the Medicaid expansion was a fraction of the PPACA. Plus, there was a ton of (free
+    to Ohio) federal money on the table. I think he can survive that. In fact, while
+    it certainly doesn''t help him with the GOP, expanding Medicaid likely helps him
+    a good bit in the general election. Kasich is now on record supporting and implementing
+    key piece of the legislation. He''s made statements saying repeal is ridiculous.
+    So where does he stand and what does he want to do. That''s not real clear. Saying
+    you''re not happy with something but will do little to change it doesn''t inspire
+    confidence when the opposition is championing the legislation left and right.
+    I don''t recall Kasich making any full-hearted criticism of Obamacare during any
+    of the 9 or 10 debates. Quote: Moving to the center is not a liability in the
+    general. Poli Sci 101 dictates that one move to the center away from the base
+    in a general election. Nobody on the far right is going to vote for Hillary/Bernie
+    instead of Kasich or vice versa. It''s a two party system--and it''s a race for
+    the swing voters in the swing states, just like it''s always been. I don''t understand
+    what you''re talking about re: nuanced vs. clear choice. I think maybe you''re
+    trying too hard? Yes, in general you have to win moderates, independents, centrists,
+    etc. You also have to make sure your base actually still comes to the polls and
+    is convinced you''re clear choice against opposition. Is Kasich really a clear
+    choice against Hillary? Watch him on The View starting at 6:40 https://www.youtube.com/watch?v=-xL_ZNrZwlY
+    He is ''for traditional marriage'' but ''accepts gay marriage'' and went to gay
+    wedding. What are his core values? Social issues don''t matter as much in general
+    election, but here''s the problem&quot; Hillary Clinton will condemn him for his
+    position being problematic for advancing gay right or civil rights. This will
+    mobilize the left. Some on the right will feel apathetic at Kasich''s nuanced
+    position. How does his nuanced position even translate to policy? Kasich then
+    risks being put in position where has to apologize for his beliefs, making himself
+    an easy punching bag. Quote: Re: Gore and Edwards not winning their home states
+    Those aren''t exactly swing states! It''s apples and oranges. Kasich is beloved
+    in Ohio. Even in liberal stalwart Cuyahoga County, he crushed his Democratic rival
+    when he was running for governor. And, if you look at the electoral college map,
+    I don''t see that a GOP is going to win the election without BOTH Ohio AND Florida.
+    Kasich doesn''t have to be the nominee, but he should definitely be on the ticket.
+    I don''t agree that he should &quot;definitely&quot; be on the ticket, but he
+    can on the list of possible VP. He does bring DC budget experience and could reinforce
+    the common man motif on a Trump ticket. That experience is more important than
+    simply being from Ohio. I think I''d prefer him in Cabinet position. '
+- !ruby/object:Post
+  pNum: 8423434
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-17 19:56:00.000000000 Z
+  pQuoted: {}
+  pPost: 'http://www.wtoc.com/story/31244302/t...ry-day-in-mass Quote: John Kasich
+    is spending the day of South Carolina''s Republican primary campaigning and raising
+    money in Massachusetts. Kasich''s campaign says he may return to South Carolina
+    on Saturday evening to await the primary results after earlier events in Massachusetts,
+    but the schedule is not finalized. Saturday''s events include a fundraiser in
+    Boston and a town hall meeting in Worcester. Massachusetts is one of just a few
+    northern states holding its primary on Super Tuesday on March 1. The Bay State,
+    alongside Vermont and Minnesota, are seen as more favorable territory for Kasich
+    than South Carolina and a string of Southern states voting on March 1. Well that''s
+    not something he''ll want broadly advertised. '
+- !ruby/object:Post
+  pNum: 8423437
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-17 20:04:00.000000000 Z
+  pQuoted:
+    willel2338: 8423401
+  pPost: 'Quote: Originally Posted by willel2338 Re: Gore and Edwards not winning
+    their home states Those aren''t exactly swing states! It may not be a swing state
+    now, but those were competitive states back then. Clinton won Arkansas, Louisiana,
+    West Virginia, Arizona, and Tennessee in 1996. Many folks thought it was unfathomable
+    for Gore to lose Tennessee in 2000. Gore didn''t win any of those other states.
+    The Democratic brand started to suffer in the South and hasn''t really repaired
+    much nationally since. Kasich can perhaps pull Ohio, but I''m not convinced Rubio
+    can do the same for Florida (which Obama won twice). '
+- !ruby/object:Post
+  pNum: 8423439
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-02-17 20:08:00.000000000 Z
+  pQuoted:
+    r. mutt: 8423434
+  pPost: 'Quote: Originally Posted by r. mutt http://www.wtoc.com/story/31244302/t...ry-day-in-mass
+    Well that''s not something he''ll want broadly advertised. Why? He spent prior
+    time in Michigan. There are lots of states. He is campaigning where he can win
+    and needs to raise money, just like everybody else. 4% of the delegates will be
+    decided by Saturday. Nevada is not important so Super Tuesday and states through
+    March 15 are important. Bernie Sanders has been in Michigan and Minnesota. Trump
+    has been in Florida and Louisiana. The press tells you where all these guys are
+    every part of every day. '
+- !ruby/object:Post
+  pNum: 8423472
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-17 20:40:00.000000000 Z
+  pQuoted:
+    Kid Rock: 8423439
+  pPost: 'Quote: Originally Posted by Kid Rock Why? He spent prior time in Michigan.
+    There are lots of states. He is campaigning where he can win and needs to raise
+    money, just like everybody else. 4% of the delegates will be decided by Saturday.
+    Nevada is not important so Super Tuesday and states through March 15 are important.
+    Bernie Sanders has been in Michigan and Minnesota. Trump has been in Florida and
+    Louisiana. The press tells you where all these guys are every part of every day.
+    Not because he''s in another state, but because he went to one of the most liberal
+    states in the country to raise money. '
+- !ruby/object:Post
+  pNum: 8423488
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 20:47:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich is a poor man''s Romney. Romney had better hair imo That said, Trump
+    would be smart to make him the VP. That would solidify Ohio. Then it is just a
+    matter of FL, but that has a lot of NY transplants. The ones that would tend to
+    vote R. After the election Trump can throw him in the back room and just have
+    him work on that budget like he told us he can do. And yes, if Trump asked him
+    to be VP he would do it in a second '
+- !ruby/object:Post
+  pNum: 8423498
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 20:49:00.000000000 Z
+  pQuoted:
+    r. mutt: 8423472
+  pPost: 'Quote: Originally Posted by r. mutt Not because he''s in another state,
+    but because he went to one of the most liberal states in the country to raise
+    money. This board assumes the general voting public seems to care about some pretty
+    small potatoes I set the line at an over/ under of 1 for people upon which their
+    vote would be changed due to this. I''ll take the under btw '
+- !ruby/object:Post
+  pNum: 8423564
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-02-17 21:49:00.000000000 Z
+  pQuoted:
+    win diesel: 8423488
+  pPost: 'Quote: Originally Posted by win diesel Kasich is a poor man''s Romney. Romney
+    had better hair imo That said, Trump would be smart to make him the VP. That would
+    solidify Ohio. Then it is just a matter of FL, but that has a lot of NY transplants.
+    The ones that would tend to vote R. After the election Trump can throw him in
+    the back room and just have him work on that budget like he told us he can do.
+    And yes, if Trump asked him to be VP he would do it in a second Governors of larger
+    states don''t run as a VP. Palin was a Governor of a small state, but Biden, Gore,
+    Lieberman, Cheney, Kemp, Bush, Ferraro, Mondale, Dole,.... are usually members
+    of Congress. Kasich goes back to Ohio. He would be more likely to take Portman
+    from Ohio, but all these guys would worry about their futures. '
+- !ruby/object:Post
+  pNum: 8423574
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 21:57:00.000000000 Z
+  pQuoted:
+    Kid Rock: 8423564
+  pPost: 'Quote: Originally Posted by Kid Rock Governors of larger states don''t run
+    as a VP. Palin was a Governor of a small state, but Biden, Gore, Lieberman, Cheney,
+    Kemp, Bush, Ferraro, Mondale, Dole,.... are usually members of Congress. Kasich
+    goes back to Ohio. He would be more likely to take Portman from Ohio, but all
+    these guys would worry about their futures. lol is that a law? If Trump wants
+    him he will be the VP. And Kasich will come running with his panties around his
+    ankles as he should. '
+- !ruby/object:Post
+  pNum: 8423587
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-02-17 22:07:00.000000000 Z
+  pQuoted:
+    crabber: 8423384
+    Sentinel: 8423437
+  pPost: 'Quote: Originally Posted by crabber Kasich definitely opposed Obamacare,
+    no question about that. The Medicaid expansion was him being a governor and trying
+    to make the best of the situation from a state level perspective rather than making
+    a decision on principle. This issue only hurts him in the primary, and it probably
+    helps him in the GE on average. I really don''t think he is a &quot;move to the
+    middle kinda guy&quot;, which is why he''s so appealing. I think he''s a conservative
+    but you kinda know where he stands. But, he''s taking a huge risk by trying to
+    sound like a rational human being in the Republican primaries. I think it shows
+    leadership that he says things that he has to know will not be met with much enthusiasm
+    with the rabid republican base. That and it differentiates him. Quote: Originally
+    Posted by Sentinel It may not be a swing state now, but those were competitive
+    states back then. Clinton won Arkansas, Louisiana, West Virginia, Arizona, and
+    Tennessee in 1996. Many folks thought it was unfathomable for Gore to lose Tennessee
+    in 2000. Gore didn''t win any of those other states. The Democratic brand started
+    to suffer in the South and hasn''t really repaired much nationally since. Kasich
+    can perhaps pull Ohio, but I''m not convinced Rubio can do the same for Florida
+    (which Obama won twice). Kasich would definitely pull Ohio. '
+- !ruby/object:Post
+  pNum: 8423606
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-17 22:16:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423427
+  pPost: 'Quote: Originally Posted by Sentinel Kasich is now on record supporting
+    and implementing key piece of the legislation. He''s made statements saying repeal
+    is ridiculous. So where does he stand and what does he want to do. That''s not
+    real clear. Saying you''re not happy with something but will do little to change
+    it doesn''t inspire confidence when the opposition is championing the legislation
+    left and right. I don''t recall Kasich making any full-hearted criticism of Obamacare
+    during any of the 9 or 10 debates. Yes, in general you have to win moderates,
+    independents, centrists, etc. You also have to make sure your base actually still
+    comes to the polls and is convinced you''re clear choice against opposition. Is
+    Kasich really a clear choice against Hillary? Watch him on The View starting at
+    6:40 https://www.youtube.com/watch?v=-xL_ZNrZwlY He is ''for traditional marriage''
+    but ''accepts gay marriage'' and went to gay wedding. What are his core values?
+    Social issues don''t matter as much in general election, but here''s the problem&quot;
+    Hillary Clinton will condemn him for his position being problematic for advancing
+    gay right or civil rights. This will mobilize the left. Some on the right will
+    feel apathetic at Kasich''s nuanced position. How does his nuanced position even
+    translate to policy? Kasich then risks being put in position where has to apologize
+    for his beliefs, making himself an easy punching bag. I don''t agree that he should
+    &quot;definitely&quot; be on the ticket, but he can on the list of possible VP.
+    He does bring DC budget experience and could reinforce the common man motif on
+    a Trump ticket. That experience is more important than simply being from Ohio.
+    I think I''d prefer him in Cabinet position. &quot;Repeal and replace Obamacare&quot;
+    is going to be more and more of a losing position unless something major blows
+    up in the healthcare system and the PPACA can be directly implicated. The law
+    has not destroyed the economy in the way the Republicans said it would. As time
+    passes, the moderates will get sick of hearing about it if they haven''t already.
+    If it ain''t broke, don''t fix it. '
+- !ruby/object:Post
+  pNum: 8423633
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-17 22:38:00.000000000 Z
+  pQuoted:
+    win diesel: 8423498
+  pPost: 'Quote: Originally Posted by win diesel This board assumes the general voting
+    public seems to care about some pretty small potatoes I set the line at an over/
+    under of 1 for people upon which their vote would be changed due to this. I''ll
+    take the under btw Since impressions are cumulative , that would be pretty hard
+    to prove. But either way, I never said it, so have fun flailing at your puny strawman.
+    {icon_wink.gif} '
+- !ruby/object:Post
+  pNum: 8423645
+  pPoster: Whiskey
+  pTime: !ruby/object:DateTime 2016-02-17 22:56:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich guaranteeing Ohio makes as much sense as Edwards guaranteeing North
+    Carolina. '
+- !ruby/object:Post
+  pNum: 8423650
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-17 23:06:00.000000000 Z
+  pQuoted:
+    Whiskey: 8423645
+  pPost: 'Quote: Originally Posted by Whiskey Kasich guaranteeing Ohio makes as much
+    sense as Edwards guaranteeing North Carolina. Bro, it''s a guarantee '
+- !ruby/object:Post
+  pNum: 8423698
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-18 04:50:00.000000000 Z
+  pQuoted:
+    win diesel: 8423650
+  pPost: 'Quote: Originally Posted by win diesel Bro, it''s a guarantee ok, I''m starting
+    to get sold that he may be the best choice for Trump. curious, what are your thoughts
+    about Trump''s bashing of Bush during last debate? Trump is starting to vaguely
+    reach out to some ''truthers'' '
+- !ruby/object:Post
+  pNum: 8423720
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-02-18 07:18:00.000000000 Z
+  pQuoted:
+    win diesel: 8423574
+  pPost: 'Quote: Originally Posted by win diesel lol is that a law? If Trump wants
+    him he will be the VP. And Kasich will come running with his panties around his
+    ankles as he should. Consistent with your style, taking words like &quot;usually&quot;
+    and &quot;more likely&quot; and turning that into &quot;law&quot; followed by
+    a bravado statement is childish. '
+- !ruby/object:Post
+  pNum: 8423724
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-18 07:34:00.000000000 Z
+  pQuoted:
+    Kid Rock: 8423720
+  pPost: 'Quote: Originally Posted by Kid Rock Consistent with your style, taking
+    words like &quot;usually&quot; and &quot;more likely&quot; and turning that into
+    &quot;law&quot; followed by a bravado statement is childish. I''ve come to realize
+    that win diesel is the Donald Trump of AO Political. Disinterested in facts, prone
+    to provocative statements for their own sake, and yet entertaining and most likely
+    to win a Risky. The conversation wouldn''t be the same without him, and I mean
+    that in both good and bad ways. Jas is of course Bernie Sanders. '
+- !ruby/object:Post
+  pNum: 8423811
+  pPoster: PeppermintPatty
+  pTime: !ruby/object:DateTime 2016-02-18 09:31:00.000000000 Z
+  pQuoted:
+    r. mutt: 8423724
+  pPost: 'Quote: Originally Posted by r. mutt I''ve come to realize that win diesel
+    is the Donald Trump of AO Political. Disinterested in facts, prone to provocative
+    statements for their own sake, and yet entertaining and most likely to win a Risky.
+    The conversation wouldn''t be the same without him, and I mean that in both good
+    and bad ways. Jas is of course Bernie Sanders. Hmm, I suspect both JAS and Bernie
+    (or by proxy, his supporters) are offended by that statement. '
+- !ruby/object:Post
+  pNum: 8423823
+  pPoster: R Daneel Olivaw
+  pTime: !ruby/object:DateTime 2016-02-18 09:36:00.000000000 Z
+  pQuoted:
+    PeppermintPatty: 8423811
+  pPost: 'Quote: Originally Posted by PeppermintPatty Hmm, I suspect both JAS and
+    Bernie (or by proxy, his supporters) are offended by that statement. JAS is closer
+    to a random member of the Kennedy family than Bernie. Lots of money he didn''t
+    earn, position gained primarily by family influence, feeling superior as he talks
+    about how we should all help &quot;those less fortunate&quot; at 4-5 star catered
+    dinners. Bernie''s a socialist from the Bronx who grew up middle class at best.
+    He''s a loon, but an honest one. '
+- !ruby/object:Post
+  pNum: 8423839
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-18 09:48:00.000000000 Z
+  pQuoted:
+    r. mutt: 8423724
+  pPost: 'Quote: Originally Posted by r. mutt I''ve come to realize that win diesel
+    is the Donald Trump of AO Political. Disinterested in facts, prone to provocative
+    statements for their own sake, and yet entertaining and most likely to win a Risky.
+    The conversation wouldn''t be the same without him, and I mean that in both good
+    and bad ways. This is the perfect way to put that. Of all the people I dislike
+    on here, I actually dislike windy the least. '
+- !ruby/object:Post
+  pNum: 8423843
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-18 09:49:00.000000000 Z
+  pQuoted:
+    Whiskey: 8423645
+  pPost: 'Quote: Originally Posted by Whiskey Kasich guaranteeing Ohio makes as much
+    sense as Edwards guaranteeing North Carolina. Kasich is a highly popular governor
+    of a critical swing state. Might as well start painting it red now if he''s on
+    the ticket come November. Though I suspect it might be more difficult if he were
+    #2 on that ticket. '
+- !ruby/object:Post
+  pNum: 8423981
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-18 10:56:00.000000000 Z
+  pQuoted:
+    r. mutt: 8423724
+  pPost: 'Quote: Originally Posted by r. mutt I''ve come to realize that win diesel
+    is the Donald Trump of AO Political. Disinterested in facts, prone to provocative
+    statements for their own sake, and yet entertaining and most likely to win a Risky.
+    The conversation wouldn''t be the same without him, and I mean that in both good
+    and bad ways. Jas is of course Bernie Sanders. lol I do see a lot of myself in
+    that man I have to admit '
+- !ruby/object:Post
+  pNum: 8423983
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-18 10:56:00.000000000 Z
+  pQuoted:
+    swimmer92: 8423839
+  pPost: 'Quote: Originally Posted by swimmer92 This is the perfect way to put that.
+    Of all the people I dislike on here, I actually dislike windy the least. lol thanks,
+    bro '
+- !ruby/object:Post
+  pNum: 8423990
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-18 10:59:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423698
+  pPost: 'Quote: Originally Posted by Sentinel ok, I''m starting to get sold that
+    he may be the best choice for Trump. curious, what are your thoughts about Trump''s
+    bashing of Bush during last debate? Trump is starting to vaguely reach out to
+    some ''truthers'' you also need someone who has been in government before to help
+    Trump with the transition I''m fine with Trump criticizing the decision to go
+    into Iraq but I hated the &quot;they lied&quot; crap. But I''ll deal with it,
+    like I would deal with some hot chick eating crackers in bed imo '
+- !ruby/object:Post
+  pNum: 8423996
+  pPoster: Len Myers
+  pTime: !ruby/object:DateTime 2016-02-18 11:01:00.000000000 Z
+  pQuoted:
+    win diesel: 8423990
+  pPost: 'Quote: Originally Posted by win diesel But I''ll deal with it, like I would
+    deal with some hot chick eating crackers in bed imo With a pink mini-vac? '
+- !ruby/object:Post
+  pNum: 8424000
+  pPoster: WillTreaty
+  pTime: !ruby/object:DateTime 2016-02-18 11:03:00.000000000 Z
+  pQuoted:
+    win diesel: 8423990
+  pPost: 'Quote: Originally Posted by win diesel you also need someone who has been
+    in government before to help Trump with the transition I''m fine with Trump criticizing
+    the decision to go into Iraq but I hated the &quot;they lied&quot; crap. But I''ll
+    deal with it, like I would deal with some hot chick eating crackers in bed imo
+    I would hope you would deal with those two scenarios a little differently. {icon_wink.gif} '
+- !ruby/object:Post
+  pNum: 8424045
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-18 11:21:00.000000000 Z
+  pQuoted:
+    Sentinel: 8423437
+  pPost: 'Quote: Originally Posted by Sentinel It may not be a swing state now, but
+    those were competitive states back then. Clinton won Arkansas, Louisiana, West
+    Virginia, Arizona, and Tennessee in 1996. Many folks thought it was unfathomable
+    for Gore to lose Tennessee in 2000. Gore didn''t win any of those other states.
+    The Democratic brand started to suffer in the South and hasn''t really repaired
+    much nationally since. Kasich can perhaps pull Ohio, but I''m not convinced Rubio
+    can do the same for Florida (which Obama won twice). Rubio also won Florida in
+    his Senate bid which was a 3-way race. And Obama isn''t running this year. I''m
+    guessing that if Rubio is the nominee he''ll probably carry his home state. '
+- !ruby/object:Post
+  pNum: 8424069
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-18 11:30:00.000000000 Z
+  pQuoted:
+    Whiskey: 8423645
+  pPost: 'Quote: Originally Posted by Whiskey Kasich guaranteeing Ohio makes as much
+    sense as Edwards guaranteeing North Carolina. Ohio is a swing state, and North
+    Carolina is not. (No, one anomaly in 2008 does not a swing state make.) I don''t
+    recall anyone remotely suggesting that Edwards was going to deliver North Carolina
+    in 2004. GWB won North Carolina by 13 points in 2000... swinging it was going
+    to be a huge task. It''s been a *long* time since a candidate carried Ohio with
+    a double-digit lead. '
+- !ruby/object:Post
+  pNum: 8424190
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-18 12:37:00.000000000 Z
+  pQuoted:
+    win diesel: 8423990
+  pPost: 'Quote: Originally Posted by win diesel you also need someone who has been
+    in government before to help Trump with the transition imo My reservation is that
+    Kasich doesn''t have lot of any foreign policy experience (unless I missed something)
+    which could reinforce vulnerability. Part of me thinks that Trump would need someone
+    like Dick Cheney, except more loyal and controllable. '
+- !ruby/object:Post
+  pNum: 8424200
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-18 12:41:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8424045
+  pPost: 'Quote: Originally Posted by Elinor Dashwood Rubio also won Florida in his
+    Senate bid which was a 3-way race. And Obama isn''t running this year. I''m guessing
+    that if Rubio is the nominee he''ll probably carry his home state. Senator Rubio
+    (and Governor Rick Scott) won their elections in non-Presidential election years
+    while riding the Tea Party wave, mostly tied to opposition of Obamacare. Senator
+    Nelson (Dem) won re-election in 2012 pretty handily. I don''t get impression Rubio
+    has accomplished enough to leave a secure legacy on his own. His reputation as
+    missing votes and his decision not to run for Senate election this year could
+    hurt him as not caring about his job. He could do it, but it''s not a lock and
+    if he were to win I''d think other factors would be the main drivers (like stock
+    market or economy). '
+- !ruby/object:Post
+  pNum: 8424211
+  pPoster: PeppermintPatty
+  pTime: !ruby/object:DateTime 2016-02-18 12:46:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424190
+  pPost: 'Quote: Originally Posted by Sentinel My reservation is that Kasich doesn''t
+    have lot of any foreign policy experience (unless I missed something) which could
+    reinforce vulnerability. Part of me thinks that Trump would need someone like
+    Dick Cheney, except more loyal and controllable. No problem, neither does Sanders. '
+- !ruby/object:Post
+  pNum: 8424217
+  pPoster: Dismal Science
+  pTime: !ruby/object:DateTime 2016-02-18 12:49:00.000000000 Z
+  pQuoted: {}
+  pPost: 'What was Obama''s foreign policy experience before he was elected? The inexperience
+    certainly shows there. Wait...I meant to say that it is fiction to think it is
+    due to inexperience. Obama knew exactly what he was doing and all the foreign
+    policy failures have been planned. '
+- !ruby/object:Post
+  pNum: 8424220
+  pPoster: homeys66
+  pTime: !ruby/object:DateTime 2016-02-18 12:51:00.000000000 Z
+  pQuoted:
+    win diesel: 8423574
+  pPost: 'Quote: Originally Posted by win diesel If Trump wants him he will be the
+    VP. And Kasich will come running with his panties around his ankles as he should.
+    Seems like a dumb move. Trump would get himself impeached guaranteed. He''s almost
+    doomed to pick someone even dumber than himself, just to protect himself Having
+    a VP thats more popular than you is not a recipe for job security. Unfortunately
+    for Trump, its almost impossible to find a Republican less popular than he is. '
+- !ruby/object:Post
+  pNum: 8424240
+  pPoster: BigBen
+  pTime: !ruby/object:DateTime 2016-02-18 13:01:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424190
+  pPost: 'Quote: Originally Posted by Sentinel My reservation is that Kasich doesn''t
+    have lot of any foreign policy experience (unless I missed something) which could
+    reinforce vulnerability. Part of me thinks that Trump would need someone like
+    Dick Cheney, except more loyal and controllable. I hear Donald Rumsfeld is available,
+    he''s got a ton of experience and a great track record {thumbup.gif} '
+- !ruby/object:Post
+  pNum: 8424269
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-18 13:20:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Even though I know you''re joking or whatever, I don''t think he should
+    choose someone from Bush administration. I used Dick Cheney as example of someone
+    who has foreign policy, defense, and legislative experience. '
+- !ruby/object:Post
+  pNum: 8424271
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-18 13:21:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Trump President, Bill Clinton Secretary of State. {judge.gif} '
+- !ruby/object:Post
+  pNum: 8424321
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-18 13:39:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424190
+  pPost: 'Quote: Originally Posted by Sentinel My reservation is that Kasich doesn''t
+    have lot of any foreign policy experience (unless I missed something) which could
+    reinforce vulnerability. But... you can see Canada from his house. '
+- !ruby/object:Post
+  pNum: 8424324
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-18 13:42:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424200
+  pPost: 'Quote: Originally Posted by Sentinel Senator Rubio (and Governor Rick Scott)
+    won their elections in non-Presidential election years while riding the Tea Party
+    wave, mostly tied to opposition of Obamacare. Senator Nelson (Dem) won re-election
+    in 2012 pretty handily. I don''t get impression Rubio has accomplished enough
+    to leave a secure legacy on his own. His reputation as missing votes and his decision
+    not to run for Senate election this year could hurt him as not caring about his
+    job. He could do it, but it''s not a lock and if he were to win I''d think other
+    factors would be the main drivers (like stock market or economy). Most congress-critters
+    running for re-election win, regardless of party. It matters not how a Republican
+    challenger to an incumbent fared, it matters how Marco Rubio will fare. Floridians
+    liked him before; I think they''ll like him again. I might be wrong. Let''s just
+    say that I think Rubio is more likely to carry Florida than, Cruz or Trump or
+    Carson. '
+- !ruby/object:Post
+  pNum: 8424365
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-18 14:04:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424190
+  pPost: 'Quote: Originally Posted by Sentinel My reservation is that Kasich doesn''t
+    have lot of any foreign policy experience (unless I missed something) which could
+    reinforce vulnerability. Part of me thinks that Trump would need someone like
+    Dick Cheney, except more loyal and controllable. you may have missed 18 years
+    on the House Armed Services Committee '
+- !ruby/object:Post
+  pNum: 8424417
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-18 14:27:00.000000000 Z
+  pQuoted:
+    Sentinel: 8424190
+  pPost: 'Quote: Originally Posted by Sentinel My reservation is that Kasich doesn''t
+    have lot of any foreign policy experience (unless I missed something). You did '
+- !ruby/object:Post
+  pNum: 8424419
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-02-18 14:27:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Argh ninja''d '
+- !ruby/object:Post
+  pNum: 8424433
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-02-18 14:35:00.000000000 Z
+  pQuoted:
+    win diesel: 8424365
+  pPost: 'Quote: Originally Posted by win diesel you may have missed 18 years on the
+    House Armed Services Committee yep, you''re right, I''m not sure how I missed
+    that. I don''t really recall him campaigning on that. I think that resume item
+    should be a much higher priority talking point than balancing budgets in Ohio.
+    I''d add the small comment that managing DOD budgets in Congress is not really
+    the same as foreign policy strategic and tactical planning, but that''s still
+    very valuable foreign policy-related experience. It would be great if he could
+    tie budget related decisions to actual military decisions on the campaign trail.
+    I think I''m now 90% sold on him being top VP pick for Trump. '
+- !ruby/object:Post
+  pNum: 8429433
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 10:37:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Ohio Poll Trump +5 Trump 31 Kasich 26 '
+- !ruby/object:Post
+  pNum: 8429501
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 11:19:00.000000000 Z
+  pQuoted: {}
+  pPost: 'If you include Independents and Democrats that would cross over and vote
+    for Kasich, I think he has a better shot at pulling that state than Trump would,
+    IMO. '
+- !ruby/object:Post
+  pNum: 8429508
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 11:20:00.000000000 Z
+  pQuoted:
+    Standtall: 8429501
+  pPost: 'Quote: Originally Posted by Standtall If you include Independents and Democrats
+    that would cross over and vote for Kasich, I think he has a better shot at pulling
+    that state than Trump would, IMO. Maybe my point was that he''s not even polling
+    ahead of Trump in Ohio aka he''s finished in the primary Can''t pull the state
+    if you aren''t in the race imo '
+- !ruby/object:Post
+  pNum: 8429514
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 11:22:00.000000000 Z
+  pQuoted:
+    win diesel: 8429433
+  pPost: 'Quote: Originally Posted by win diesel Ohio Poll Trump +5 Trump 31 Kasich
+    26 Links or it didn''t happen, bro '
+- !ruby/object:Post
+  pNum: 8429518
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 11:23:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I agree that you need to get on the ticket to get the state. I wonder as
+    primary season goes on, and less people are on the debate stage and ticket, that
+    Kasich won''t pull a bunch of the anyone but trump votes. This Kasich guy is still
+    very much a &quot;who?&quot; when it comes to the presidential race. More spotlight
+    on him as others drop gives him an outside chance, IMO. Sometimes 37 beats AA. '
+- !ruby/object:Post
+  pNum: 8429527
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 11:26:00.000000000 Z
+  pQuoted:
+    crabber: 8429514
+  pPost: 'Quote: Originally Posted by crabber Links or it didn''t happen, bro real
+    clear politics, bro '
+- !ruby/object:Post
+  pNum: 8429531
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 11:26:00.000000000 Z
+  pQuoted:
+    Standtall: 8429518
+  pPost: 'Quote: Originally Posted by Standtall I agree that you need to get on the
+    ticket to get the state. I wonder as primary season goes on, and less people are
+    on the debate stage and ticket, that Kasich won''t pull a bunch of the anyone
+    but trump votes. This Kasich guy is still very much a &quot;who?&quot; when it
+    comes to the presidential race. More spotlight on him as others drop gives him
+    an outside chance, IMO. Sometimes 37 beats AA. there shouldn''t be a &quot;who?&quot;
+    thing going on in Ohio imo '
+- !ruby/object:Post
+  pNum: 8429534
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 11:27:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Trump has AA and flopped an ace already imo '
+- !ruby/object:Post
+  pNum: 8429586
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 11:49:00.000000000 Z
+  pQuoted:
+    Standtall: 8429518
+    win diesel: 8429531
+  pPost: 'Quote: Originally Posted by Standtall I agree that you need to get on the
+    ticket to get the state. I wonder as primary season goes on, and less people are
+    on the debate stage and ticket, that Kasich won''t pull a bunch of the anyone
+    but trump votes. This Kasich guy is still very much a &quot;who?&quot; when it
+    comes to the presidential race. More spotlight on him as others drop gives him
+    an outside chance, IMO. Sometimes 37 beats AA. Quote: Originally Posted by win
+    diesel there shouldn''t be a &quot;who?&quot; thing going on in Ohio imo Rubio
+    is the &quot;anybody but Trump&quot; candidate. Kasich is something else entirely:
+    a referendum on the doom and gloom politics that has been the trademark of the
+    Republicans. He is trying to restore America not by defying cultural trends and
+    trying to pretend it''s still the 20th century, but by advocating personal responsibility
+    (which was widely embraced in the &quot;good old days&quot;). Unfortunately, people
+    today are not made of the hardy variety forged by World Wars. Much easier to blame
+    someone else for your problems. So we have Trump and Rubio. '
+- !ruby/object:Post
+  pNum: 8429594
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 11:52:00.000000000 Z
+  pQuoted:
+    win diesel: 8429531
+  pPost: 'Quote: Originally Posted by win diesel there shouldn''t be a &quot;who?&quot;
+    thing going on in Ohio imo You are correct, IMO. '
+- !ruby/object:Post
+  pNum: 8429651
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-23 12:13:00.000000000 Z
+  pQuoted:
+    Standtall: 8429518
+  pPost: 'Quote: Originally Posted by Standtall I agree that you need to get on the
+    ticket to get the state. I wonder as primary season goes on, and less people are
+    on the debate stage and ticket, that Kasich won''t pull a bunch of the anyone
+    but trump votes. This Kasich guy is still very much a &quot;who?&quot; when it
+    comes to the presidential race. More spotlight on him as others drop gives him
+    an outside chance, IMO. Sometimes 37 beats AA. True. I suppose of the remaining
+    candidates I dislike him the least, so here''s hoping. '
+- !ruby/object:Post
+  pNum: 8429661
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-23 12:16:00.000000000 Z
+  pQuoted:
+    win diesel: 8429531
+    crabber: 8429586
+  pPost: 'Quote: Originally Posted by win diesel there shouldn''t be a &quot;who?&quot;
+    thing going on in Ohio imo Remember when Jay Leno would ask people ridiculously
+    easy questions (like the name of the current vice president, or which continent
+    France is on) and large numbers of them couldn''t answer? I bet a lot of people
+    can''t name their state governor, in and out of Ohio. Quote: Originally Posted
+    by crabber Rubio is the &quot;anybody but Trump&quot; candidate. Kasich is something
+    else entirely: a referendum on the doom and gloom politics that has been the trademark
+    of the Republicans. He is trying to restore America not by defying cultural trends
+    and trying to pretend it''s still the 20th century, but by advocating personal
+    responsibility (which was widely embraced in the &quot;good old days&quot;). Unfortunately,
+    people today are not made of the hardy variety forged by World Wars. Much easier
+    to blame someone else for your problems. So we have Trump and Rubio. I think Kasich
+    could pull some of the &quot;anybody but Trump&quot; votes. I still think Rubio
+    is the more likely nominee though. '
+- !ruby/object:Post
+  pNum: 8429673
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-02-23 12:21:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8429661
+  pPost: 'Quote: Originally Posted by Elinor Dashwood Remember when Jay Leno would
+    ask people ridiculously easy questions (like the name of the current vice president,
+    or which continent France is on) and large numbers of them couldn''t answer? I
+    bet a lot of people can''t name their state governor, in and out of Ohio. I think
+    Kasich could pull some of the &quot;anybody but Trump&quot; votes. I still think
+    Rubio is the more likely nominee though. An NPR interview with one of Bush''s
+    top SuperPAC folks this morning sent some pretty strong signals that Kasich might
+    be the one to inherit the Bush SuperPAC money. That could spell the beginning
+    of the end of Rubio. One can only hope. '
+- !ruby/object:Post
+  pNum: 8429690
+  pPoster: WillTreaty
+  pTime: !ruby/object:DateTime 2016-02-23 12:25:00.000000000 Z
+  pQuoted:
+    nonlnear: 8429673
+  pPost: 'Quote: Originally Posted by nonlnear An NPR interview with one of Bush''s
+    top SuperPAC folks this morning sent some pretty strong signals that Kasich might
+    be the one to inherit the Bush SuperPAC money. That could spell the beginning
+    of the end of Rubio. One can only hope. Yes. That SuperPac money did wonders for
+    Bush. '
+- !ruby/object:Post
+  pNum: 8429695
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-02-23 12:27:00.000000000 Z
+  pQuoted:
+    WillTreaty: 8429690
+  pPost: 'Quote: Originally Posted by WillTreaty Yes. That SuperPac money did wonders
+    for Bush. The interviewee was pretty frank about the specific errors that led
+    to the Bush money being effectively wasted. '
+- !ruby/object:Post
+  pNum: 8429712
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 12:32:00.000000000 Z
+  pQuoted:
+    nonlnear: 8429695
+  pPost: 'Quote: Originally Posted by nonlnear The interviewee was pretty frank about
+    the specific errors that led to the Bush money being effectively wasted. Being
+    named &quot;Bush&quot;? '
+- !ruby/object:Post
+  pNum: 8429729
+  pPoster: homeys66
+  pTime: !ruby/object:DateTime 2016-02-23 12:38:00.000000000 Z
+  pQuoted:
+    WillTreaty: 8429690
+  pPost: 'Quote: Originally Posted by WillTreaty Yes. That SuperPac money did wonders
+    for Bush. It appears those guys like setting cash on fire. They better at least
+    spend that cash attacking Trump in OH rather than trying to pummel Rubio, like
+    Bush''s PAC was doing. Else, Carson and Kasich are doing Trump massive favors '
+- !ruby/object:Post
+  pNum: 8429740
+  pPoster: WillTreaty
+  pTime: !ruby/object:DateTime 2016-02-23 12:41:00.000000000 Z
+  pQuoted:
+    homeys66: 8429729
+  pPost: 'Quote: Originally Posted by homeys66 It appears those guys like setting
+    cash on fire. They better at least spend that cash attacking Trump in OH rather
+    than trying to pummel Rubio, like Bush''s PAC was doing. Else, Carson and Kasich
+    are doing Trump massive favors The longer Carson and Kasich stay in, the better
+    it is for Trump, imo. '
+- !ruby/object:Post
+  pNum: 8429742
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 12:42:00.000000000 Z
+  pQuoted:
+    nonlnear: 8429673
+  pPost: 'Quote: Originally Posted by nonlnear An NPR interview with one of Bush''s
+    top SuperPAC folks this morning sent some pretty strong signals that Kasich might
+    be the one to inherit the Bush SuperPAC money. That could spell the beginning
+    of the end of Rubio. One can only hope. The establishment is getting behind Rubio
+    though. I read an article this morning that indicated a bunch of big money donors
+    are going to start pressuring Kasich to withdraw this week. There is a sense of
+    panic that if the field isn''t narrowed decisively, that Trump will be unstoppable.
+    Of course, that''s different than Super Pac money. It will be strange, though,
+    to contrast the Super Pac negativity with the positive message Kasich is trying
+    to promote. Could get really confusing. '
+- !ruby/object:Post
+  pNum: 8429756
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 12:47:00.000000000 Z
+  pQuoted:
+    WillTreaty: 8429740
+  pPost: 'Quote: Originally Posted by WillTreaty The longer Carson and Kasich stay
+    in, the better it is for Trump, imo. The longer all of them stay in, the better
+    it is for Trump. They all keep splitting the &quot;not-Trump&quot; vote. '
+- !ruby/object:Post
+  pNum: 8429769
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-02-23 12:51:00.000000000 Z
+  pQuoted:
+    crabber: 8429742
+  pPost: 'Quote: Originally Posted by crabber The establishment is getting behind
+    Rubio though. I read an article this morning that indicated a bunch of big money
+    donors are going to start pressuring Kasich to withdraw this week. There is a
+    sense of panic that if the field isn''t narrowed decisively, that Trump will be
+    unstoppable. Of course, that''s different than Super Pac money. It will be strange,
+    though, to contrast the Super Pac negativity with the positive message Kasich
+    is trying to promote. Could get really confusing. Rubio is a dream match-up for
+    Trump. Rubio is just awful in every way. Of course Trump is awful in every way
+    too - in a different way. But Rubio is awful in that special way that propels
+    Trump''s momentum. I hope the GOP realizes how terrible Rubio is before it''s
+    too late. Rubio would make me hold my nose and vote for Clinton. '
+- !ruby/object:Post
+  pNum: 8429783
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 12:57:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I think there are way more GOP voters who will vote against Trump than there
+    are GOP voters who will vote for Trump. '
+- !ruby/object:Post
+  pNum: 8429788
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 13:00:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429783
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan I think there are way more GOP
+    voters who will vote against Trump than there are GOP voters who will vote for
+    Trump. Trump versus Clinton, more than 50% of GOP voters will vote for Clinton?
+    Sanders? Way more? {28_spin.gif} '
+- !ruby/object:Post
+  pNum: 8429817
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 13:13:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I''m referring to the GOP race, such that Trump is no longer running for
+    President. (Yeah, can''t rule out an independent bid, but doesn''t he need to
+    get on ballots in time?) '
+- !ruby/object:Post
+  pNum: 8429892
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-23 13:41:00.000000000 Z
+  pQuoted:
+    nonlnear: 8429673
+  pPost: 'Quote: Originally Posted by nonlnear An NPR interview with one of Bush''s
+    top SuperPAC folks this morning sent some pretty strong signals that Kasich might
+    be the one to inherit the Bush SuperPAC money. That could spell the beginning
+    of the end of Rubio. One can only hope. It will be interesting to see how this
+    develops. As I said, I think I now dislike Kasich the least of the remaining candidates
+    so I guess I hope the money helps him going into Super Tuesday. Any primaries
+    left before then? '
+- !ruby/object:Post
+  pNum: 8429905
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 13:47:00.000000000 Z
+  pQuoted: {}
+  pPost: "&quot;Full Frontal&quot; went off on Kasich last night, claiming that he
+    is doing in Ohio what the others only say they want to do when it comes to restricting
+    abortions. "
+- !ruby/object:Post
+  pNum: 8429915
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 13:52:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429905
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan &quot;Full Frontal&quot; went off
+    on Kasich last night, claiming that he is doing in Ohio what the others only say
+    they want to do when it comes to restricting abortions. Do you think that helps
+    or hurts him? '
+- !ruby/object:Post
+  pNum: 8429932
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 14:03:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429783
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan I think there are way more GOP
+    voters who will vote against Trump than there are GOP voters who will vote for
+    Trump. no confident assessments of his ceiling at this time? '
+- !ruby/object:Post
+  pNum: 8429935
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 14:04:00.000000000 Z
+  pQuoted:
+    Childish Gambino: 8429932
+  pPost: 'Quote: Originally Posted by Childish Gambino no confident assessments of
+    his ceiling at this time? No. '
+- !ruby/object:Post
+  pNum: 8429938
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 14:05:00.000000000 Z
+  pQuoted:
+    crabber: 8429915
+  pPost: 'Quote: Originally Posted by crabber Do you think that helps or hurts him?
+    Helps him in March. Probably not in November though '
+- !ruby/object:Post
+  pNum: 8429940
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 14:06:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I think the longer Trump stays in, the more comfortable people are with
+    the idea of a President Trump. He is also already adjusting his audacity level
+    down to that of a more legitimate candidate. I also think he''s going to get more
+    crossover voters than you guys are giving him credit for. '
+- !ruby/object:Post
+  pNum: 8429941
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 14:06:00.000000000 Z
+  pQuoted:
+    crabber: 8429915
+  pPost: 'Quote: Originally Posted by crabber Do you think that helps or hurts him?
+    All those folks clamoring for a moderate should know that Kasich is no moderate.
+    Not that he could do much as President. I thought &quot;Last Week Tonight&quot;
+    had a better story on Abortion. '
+- !ruby/object:Post
+  pNum: 8429960
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 14:13:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429941
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan All those folks clamoring for a
+    moderate should know that Kasich is no moderate. No, he''s a conservative who
+    picks his battles wisely and doesn''t try to turn back time or fight public opinion.
+    I like that. I thought &quot;Last Week Tonight&quot; had a better story on Abortion.[/quote]
+    Abortion is one topic that, as I understand it, public opinion hasn''t shifted
+    all that much in the past 40 years. So sure, the left is going to clobber him
+    with it, but will it affect the swing voters? I don''t know. '
+- !ruby/object:Post
+  pNum: 8429966
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-02-23 14:15:00.000000000 Z
+  pQuoted: {}
+  pPost: 'moderate is code for poosy I''ve had my fill of moderates imo '
+- !ruby/object:Post
+  pNum: 8429972
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 14:17:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Looks like some slight trend towards pro-choice very recently: http://www.gallup.com/poll/183434/am...ven-years.aspx '
+- !ruby/object:Post
+  pNum: 8429991
+  pPoster: crabber
+  pTime: !ruby/object:DateTime 2016-02-23 14:25:00.000000000 Z
+  pQuoted:
+    Childish Gambino: 8429972
+  pPost: 'Quote: Originally Posted by Childish Gambino Looks like some slight trend
+    towards pro-choice very recently: http://www.gallup.com/poll/183434/am...ven-years.aspx
+    It bounces around from decade to decade but I wouldn''t say it is trending in
+    any particular direction, unlike many other social issues. I don''t see that changing
+    unless there is some massive public perception shift in what constitutes a &quot;life&quot;. '
+- !ruby/object:Post
+  pNum: 8430020
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 14:42:00.000000000 Z
+  pQuoted:
+    win diesel: 8429966
+  pPost: 'Quote: Originally Posted by win diesel moderate is code for poosy I''ve
+    had my fill of moderates imo My belief is that Kasich seems the most fiscally
+    conservative of the group (both teams IMO). '
+- !ruby/object:Post
+  pNum: 8430023
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-23 14:43:00.000000000 Z
+  pQuoted:
+    nonlnear: 8429673
+  pPost: 'Quote: Originally Posted by nonlnear An NPR interview with one of Bush''s
+    top SuperPAC folks this morning sent some pretty strong signals that Kasich might
+    be the one to inherit the Bush SuperPAC money. That could spell the beginning
+    of the end of Rubio. One can only hope. They can''t move that money to another
+    candidate. The closest they could come to that is returning it to the original
+    donors and advising them to move it to Kasich. '
+- !ruby/object:Post
+  pNum: 8430031
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 14:47:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I thought SuperPACs were not tied to a candidate? I think the SuperPAC can
+    do what they want with it. Giving it back is one option, but not the only one. '
+- !ruby/object:Post
+  pNum: 8430036
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 14:49:00.000000000 Z
+  pQuoted:
+    r. mutt: 8430023
+  pPost: 'Quote: Originally Posted by r. mutt They can''t move that money to another
+    candidate. The closest they could come to that is returning it to the original
+    donors and advising them to move it to Kasich. This isn''t true. His campaign
+    money can be given to other candidates, up to $2000 per candidate per election.
+    Or he can use it to pay himself back if he donated to his own campaign. On the
+    other hand, Right to Rise can literally do anything they want. They can give the
+    money back, they can pocket it, they can start supporting some other cause or
+    candidate. They can spend it, donate it to charity, or give it to another PAC.
+    There is virtually no regulation. '
+- !ruby/object:Post
+  pNum: 8430037
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-23 14:50:00.000000000 Z
+  pQuoted:
+    Standtall: 8430031
+  pPost: 'Quote: Originally Posted by Standtall I thought SuperPACs were not tied
+    to a candidate? I think the SuperPAC can do what they want with it. Giving it
+    back is one option, but not the only one. You thought wrong. http://nyti.ms/1GofG4Y
+    Plenty of other articles out there on the topic. '
+- !ruby/object:Post
+  pNum: 8430044
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 14:54:00.000000000 Z
+  pQuoted:
+    r. mutt: 8430037
+  pPost: 'Quote: Originally Posted by r. mutt You thought wrong. http://nyti.ms/1GofG4Y
+    Plenty of other articles out there on the topic. &#8220;Super PACs have fairly
+    broad discretion on what they can do with excess funds,&#8221; The only thing
+    they can''t do is give it a campaign. '
+- !ruby/object:Post
+  pNum: 8430055
+  pPoster: r. mutt
+  pTime: !ruby/object:DateTime 2016-02-23 15:00:00.000000000 Z
+  pQuoted:
+    Childish Gambino: 8430044
+  pPost: 'Quote: Originally Posted by Childish Gambino &#8220;Super PACs have fairly
+    broad discretion on what they can do with excess funds,&#8221; The only thing
+    they can''t do is give it a campaign. The original claI''m was that Kasich would
+    inherit the money...I''m saying he can''t. Best estimates apparently have it at
+    less than 5 million, so it may be a moot point as they run off expenses. '
+- !ruby/object:Post
+  pNum: 8430060
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-02-23 15:02:00.000000000 Z
+  pQuoted:
+    r. mutt: 8430055
+  pPost: 'Quote: Originally Posted by r. mutt The original claI''m was that Kasich
+    would inherit the money...I''m saying he can''t. Best estimates apparently have
+    it at less than 5 million, so it may be a moot point as they run off expenses.
+    I read $28 M somewhere. But whatever the number is, they can support Kasich so
+    long as they don''t directly give the money to or {qunq.gif}coordinate{qunq.gif}
+    with the Campaign itself. '
+- !ruby/object:Post
+  pNum: 8430067
+  pPoster: Standtall
+  pTime: !ruby/object:DateTime 2016-02-23 15:04:00.000000000 Z
+  pQuoted:
+    r. mutt: 8430055
+  pPost: 'Quote: Originally Posted by r. mutt The original claI''m was that Kasich
+    would inherit the money...I''m saying he can''t. Best estimates apparently have
+    it at less than 5 million, so it may be a moot point as they run off expenses.
+    The SuperPAC can use the money to attack Trump and build up Kasich. Effectively,
+    they can become the SuperPAC for Kasich, if they so choose. They can''t write
+    him a check, but they can spend in a way that directly benefits him, the same
+    rules they followed before when they were a &quot;pro-Bush&quot; SuperPAC, for
+    example. '
+- !ruby/object:Post
+  pNum: 8430293
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-23 16:38:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429905
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan &quot;Full Frontal&quot; went off
+    on Kasich last night, claiming that he is doing in Ohio what the others only say
+    they want to do when it comes to restricting abortions. What is Kasich doing in
+    Ohio wrt abortions? '
+- !ruby/object:Post
+  pNum: 8430299
+  pPoster: TheActuarialAssistant
+  pTime: !ruby/object:DateTime 2016-02-23 16:42:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8429817
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan I''m referring to the GOP race,
+    such that Trump is no longer running for President. (Yeah, can''t rule out an
+    independent bid, but doesn''t he need to get on ballots in time?) Why can''t you
+    rule out an independent bid? '
+- !ruby/object:Post
+  pNum: 8430318
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 16:56:00.000000000 Z
+  pQuoted:
+    TheActuarialAssistant: 8430299
+  pPost: 'Quote: Originally Posted by TheActuarialAssistant Why can''t you rule out
+    an independent bid? Because Trump hasn''t ruled out his own independent bid, unless
+    he''s done so recently. So, why could I? '
+- !ruby/object:Post
+  pNum: 8430322
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-23 16:58:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8430293
+  pPost: 'Quote: Originally Posted by Elinor Dashwood What is Kasich doing in Ohio
+    wrt abortions? According to &quot;Full Frontal,&quot; and the link below, defunded
+    Planned Parenthood, among several other actions. http://nbc4i.com/2016/02/21/kasich-s...renthood-bill/
+    Newsweek, which still exists, also had a story on it: http://www.newsweek.com/kasich-abortion-428522 '
+- !ruby/object:Post
+  pNum: 8430389
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-23 17:32:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8430322
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan According to &quot;Full Frontal,&quot;
+    and the link below, defunded Planned Parenthood, among several other actions.
+    http://nbc4i.com/2016/02/21/kasich-s...renthood-bill/ Newsweek, which still exists,
+    also had a story on it: http://www.newsweek.com/kasich-abortion-428522 So does
+    this mean that the money will go to other organizations, or is it actually reducing
+    a line item in the state''s overall budget? Thanks for the links, BTW. '
+- !ruby/object:Post
+  pNum: 8431242
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-24 12:48:00.000000000 Z
+  pQuoted: {}
+  pPost: 'No idea where the money will go. Somewhere. Upshot has an article (it''s
+    my last free one of the month) saying pretty much what I have posted a few times
+    here: more candidates need to drop out in order to defeat Trump. This one focuses
+    on Rubio v Kasich game theory. http://www.nytimes.com/2016/02/25/up...ml?rref=upshot
+    For those who have used up their allotment of NYT articles: Spoiler: The Republican
+    establishment has a problem. It is headed for a car crash. With Jeb Bush out of
+    the Republican presidential race, the two remaining mainstream candidates &#8212;
+    Marco Rubio and John Kasich &#8212; are living out an issue studied for decades
+    in game theory. Game theorists might call the G.O.P. predicament an anti-coordination
+    game or even a volunteer&#8217;s dilemma. But most of us might call it by a more
+    familiar name: chicken. Although Mr. Rubio is the obvious establishment favorite,
+    leading Mr. Kasich in national polls, prediction markets and delegate math, the
+    two are splitting some votes. To have his best chance against Donald Trump and
+    Ted Cruz, Mr. Rubio needs Mr. Kasich to drop out. The longer both candidates remain
+    in the race, the worse it is for both of them. It&#8217;s safe to assume neither
+    would like to see Mr. Trump get the nomination. Continue reading the main story
+    Related Coverage The 2016 Race: How Donald Trump Won Twice in One Night In &#8220;An
+    Essay on Bargaining,&#8221; a classic paper from 1956, Thomas Schelling lays out
+    several strategies that may be useful for both Mr. Kasich and Mr. Rubio. Here,
+    we focus on three: commitment, promises and threats. As Richard Thaler, the behavioral
+    economist at the University of Chicago, explained, the strategies can be applied
+    to anything: health care, nuclear deterrence, the last piece of pizza. Mr. Kasich&#8217;s
+    first option, of course, is to stay in the race. But he could go further, by committing
+    to stay in no matter what. In a classic game of chicken between two drivers rushing
+    headlong toward each other, this strategy is like removing your steering wheel,
+    leaving you no choice but to drive straight toward your opponent. Mr. Kasich could
+    defend this choice by pointing to his obstacle-strewn but possible path to the
+    nomination. He might point out that only a tiny fraction of Republican delegates
+    have been allocated; he might note that he could pick up many of Mr. Bush&#8217;s
+    voters; he could hope for another robotic debate performance from Mr. Rubio or
+    even an implosion from the Trump or Cruz campaigns. This series of events is unlikely,
+    of course. It doesn&#8217;t matter how long Mr. Kasich actually intends to stay
+    in the race. All that matters is whether Mr. Rubio believes he will do so. (If
+    you&#8217;re going to remove your steering wheel, make sure the other driver sees
+    you do it!) The more believable the commitment, the stronger his negotiating position
+    for the far more effective strategy in brinkmanship games: cutting a deal. Side
+    deals, bargains or promises are the way negotiations actually get done. In a 1984
+    paper on the public supply of a private good, the economists Christopher Bliss
+    and Barry Nalebuff wrote that &#8220;binding agreements combined with side payments
+    can always produce a superior outcome&#8221; to brinkmanship. Some deals are obvious;
+    the best such deal would be a spot on the presidential ticket, which Mr. Rubio
+    could offer Mr. Kasich in exchange for dropping out &#8212; provided he becomes
+    the nominee, of course. (A simple Google search of &#8220;Rubio Kasich side deals&#8221;
+    produces no shortage of opinions on the matter.) Advertisement Continue reading
+    the main story Advertisement Continue reading the main story There are other potential
+    promises. It might take the form of a concession on another matter &#8212; Mr.
+    Rubio could promise to adopt or address some of Mr. Kasich&#8217;s issues, which
+    would allow Mr. Kasich to end his campaign and claim a small victory. In the book
+    &#8220;Prisoner&#8217;s Dilemma,&#8221; William Poundstone suggests that the best
+    solution to a game of chicken is one that allows the losing party to give in while
+    still &#8220;saving face.&#8221; He noted its role in bringing a peaceful end
+    to the Cuban missile crisis. Regardless of the details, the quality of the deal
+    depends on how much a Kasich exit matters to Mr. Rubio. The more crucial his exit,
+    the stronger any promise is sure to be. There is a third strategy available to
+    Mr. Kasich, which takes the form of threats. Here, Mr. Kasich might insist on
+    a promise or concession from Mr. Rubio; if he doesn&#8217;t get it, he could threaten
+    to support a different candidate, like Mr. Trump or Mr. Cruz. That move wouldn&#8217;t
+    serve shared establishment interests, but if the threat had the potential to damage
+    Mr. Rubio enough, it could be a useful bargaining chip. &#8220;Being crazy is
+    a strategy, but only if your opponent actually believes it,&#8221; Mr. Thaler
+    said. Of the three strategies described here, this seems least likely. Two external
+    factors complicate this matter further. Part of the reason this dilemma exists
+    in the first place is that mainstream Republicans lack the unity or influence
+    to compel any cooperation. After the New Hampshire primary, one Republican likened
+    the battle among mainstream candidates to a hockey fight: &#8220;The gloves are
+    off and the refs can&#8217;t get in the middle of it.&#8221; That&#8217;s exactly
+    right. If establishment Republicans had a clear, unimpeachable leader who was
+    not a participant in the race, that person might be able to compel a candidate
+    to drop out and support whomever the party determined to be strongest, allowing
+    candidates who quit to save face by saying they did it for &#8220;the good of
+    the party.&#8221; At the moment, no such leader exists for mainstream Republicans,
+    resulting in a tragedy of the commons-like failure of collective action. Second,
+    this is a game that&#8217;s played just once. The chance to be your party&#8217;s
+    nominee for president comes along only every four or eight years, even for the
+    very luckiest candidates. If the candidates lived in a universe in which they
+    could run for president hundreds of times, they might agree that, on average,
+    their shared interests were better served by cooperating. Once in a while, Mr.
+    Kasich might try to win the contest outright against long odds, but, on average,
+    he would probably agree that cooperating, including alternating victories, was
+    the best way to serve his and Mr. Rubio&#8217;s shared interests. Game theory
+    shows that in iterated dilemmas, played many hundreds or thousands of times, cooperation
+    is a very stable strategy &#8212; one reason it is so common in nature. But this
+    is not an iterated dilemma. It&#8217;s a one-time-only dilemma with a tremendous
+    payoff for the winner. As much as Mr. Kasich might think about his legacy, the
+    good of the party or even his own chances in 2020 or 2024, the future is very
+    far away. Ultimately, they risk an outcome neither he nor Mr. Rubio wants. As
+    Daniel Diermeier, the dean of the public policy school at the University of Chicago,
+    notes, &#8220;A very important lesson of game theory is that sometimes the world
+    is a grim place.&#8221; '
+- !ruby/object:Post
+  pNum: 8431248
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-02-24 12:53:00.000000000 Z
+  pQuoted:
+    Dr T Non-Fan: 8430322
+  pPost: 'Quote: Originally Posted by Dr T Non-Fan According to &quot;Full Frontal,&quot;
+    and the link below, defunded Planned Parenthood, among several other actions.
+    http://nbc4i.com/2016/02/21/kasich-s...renthood-bill/ Newsweek, which still exists,
+    also had a story on it: http://www.newsweek.com/kasich-abortion-428522 {rock.gif}
+    The funds are redirected to women''s health centers which do not provide abortions. '
+- !ruby/object:Post
+  pNum: 8431276
+  pPoster: Dr T Non-Fan
+  pTime: !ruby/object:DateTime 2016-02-24 13:02:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Thanks, I guess. '
+- !ruby/object:Post
+  pNum: 8431502
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-24 14:13:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8431248
+  pPost: 'Quote: Originally Posted by TheGillotine {rock.gif} The funds are redirected
+    to women''s health centers which do not provide abortions. Thanks. Do you have
+    a source for that? Just curious. '
+- !ruby/object:Post
+  pNum: 8431508
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-02-24 14:15:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8431502
+  pPost: 'Quote: Originally Posted by Elinor Dashwood Thanks. Do you have a source
+    for that? Just curious. Analysis of the law from Ohio House website: https://www.legislature.ohio.gov/dow...441&amp;format=pdf '
+- !ruby/object:Post
+  pNum: 8431530
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-24 14:20:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8431508
+  pPost: 'Quote: Originally Posted by TheGillotine Analysis of the law from Ohio House
+    website: https://www.legislature.ohio.gov/dow...441&amp;format=pdf I didn''t see
+    anything in there about where the earmarked money is going... just where it isn''t
+    going. Are we just to assume that the money is now split among fewer recipients? '
+- !ruby/object:Post
+  pNum: 8431610
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-02-24 14:43:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8431530
+  pPost: 'Quote: Originally Posted by Elinor Dashwood I didn''t see anything in there
+    about where the earmarked money is going... just where it isn''t going. Are we
+    just to assume that the money is now split among fewer recipients? There are some
+    earmarks in the wording of the bill itself but it''s in pretty hardcore legaleze
+    and refers to prior legislation. Not easy to parse exactly who it goes to. '
+- !ruby/object:Post
+  pNum: 8431616
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-02-24 14:46:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8431610
+  pPost: 'Quote: Originally Posted by TheGillotine There are some earmarks in the
+    wording of the bill itself but it''s in pretty hardcore legaleze and refers to
+    prior legislation. Not easy to parse exactly who it goes to. Yeah, I saw the earmark.
+    Agree, not easy to figure it out from reading it. '
+- !ruby/object:Post
+  pNum: 8449161
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-06 21:19:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich at not at his best...gives speech about calling a cop idiot for giving
+    him a ticket. What a selfish hothead. https://www.youtube.com/watch?v=Aq9Sm_gX49o#t=12 '
+- !ruby/object:Post
+  pNum: 8449201
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-06 21:51:00.000000000 Z
+  pQuoted:
+    Sentinel: 8449161
+  pPost: 'Quote: Originally Posted by Sentinel Kasich at not at his best...gives speech
+    about calling a cop idiot for giving him a ticket. What a selfish hothead. https://www.youtube.com/watch?v=Aq9Sm_gX49o#t=12
+    It sounds very bad without context but he was talking about public servants being
+    dicks. In context, he''s not saying &quot;How dare you treat me, the governor,
+    that way&quot;, he''s saying &quot;Cops and other public officials need to be
+    more understanding and respectful to citizens&quot;, and that''s just an example
+    he pulls out from his own experience. I mean seriously, mandatory court appearance
+    for failing to pull over for an emergency vehicle? And you''ve gotta be freaking
+    kidding me calling Kasich a selfish hothead compared to Trump. '
+- !ruby/object:Post
+  pNum: 8449591
+  pPoster: pete5383
+  pTime: !ruby/object:DateTime 2016-03-07 10:12:00.000000000 Z
+  pQuoted:
+    John Kasich: 0
+  pPost: 'Quote: Originally Posted by John Kasich Getting choked by detectives, yeah,
+    yeah, now check the method. They be askin'' us questions, harass and arrest us.
+    Go, Kasich, go! '
+- !ruby/object:Post
+  pNum: 8449613
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-03-07 10:17:00.000000000 Z
+  pQuoted:
+    pete5383: 8449591
+  pPost: 'Quote: Originally Posted by pete5383 Go, Kasich, go! y''all eat pieces of
+    shit? '
+- !ruby/object:Post
+  pNum: 8449684
+  pPoster: Sredni Vashtar
+  pTime: !ruby/object:DateTime 2016-03-07 11:00:00.000000000 Z
+  pQuoted:
+    Sentinel: 8449161
+  pPost: 'Quote: Originally Posted by Sentinel Kasich at not at his best...gives speech
+    about calling a cop idiot for giving him a ticket. What a selfish hothead. https://www.youtube.com/watch?v=Aq9Sm_gX49o#t=12
+    Lololololol. I''m with dear Swimmer, again here, that the difference between Trump
+    and Kasich is that Kasich is &quot;Christ-like&quot;. That is, like-Christ, he
+    repeatedly dumps on his own team instead of on everyone else. We should crucify
+    him. '
+- !ruby/object:Post
+  pNum: 8450310
+  pPoster: Cloister
+  pTime: !ruby/object:DateTime 2016-03-07 16:17:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich is within 3 points of Trump in the latest Ohio poll. '
+- !ruby/object:Post
+  pNum: 8450409
+  pPoster: The Drunken Actuary
+  pTime: !ruby/object:DateTime 2016-03-07 16:59:00.000000000 Z
+  pQuoted:
+    Cloister: 8450310
+  pPost: 'Quote: Originally Posted by Cloister Kasich is within 3 points of Trump
+    in the latest Ohio poll. Is that a winner take all state? Is it a closed primary? '
+- !ruby/object:Post
+  pNum: 8450461
+  pPoster: Cloister
+  pTime: !ruby/object:DateTime 2016-03-07 17:18:00.000000000 Z
+  pQuoted:
+    The Drunken Actuary: 8450409
+  pPost: 'Quote: Originally Posted by The Drunken Actuary Is that a winner take all
+    state? Is it a closed primary? Winner take all. Listed as &quot;semi-closed&quot;.
+    I think that means unaffiliated voters can choose to vote in either the Democratic
+    or Republican primaries. '
+- !ruby/object:Post
+  pNum: 8450472
+  pPoster: The Drunken Actuary
+  pTime: !ruby/object:DateTime 2016-03-07 17:21:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Thanks '
+- !ruby/object:Post
+  pNum: 8451126
+  pPoster: R Daneel Olivaw
+  pTime: !ruby/object:DateTime 2016-03-08 11:16:00.000000000 Z
+  pQuoted: {}
+  pPost: 'If Kasich takes Ohio and Rubio pulls out Florida we have a brokered convention. '
+- !ruby/object:Post
+  pNum: 8451150
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-03-08 11:25:00.000000000 Z
+  pQuoted:
+    R Daneel Olivaw: 8451126
+  pPost: 'Quote: Originally Posted by R Daneel Olivaw If Kasich takes Ohio and Rubio
+    pulls out Florida we have a brokered convention. Funny given Florida''s shape '
+- !ruby/object:Post
+  pNum: 8451563
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-03-08 14:13:00.000000000 Z
+  pQuoted:
+    Sentinel: 8449161
+  pPost: 'Quote: Originally Posted by Sentinel What a selfish hothead. That you post
+    this without irony is quite entertaining to me '
+- !ruby/object:Post
+  pNum: 8451881
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-03-08 16:00:00.000000000 Z
+  pQuoted:
+    Cloister: 8450461
+  pPost: 'Quote: Originally Posted by Cloister Winner take all. Listed as &quot;semi-closed&quot;.
+    I think that means unaffiliated voters can choose to vote in either the Democratic
+    or Republican primaries. My understanding is that, at least in Ohio, *every* voter
+    has the opportunity to choose the Democratic or Republican ballot (or Libertarian
+    or Green or whatever other parties might be holding primaries). '
+- !ruby/object:Post
+  pNum: 8452204
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-03-08 18:36:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich now up to 3rd in national polls. A Michigan victory will cement Ohio
+    victory. It is great to see momentum building at a later stage than I can remember
+    a candidate rising. '
+- !ruby/object:Post
+  pNum: 8452287
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 20:15:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich leading in Michigan with 1% reporting. '
+- !ruby/object:Post
+  pNum: 8452293
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-03-08 20:20:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Trump takes the lead narrowly. Going to be neck and neck down to the wire
+    imo '
+- !ruby/object:Post
+  pNum: 8452303
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 20:34:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Eh, he''s pulling away, Cruz is getting a bunch. '
+- !ruby/object:Post
+  pNum: 8452344
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 21:18:00.000000000 Z
+  pQuoted: {}
+  pPost: 'sorry TheGillotine. better luck next leap year. '
+- !ruby/object:Post
+  pNum: 8452349
+  pPoster: Childish Gambino
+  pTime: !ruby/object:DateTime 2016-03-08 21:24:00.000000000 Z
+  pQuoted: {}
+  pPost: "{hsmack.gif} "
+- !ruby/object:Post
+  pNum: 8452350
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 21:25:00.000000000 Z
+  pQuoted:
+    Sentinel: 8452344
+  pPost: 'Quote: Originally Posted by Sentinel sorry TheGillotine. better luck next
+    leap year. Hey, he''s going to end up doing pretty well in Michigan and idk if
+    you know this but Michigan hates Ohio. Kasich has been pretty clear that he wasn''t
+    going to win Michigan. '
+- !ruby/object:Post
+  pNum: 8452423
+  pPoster: MathStatFin
+  pTime: !ruby/object:DateTime 2016-03-08 22:13:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452350
+  pPost: 'Quote: Originally Posted by TheGillotine Hey, he''s going to end up doing
+    pretty well in Michigan and idk if you know this but Michigan hates Ohio. Kasich
+    has been pretty clear that he wasn''t going to win Michigan. wait... Didn''t he
+    say in one of the debates that he''s going to win michigan? '
+- !ruby/object:Post
+  pNum: 8452444
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 22:25:00.000000000 Z
+  pQuoted:
+    MathStatFin: 8452423
+  pPost: 'Quote: Originally Posted by MathStatFin wait... Didn''t he say in one of
+    the debates that he''s going to win michigan? Pretty sure no. He said &quot;We''re
+    going to do well in Michigan, and we''re going to go on and win Ohio, and from
+    there we''re going to take off.&quot; '
+- !ruby/object:Post
+  pNum: 8452461
+  pPoster: win diesel
+  pTime: !ruby/object:DateTime 2016-03-08 22:27:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452350
+  pPost: 'Quote: Originally Posted by TheGillotine Hey, he''s going to end up doing
+    pretty well in Michigan and idk if you know this but Michigan hates Ohio. Kasich
+    has been pretty clear that he wasn''t going to win Michigan. Lol great analysis,
+    would you like to guest write an article for my blog? '
+- !ruby/object:Post
+  pNum: 8452490
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 22:35:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich is actually doing decent. Last week he was at 10% in Michigan. Cruz
+    has been riding a huge surge everywhere. Every time Trump scores less than 50%
+    it increases the likelihood of a brokered convention. '
+- !ruby/object:Post
+  pNum: 8452494
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-03-08 22:35:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452444
+  pPost: 'Quote: Originally Posted by TheGillotine Pretty sure no. He said &quot;We''re
+    going to do well in Michigan, and we''re going to go on and win Ohio, and from
+    there we''re going to take off.&quot; Take off like take off, or take off? '
+- !ruby/object:Post
+  pNum: 8452497
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 22:37:00.000000000 Z
+  pQuoted:
+    nonlnear: 8452494
+  pPost: 'Quote: Originally Posted by nonlnear Take off like take off, or take off?
+    Lift off! '
+- !ruby/object:Post
+  pNum: 8452500
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-03-08 22:37:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452490
+  pPost: 'Quote: Originally Posted by TheGillotine Kasich is actually doing decent.
+    Last week he was at 10% in Michigan. Cruz has been riding a huge surge everywhere.
+    Every time Trump scores less than 50% it increases the likelihood of a brokered
+    convention. And so far &quot;not trump&quot; has more delegates than trump '
+- !ruby/object:Post
+  pNum: 8452514
+  pPoster: Dismal Science
+  pTime: !ruby/object:DateTime 2016-03-08 22:41:00.000000000 Z
+  pQuoted:
+    swimmer92: 8452500
+  pPost: 'Quote: Originally Posted by swimmer92 And so far &quot;not trump&quot; has
+    more delegates than trump {lol.gif} Why are you quoting the idiot logic of Marco
+    Rubio? '
+- !ruby/object:Post
+  pNum: 8452518
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 22:43:00.000000000 Z
+  pQuoted: {}
+  pPost: 'I think South Carolina is only winner-takes-all primary we''ve had so far
+    (please correct me if I''m mistaken)........plenty more coming like PA, NJ, CA,
+    FL, etc. '
+- !ruby/object:Post
+  pNum: 8452528
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-03-08 22:48:00.000000000 Z
+  pQuoted:
+    Dismal Science: 8452514
+  pPost: 'Quote: Originally Posted by Dismal Science {lol.gif} Why are you quoting
+    the idiot logic of Marco Rubio? Because it''s true '
+- !ruby/object:Post
+  pNum: 8452529
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 22:49:00.000000000 Z
+  pQuoted: {}
+  pPost: 'We all bash Rubio but Kasich hasn''t even won a state yet....and likely
+    never will. '
+- !ruby/object:Post
+  pNum: 8452530
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-03-08 22:49:00.000000000 Z
+  pQuoted: {}
+  pPost: 'won* '
+- !ruby/object:Post
+  pNum: 8452532
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 22:50:00.000000000 Z
+  pQuoted: {}
+  pPost: '538 has Trump beating target to win nomination. those winner takes all will
+    help him obliterate Cruz and company. '
+- !ruby/object:Post
+  pNum: 8452533
+  pPoster: MathStatFin
+  pTime: !ruby/object:DateTime 2016-03-08 22:51:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452490
+  pPost: 'Quote: Originally Posted by TheGillotine Kasich is actually doing decent.
+    Last week he was at 10% in Michigan. Cruz has been riding a huge surge everywhere.
+    Every time Trump scores less than 50% it increases the likelihood of a brokered
+    convention. If Trump wins the nomination, I''m quitting the AO forever. '
+- !ruby/object:Post
+  pNum: 8452534
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 22:51:00.000000000 Z
+  pQuoted: {}
+  pPost: 'thanks,...I''m getting so tired from all the fun '
+- !ruby/object:Post
+  pNum: 8452536
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 22:52:00.000000000 Z
+  pQuoted:
+    Sentinel: 8452529
+  pPost: 'Quote: Originally Posted by Sentinel We all bash Rubio but Kasich hasn''t
+    even won a state yet....and likely never will. Wrong. '
+- !ruby/object:Post
+  pNum: 8452537
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 22:52:00.000000000 Z
+  pQuoted:
+    MathStatFin: 8452533
+  pPost: 'Quote: Originally Posted by MathStatFin If Trump wins the nomination, I''m
+    quitting the AO forever. no you won''t. but we look forward to some that hate
+    posting you''re doing in the Sanders thread. '
+- !ruby/object:Post
+  pNum: 8452542
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 22:57:00.000000000 Z
+  pQuoted:
+    Sentinel: 8452529
+  pPost: 'Quote: Originally Posted by Sentinel We all bash Rubio but Kasich hasn''t
+    even won a state yet....and likely never will. Kasich doesn''t get bashed because
+    it''s not like he has remotely as much corporate support as Jeb or Rubio did,
+    and he hasn''t tried to pretend to be an a-hole. He''s basically running a message
+    of sanity, and if/when he gets to play kingmaker at the convention his blessing
+    will be respected and might bring unity to the party. Trump needs Kasich to get
+    sane people to be okay with him. '
+- !ruby/object:Post
+  pNum: 8452545
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-08 23:00:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Man....Trump is winning everywhere in March 15 polls...wow http://www.realclearpolitics.com/epo...arch15gop.html '
+- !ruby/object:Post
+  pNum: 8452550
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-08 23:02:00.000000000 Z
+  pQuoted:
+    Sentinel: 8452545
+  pPost: 'Quote: Originally Posted by Sentinel Man....Trump is winning everywhere
+    in March 15 polls...wow http://www.realclearpolitics.com/epo...arch15gop.html
+    He was winning everywhere in the March 5 polls too. '
+- !ruby/object:Post
+  pNum: 8452628
+  pPoster: Suttree
+  pTime: !ruby/object:DateTime 2016-03-09 00:48:00.000000000 Z
+  pQuoted: {}
+  pPost: 'And he ended up winning most of those States. '
+- !ruby/object:Post
+  pNum: 8452676
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-09 08:12:00.000000000 Z
+  pQuoted:
+    Suttree: 8452628
+  pPost: 'Quote: Originally Posted by Suttree And he ended up winning most of those
+    States. No, Cruz ended up winning more delegates on March 5. '
+- !ruby/object:Post
+  pNum: 8452787
+  pPoster: The Drunken Actuary
+  pTime: !ruby/object:DateTime 2016-03-09 09:40:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452536
+  pPost: 'Quote: Originally Posted by TheGillotine Wrong. Which part(s)? '
+- !ruby/object:Post
+  pNum: 8452814
+  pPoster: The Drunken Actuary
+  pTime: !ruby/object:DateTime 2016-03-09 09:55:00.000000000 Z
+  pQuoted:
+    Suttree: 8452807
+  pPost: 'Quote: Originally Posted by Suttree I think you substituted a word. Do those
+    words mean the same thing or did you move the goal posts? Why does it matter who
+    wins a plurality of the votes in a state? If it''s not winner take all there''s
+    no such thing as ''winning'' a state. '
+- !ruby/object:Post
+  pNum: 8452818
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-03-09 09:57:00.000000000 Z
+  pQuoted:
+    The Drunken Actuary: 8452814
+  pPost: 'Quote: Originally Posted by The Drunken Actuary Why does it matter who wins
+    a plurality of the votes in a state? If it''s not winner take all there''s no
+    such thing as ''winning'' a state. Hillary cares, because getting &lt;0.3% more
+    votes than Sanders in Iowa gave her media shills an excuse to crow about how she
+    crushed Sanders. '
+- !ruby/object:Post
+  pNum: 8452821
+  pPoster: TheActuarialAssistant
+  pTime: !ruby/object:DateTime 2016-03-09 09:58:00.000000000 Z
+  pQuoted:
+    Suttree: 8452807
+  pPost: 'Quote: Originally Posted by Suttree I think you substituted a word. Do those
+    words mean the same thing or did you move the goal posts? He always does that,
+    what amazes me is I think he honestly believes people don''t notice. '
+- !ruby/object:Post
+  pNum: 8452822
+  pPoster: Captain Oveur
+  pTime: !ruby/object:DateTime 2016-03-09 09:58:00.000000000 Z
+  pQuoted:
+    nonlnear: 8452818
+  pPost: 'Quote: Originally Posted by nonlnear Hillary cares, because getting &lt;0.3%
+    more votes than Sanders in Iowa gave her media shills an excuse to crow about
+    how she crushed Sanders. Hey look, everyone, we''ve got a sore loser right here. '
+- !ruby/object:Post
+  pNum: 8452825
+  pPoster: TheActuarialAssistant
+  pTime: !ruby/object:DateTime 2016-03-09 09:59:00.000000000 Z
+  pQuoted:
+    The Drunken Actuary: 8452814
+  pPost: 'Quote: Originally Posted by The Drunken Actuary Why does it matter who wins
+    a plurality of the votes in a state? If it''s not winner take all there''s no
+    such thing as ''winning'' a state. The original comment was correct, TheGillotine,
+    as he is apt to do, claimed it was not be changing the sentence. '
+- !ruby/object:Post
+  pNum: 8452833
+  pPoster: Suttree
+  pTime: !ruby/object:DateTime 2016-03-09 10:00:00.000000000 Z
+  pQuoted: {}
+  pPost: 'No it wasn''t actually, I deleted, even though he did move goal posts. I
+    wasn''t paying attention to the date and thought we were talking about Super Tuesday,
+    which was not March 5th. Trump and Cruz each won 2 States on March 5. '
+- !ruby/object:Post
+  pNum: 8452846
+  pPoster: swimmer92
+  pTime: !ruby/object:DateTime 2016-03-09 10:07:00.000000000 Z
+  pQuoted:
+    nonlnear: 8452818
+  pPost: 'Quote: Originally Posted by nonlnear Hillary cares, because getting &lt;0.3%
+    more votes than Sanders in Iowa gave her media shills an excuse to crow about
+    how she crushed Sanders. Nobody worth a damn said that '
+- !ruby/object:Post
+  pNum: 8452849
+  pPoster: nonlnear
+  pTime: !ruby/object:DateTime 2016-03-09 10:08:00.000000000 Z
+  pQuoted:
+    Captain Oveur: 8452822
+  pPost: 'Quote: Originally Posted by Captain Oveur Hey look, everyone, we''ve got
+    a sore loser right here. What do you mean &quot;sore loser&quot;? I''m simply
+    observing the mechanism whereby preordained winners win. '
+- !ruby/object:Post
+  pNum: 8452907
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-09 10:38:00.000000000 Z
+  pQuoted:
+    TheActuarialAssistant: 8452825
+  pPost: 'Quote: Originally Posted by TheActuarialAssistant The original comment was
+    correct, TheGillotine, as he is apt to do, claimed it was not be changing the
+    sentence. Was commenting from phone, and it is wrong both in that Trump didn''t
+    win more states than Cruz and won fewer delegates. But yes, continue to channel
+    your god, Trump. Next thing he''ll be telling us about how he hit 8 holes-in-one
+    in his first time golfing. '
+- !ruby/object:Post
+  pNum: 8452919
+  pPoster: Atropellador
+  pTime: !ruby/object:DateTime 2016-03-09 10:47:00.000000000 Z
+  pQuoted:
+    The Drunken Actuary: 8452787
+  pPost: 'Quote: Originally Posted by The Drunken Actuary Which part(s)? Kasich tied
+    for first place in Vermont, with 8 delegates going to each of him and trump. {link.gif} '
+- !ruby/object:Post
+  pNum: 8452930
+  pPoster: Atropellador
+  pTime: !ruby/object:DateTime 2016-03-09 10:52:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Maybe that counts as winning, or maybe we don''t all bash Rubio, or maybe
+    Kasich will win Ohio {shrug.gif} '
+- !ruby/object:Post
+  pNum: 8452940
+  pPoster: TheActuarialAssistant
+  pTime: !ruby/object:DateTime 2016-03-09 10:57:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8452907
+  pPost: 'Quote: Originally Posted by TheGillotine Was commenting from phone, and
+    it is wrong both in that Trump didn''t win more states than Cruz and won fewer
+    delegates. But yes, continue to channel your god, Trump. Next thing he''ll be
+    telling us about how he hit 8 holes-in-one in his first time golfing. {yawn.gif}
+    Learn how to restate a sentence without adding your own commentary and we will
+    have a conversation. '
+- !ruby/object:Post
+  pNum: 8454194
+  pPoster: Dismal Science
+  pTime: !ruby/object:DateTime 2016-03-09 22:59:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Kasich is leading in Ohio based on a Fox news poll '
+- !ruby/object:Post
+  pNum: 8454207
+  pPoster: PeppermintPatty
+  pTime: !ruby/object:DateTime 2016-03-09 23:09:00.000000000 Z
+  pQuoted:
+    Captain Oveur: 8452822
+  pPost: 'Quote: Originally Posted by Captain Oveur Hey look, everyone, we''ve got
+    a sore loser right here. I don''t think nonlnear is really rooting for either
+    side. If he is, he''s been pretty low-key about it. He''s just being his cynical
+    self. He''s an equal-opportunity cynic, though. '
+- !ruby/object:Post
+  pNum: 8454502
+  pPoster: greenman
+  pTime: !ruby/object:DateTime 2016-03-10 10:30:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Urban Meyer just endorsed Kasich. This has to help in Ohio and Florida,
+    right? '
+- !ruby/object:Post
+  pNum: 8454505
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-10 10:33:00.000000000 Z
+  pQuoted:
+    greenman: 8454502
+  pPost: 'Quote: Originally Posted by greenman Urban Meyer just endorsed Kasich. This
+    has to help in Ohio and Florida, right? Ohio yes, Florida not so much. '
+- !ruby/object:Post
+  pNum: 8454526
+  pPoster: Captain Oveur
+  pTime: !ruby/object:DateTime 2016-03-10 10:43:00.000000000 Z
+  pQuoted:
+    PeppermintPatty: 8454207
+  pPost: 'Quote: Originally Posted by PeppermintPatty I don''t think nonlnear is really
+    rooting for either side. If he is, he''s been pretty low-key about it. He''s just
+    being his cynical self. He''s an equal-opportunity cynic, though. I was jus''
+    playin'' '
+- !ruby/object:Post
+  pNum: 8455290
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-03-10 17:26:00.000000000 Z
+  pQuoted:
+    Dismal Science: 8452514
+    Sentinel: 8452518
+  pPost: 'Quote: Originally Posted by Dismal Science {lol.gif} Why are you quoting
+    the idiot logic of Marco Rubio? Why do you think this particular tidbit (not Trump
+    has more delegates than Trump or, put another way, Trump has won less than 50%
+    of the delegates determined to date) is idiotic? It seems very relevant to me.
+    If Trump continues at the current pace, he''s not going to reach 1,257. Quote:
+    Originally Posted by Sentinel I think South Carolina is only winner-takes-all
+    primary we''ve had so far (please correct me if I''m mistaken)........plenty more
+    coming like PA, NJ, CA, FL, etc. Technically South Carolina is not winner-take-all;
+    the party doesn''t allow winner-take-all until two weeks after Super Tuesday IIRC.
+    Trump won every delegate in South Carolina, but they''re determined by congressional
+    district (at least a lot of them are). He won a plurality in every CD. IMO this
+    is a crappy way to assign delegates, but no one consulted me when the South Carolina
+    Republican Party set the rules. '
+- !ruby/object:Post
+  pNum: 8455388
+  pPoster: Dismal Science
+  pTime: !ruby/object:DateTime 2016-03-10 18:56:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8455290
+  pPost: 'Quote: Originally Posted by Elinor Dashwood Why do you think this particular
+    tidbit (not Trump has more delegates than Trump or, put another way, Trump has
+    won less than 50% of the delegates determined to date) is idiotic? It seems very
+    relevant to me. If Trump continues at the current pace, he''s not going to reach
+    1,257. Because it is completely expected with 4 people in the race. It isn''t
+    an insightful observation. And it is easily countered by using Trumps line: &quot;So
+    does that mean 90% of people don''t want Marco Rubio to be the nominee?&quot;
+    How does this line of &quot;reasoning&quot; make any other candidate look better? '
+- !ruby/object:Post
+  pNum: 8455390
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-10 19:00:00.000000000 Z
+  pQuoted:
+    Dismal Science: 8455388
+  pPost: 'Quote: Originally Posted by Dismal Science Because it is completely expected
+    with 4 people in the race. It isn''t an insightful observation. And it is easily
+    countered by using Trumps line: &quot;So does that mean 90% of people don''t want
+    Marco Rubio to be the nominee?&quot; How does this line of &quot;reasoning&quot;
+    make any other candidate look better? Except that &quot;Not Trump&quot; is a real
+    thing, and there''s a large portion of conservatives who cannot stand Trump. For
+    example, in one poll in Ohio where they put each candidate head to head against
+    Trump, Kasich, Rubio, and Cruz all beat him. '
+- !ruby/object:Post
+  pNum: 8455419
+  pPoster: PeppermintPatty
+  pTime: !ruby/object:DateTime 2016-03-10 19:22:00.000000000 Z
+  pQuoted: {}
+  pPost: 'And I haven''t noticed an &quot;Anyone but Rubio&quot; contingent anywhere.
+    I mean, I suppose there must be someone somewhere, but it''s not a thing. '
+- !ruby/object:Post
+  pNum: 8455421
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-10 19:26:00.000000000 Z
+  pQuoted: {}
+  pPost: 'it doesn''t need to be a thing at this point. folks just abandoned him and
+    he''s not a threat anymore anywhere. '
+- !ruby/object:Post
+  pNum: 8455428
+  pPoster: The Drunken Actuary
+  pTime: !ruby/object:DateTime 2016-03-10 19:33:00.000000000 Z
+  pQuoted:
+    Sentinel: 8455421
+  pPost: 'Quote: Originally Posted by Sentinel it doesn''t need to be a thing at this
+    point. folks just abandoned him and he''s not a threat anymore anywhere. I think
+    you''re missing the point. '
+- !ruby/object:Post
+  pNum: 8455431
+  pPoster: Sentinel
+  pTime: !ruby/object:DateTime 2016-03-10 19:38:00.000000000 Z
+  pQuoted:
+    The Drunken Actuary: 8455428
+  pPost: 'Quote: Originally Posted by The Drunken Actuary I think your missing the
+    point. that''s he''s not as ''polarizing''? if you visit conservative sites, there
+    are plenty of anti-Rubio voters out there...they just don''t need to mobilize
+    to stop him cuz he imploded himself. if you''re arguing that folks need don''t
+    need to vote for his 3 other opponents in states....then ok..who cares, that''s
+    a dumb strategy anyway. '
+- !ruby/object:Post
+  pNum: 8455493
+  pPoster: Cloister
+  pTime: !ruby/object:DateTime 2016-03-10 20:37:00.000000000 Z
+  pQuoted:
+    Elinor Dashwood: 8455290
+  pPost: 'Quote: Originally Posted by Elinor Dashwood Why do you think this particular
+    tidbit (not Trump has more delegates than Trump or, put another way, Trump has
+    won less than 50% of the delegates determined to date) is idiotic? It seems very
+    relevant to me. If Trump continues at the current pace, he''s not going to reach
+    1,257. Technically South Carolina is not winner-take-all; the party doesn''t allow
+    winner-take-all until two weeks after Super Tuesday IIRC. Trump won every delegate
+    in South Carolina, but they''re determined by congressional district (at least
+    a lot of them are). He won a plurality in every CD. IMO this is a crappy way to
+    assign delegates, but no one consulted me when the South Carolina Republican Party
+    set the rules. Actually, the majority went to the statewide winner (29). The rest
+    (21) were by congressional district (3 per district). '
+- !ruby/object:Post
+  pNum: 8455821
+  pPoster: TheGillotine
+  pTime: !ruby/object:DateTime 2016-03-11 07:31:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Holding a rally with Jim Tressel in Youngstown on Monday. '
+- !ruby/object:Post
+  pNum: 8455822
+  pPoster: Marcie
+  pTime: !ruby/object:DateTime 2016-03-11 07:37:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Sweater vests for everyone! '
+- !ruby/object:Post
+  pNum: 8455825
+  pPoster: Whiskey
+  pTime: !ruby/object:DateTime 2016-03-11 07:48:00.000000000 Z
+  pQuoted:
+    TheGillotine: 8455821
+  pPost: 'Quote: Originally Posted by TheGillotine Holding a rally with Jim Tressel
+    in Youngstown on Monday. Now the real question is, which candidate is getting
+    the John Cooper endorsement? '
+- !ruby/object:Post
+  pNum: 8455829
+  pPoster: Marcie
+  pTime: !ruby/object:DateTime 2016-03-11 08:00:00.000000000 Z
+  pQuoted: {}
+  pPost: 'This guy? '
+- !ruby/object:Post
+  pNum: 8455848
+  pPoster: Whiskey
+  pTime: !ruby/object:DateTime 2016-03-11 08:32:00.000000000 Z
+  pQuoted: {}
+  pPost: "{lol.gif} Skillet. "
+- !ruby/object:Post
+  pNum: 8455870
+  pPoster: Kid Rock
+  pTime: !ruby/object:DateTime 2016-03-11 08:55:00.000000000 Z
+  pQuoted: {}
+  pPost: 'Cooper endorsement would have helped in Michigan, not Ohio. Michigan appreciated
+    Cooper more than any other Buckeye coach. '
+- !ruby/object:Post
+  pNum: 8455886
+  pPoster: Marcie
+  pTime: !ruby/object:DateTime 2016-03-11 09:05:00.000000000 Z
+  pQuoted:
+    Whiskey: 8455848
+  pPost: 'Quote: Originally Posted by Whiskey {lol.gif} Skillet. I must confess, Mr
+    Whiskey, I FEEL LIKE A MONSTER! {rockright.gif} '
+- !ruby/object:Post
+  pNum: 8455911
+  pPoster: Brutè
+  pTime: !ruby/object:DateTime 2016-03-11 09:20:00.000000000 Z
+  pQuoted:
+    Kid Rock: 8455870
+  pPost: 'Quote: Originally Posted by Kid Rock Cooper endorsement would have helped
+    in Michigan, not Ohio. Michigan appreciated Cooper more than any other Buckeye
+    coach. Go undefeated. Lose to crappy Michigan team. Repeat. {cussing.gif} '
+- !ruby/object:Post
+  pNum: 8456143
+  pPoster: Elinor Dashwood
+  pTime: !ruby/object:DateTime 2016-03-11 10:59:00.000000000 Z
+  pQuoted:
+    Dismal Science: 8455388
+  pPost: 'Quote: Originally Posted by Dismal Science Because it is completely expected
+    with 4 people in the race. It isn''t an insightful observation. And it is easily
+    countered by using Trumps line: &quot;So does that mean 90% of people don''t want
+    Marco Rubio to be the nominee?&quot; How does this line of &quot;reasoning&quot;
+    make any other candidate look better? If someone is saying it to make another
+    candidate look better, that is not a compelling argument, I agree. It''s relevant
+    in terms of whether Trump can get the nomination on the first ballot at the convention.
+    I have actually run into several Republicans (Democrats too for that matter) who
+    seriously thought that Trump had more than 50% of the delegates assigned so far,
+    so from what I can tell, that is a somewhat common misperception. Nothing wrong
+    with clearing that up IMO although obviously Trump is ahead of all his competitors
+    in terms of both delegate count and overall [primary] popular vote and to suggest
+    otherwise is foolish and wrong. '
+tPostLog:
+- 8422633
+- 8422658
+- 8422663
+- 8422703
+- 8422706
+- 8422711
+- 8422800
+- 8422810
+- 8422815
+- 8422821
+- 8422823
+- 8422845
+- 8422860
+- 8422870
+- 8422889
+- 8422911
+- 8422934
+- 8423307
+- 8423314
+- 8423328
+- 8423334
+- 8423384
+- 8423401
+- 8423414
+- 8423421
+- 8423425
+- 8423427
+- 8423434
+- 8423437
+- 8423439
+- 8423472
+- 8423488
+- 8423498
+- 8423564
+- 8423574
+- 8423587
+- 8423606
+- 8423633
+- 8423645
+- 8423650
+- 8423698
+- 8423720
+- 8423724
+- 8423811
+- 8423823
+- 8423839
+- 8423843
+- 8423981
+- 8423983
+- 8423990
+- 8423996
+- 8424000
+- 8424045
+- 8424069
+- 8424190
+- 8424200
+- 8424211
+- 8424217
+- 8424220
+- 8424240
+- 8424269
+- 8424271
+- 8424321
+- 8424324
+- 8424365
+- 8424417
+- 8424419
+- 8424433
+- 8429433
+- 8429501
+- 8429508
+- 8429514
+- 8429518
+- 8429527
+- 8429531
+- 8429534
+- 8429586
+- 8429594
+- 8429651
+- 8429661
+- 8429673
+- 8429690
+- 8429695
+- 8429712
+- 8429729
+- 8429740
+- 8429742
+- 8429756
+- 8429769
+- 8429783
+- 8429788
+- 8429817
+- 8429892
+- 8429905
+- 8429915
+- 8429932
+- 8429935
+- 8429938
+- 8429940
+- 8429941
+- 8429960
+- 8429966
+- 8429972
+- 8429991
+- 8430020
+- 8430023
+- 8430031
+- 8430036
+- 8430037
+- 8430044
+- 8430055
+- 8430060
+- 8430067
+- 8430293
+- 8430299
+- 8430318
+- 8430322
+- 8430389
+- 8431242
+- 8431248
+- 8431276
+- 8431502
+- 8431508
+- 8431530
+- 8431610
+- 8431616
+- 8449161
+- 8449201
+- 8449591
+- 8449613
+- 8449684
+- 8450310
+- 8450409
+- 8450461
+- 8450472
+- 8451126
+- 8451150
+- 8451563
+- 8451881
+- 8452204
+- 8452287
+- 8452293
+- 8452303
+- 8452344
+- 8452349
+- 8452350
+- 8452423
+- 8452444
+- 8452461
+- 8452490
+- 8452494
+- 8452497
+- 8452500
+- 8452514
+- 8452518
+- 8452528
+- 8452529
+- 8452530
+- 8452532
+- 8452533
+- 8452534
+- 8452536
+- 8452537
+- 8452542
+- 8452545
+- 8452550
+- 8452628
+- 8452676
+- 8452787
+- 8452814
+- 8452818
+- 8452821
+- 8452822
+- 8452825
+- 8452833
+- 8452846
+- 8452849
+- 8452907
+- 8452919
+- 8452930
+- 8452940
+- 8454194
+- 8454207
+- 8454502
+- 8454505
+- 8454526
+- 8455290
+- 8455388
+- 8455390
+- 8455419
+- 8455421
+- 8455428
+- 8455431
+- 8455493
+- 8455821
+- 8455822
+- 8455825
+- 8455829
+- 8455848
+- 8455870
+- 8455886
+- 8455911
+- 8456143
+tTitle: " John Kasich is finished - Actuarial Outpost"
+curDate: !ruby/object:DateTime 2016-03-13 23:07:01.375886000 -04:00
+tOP: Captain Oveur

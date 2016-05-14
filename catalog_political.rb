@@ -113,11 +113,18 @@ def get_all_threads(fnum)
 	tlist.each do |thread|
 		tcat = read("thread_cat_#{fnum}")
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
-			parsed = MyThread.new(thread)
+			if tcat.has_key?(thread)
+				parsed = read("Threads/#{thread}")
+				parsed.add_to_thread
+				status = 'added'
+			else
+				parsed = MyThread.new(thread)
+				status = 'created'
+			end
 			parsed.write
 			tcat[thread] = parsed.tPosts.length
 			write(tcat, "thread_cat_#{fnum}")
-			puts thread, parsed.tPosts.length
+			puts "#{thread}, #{tcat[thread]} #{status}"
 		else
 			puts "#{thread}, #{tcat[thread]} cleared"
 		end
@@ -128,9 +135,3 @@ end
 #write(get_thread_list(23), 'thread_list_23')
 #puts write(update_tlist(23), 'tllist_update_23')
 #get_all_threads(23)
-
-#coffee = MyThread.new(308556)
-#coffee.write
-coffee = read('Threads/308556')
-coffee.add_to_thread
-puts coffee.tPosts.length

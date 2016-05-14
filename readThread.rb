@@ -198,16 +198,3 @@ class Post
 	end
 	
 end
-
-def DontRunMain()
-	
-	#bump = MyThread.new(101562)
-	#bernie_banner = MyThread.new(305864)
-	snowflake = MyThread.new(306303)
-	#puts snowflake.tPosts[8].pQuoted
-	#snowflake.write()
-	#who_posted(bernie_banner)
-
-end
-
-#DontRunMain()

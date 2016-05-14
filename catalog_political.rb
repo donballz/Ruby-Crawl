@@ -3,14 +3,21 @@ require_relative 'StringFind.rb'
 
 STICKY = 280594
 
+###############
+#### TO DO ####
+# 1. Modify get_all_threads to add new posts instead of rebuilding thread each time
+# 2. Design production run to look at top five pages of threads for new threads
+# 2a. Requires new function which will always check five pages regardless of dupe threads
+# 3. Move get_page and title init to build thread function. simplifies this code.
+###############
+
 class MyThread
 	# extend class to allow partial builds
 	def add_to_thread()
 		# cuts off post-array at last full page and then starts over at new posts
 		full = @tPosts.length % 40
 		@tPosts.slice!(full, @tPosts.length)
-		url = build_url(tnum, full + 1)
-		page = get_page(url)
+		page = get_page(build_url(@tNum, full + 1))
 		build_thread(page, full + 1)
 	end
 end
@@ -71,9 +78,32 @@ def get_thread_list(fnum)
 			puts pnum
 			#write(tlist, "thread_list_#{fnum}")
 			thread = STICKY
-			break if pnum == 5
 		else
 			thread = page[found...end_tnum].to_i
+		end
+	end
+	return tlist
+end
+
+def update_tlist(fnum)
+	# function crawls given subforum and returns array of threads
+	tlist = []
+	thread = STICKY
+	page = get_page(build_url(fnum, 1))
+	(1..5).to_a.each do |pnum|
+		found = 0
+		until found == -1
+			found = page.find('<td class="alt1" id="td_threadtitle_', found)
+			end_tnum = page.index('"', found)
+			if found == -1
+				# get next page, report the page num, and save results to prevent error loss
+				page = get_page(build_url(fnum, pnum)) 
+				puts pnum
+				thread = STICKY
+			else
+				thread = page[found...end_tnum].to_i
+			end
+			tlist.push(thread) unless thread == STICKY
 		end
 	end
 	return tlist
@@ -91,10 +121,15 @@ def get_all_threads(fnum)
 			tcat[thread] = parsed.tPosts.length
 			write(tcat, "thread_cat_#{fnum}")
 			puts thread, parsed.tPosts.length
+		else
+			puts "#{thread}, #{tcat[thread]} cleared"
 		end
 	end
 	return nil
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-get_all_threads(23)
+#puts write(update_tlist(23), 'tllist_update_23')
+#get_all_threads(23)
+
+puts read('tllist_update_23')

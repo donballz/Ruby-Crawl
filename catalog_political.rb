@@ -29,6 +29,18 @@ def build_url(fNum, pageNum)
 	return url
 end
 
+def get_last_post(thread)
+	# returns last post of given thread
+	server = "http://www.actuarialoutpost.com/"
+	tbase = "actuarial_discussion_forum/showthread.php?t="
+	url = server + tbase + "#{thread}&page=999999"
+	page = get_page(url)
+	found = page.find('title="First Page - Results 1 to 10 of ')
+	last = page.index('"', found)
+	return page[found...last].to_i unless found == -1
+	return 0
+end
+
 def get_thread_list(fnum)
 	# function crawls given subforum and returns array of threads
 	tlist = []
@@ -60,15 +72,17 @@ def get_all_threads(fnum)
 	#   keeps running hash of thread stats in case it errors out.
 	tlist = read("thread_list_#{fnum}")
 	tlist.each do |thread|
-		parsed = MyThread.new(thread)
-		parsed.write
 		tcat = read("thread_cat_#{fnum}")
-		tcat[thread] = parsed.tPosts.length
-		write(tcat, "thread_cat_#{fnum}")
+		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
+			parsed = MyThread.new(thread)
+			parsed.write
+			tcat[thread] = parsed.tPosts.length
+			write(tcat, "thread_cat_#{fnum}")
+			puts thread, parsed.tPosts.length
+		end
 	end
+	return nil
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-
-p get_thread_list(23)
-p read('thread_list_23')
+get_all_threads(23)

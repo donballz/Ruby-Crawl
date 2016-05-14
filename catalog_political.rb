@@ -6,19 +6,16 @@ STICKY = 280594
 ###############
 #### TO DO ####
 # 1. Modify get_all_threads to add new posts instead of rebuilding thread each time
-# 2. Design production run to look at top five pages of threads for new threads
-# 2a. Requires new function which will always check five pages regardless of dupe threads
-# 3. Move get_page and title init to build thread function. simplifies this code.
 ###############
 
 class MyThread
 	# extend class to allow partial builds
 	def add_to_thread()
 		# cuts off post-array at last full page and then starts over at new posts
-		full = @tPosts.length % 40
+		full = @tPosts.length - @tPosts.length % 40
 		@tPosts.slice!(full, @tPosts.length)
-		page = get_page(build_url(@tNum, full + 1))
-		build_thread(page, full + 1)
+		puts full / 40 + 1
+		build_thread(full / 40 + 1)
 	end
 end
 
@@ -132,4 +129,8 @@ end
 #puts write(update_tlist(23), 'tllist_update_23')
 #get_all_threads(23)
 
-puts read('tllist_update_23')
+#coffee = MyThread.new(308556)
+#coffee.write
+coffee = read('Threads/308556')
+coffee.add_to_thread
+puts coffee.tPosts.length

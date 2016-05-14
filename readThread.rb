@@ -52,8 +52,8 @@ class MyThread
 	def build_thread(pageNum)
 		# main loop to iterate over every page and load 
 		# inner loop to parse the page into an array of Posts
-		page = get_page(@tUrl)
-		@tTitle = get_title(page)
+		page = get_page(build_url(@tNum, pageNum))
+		@tTitle = get_title(page) if pageNum == 1
 		while page do
 			while page do
 				meta, post, endpos, pnum = get_next_post(page)

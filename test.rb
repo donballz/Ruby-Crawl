@@ -110,8 +110,8 @@ def store_threads()
 	#blitzen.write
 	#bump = MyThread.new(101562)
 	#bump.write
-	voter = MyThread.new(308501)
-	voter.find_word('raci')
+	risk = MyThread.new(50)
+	risk.print_thread
 end
 
 now = Time.now

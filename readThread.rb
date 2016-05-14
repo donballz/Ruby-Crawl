@@ -12,9 +12,8 @@ class MyThread
 		@tUrl = build_url(tnum, 1)
 		@tPosts = []
 		@tPostLog = []
-		page = get_page(@tUrl)
-		build_thread(page, 1)
-		@tTitle = get_title(page)
+		@tTitle = ""
+		build_thread(1)
 		@curDate = DateTime.now
 		@tOP = @tPosts[0].pPoster
 	end
@@ -47,12 +46,14 @@ class MyThread
     	return nil if start_link == nil
     	start_quote = page.index('>', start_link) + 1 
     	end_quote = page.index('</title>', start_quote)
-    	return page[start_quote...end_quote]
+    	return page[start_quote...end_quote].strip
 	end
 	
-	def build_thread(page, pageNum)
+	def build_thread(pageNum)
 		# main loop to iterate over every page and load 
 		# inner loop to parse the page into an array of Posts
+		page = get_page(@tUrl)
+		@tTitle = get_title(page)
 		while page do
 			while page do
 				meta, post, endpos, pnum = get_next_post(page)

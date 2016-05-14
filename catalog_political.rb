@@ -14,7 +14,7 @@ class MyThread
 		# cuts off post-array at last full page and then starts over at new posts
 		full = @tPosts.length - @tPosts.length % 40
 		@tPosts.slice!(full, @tPosts.length)
-		puts full / 40 + 1
+		@tPostLog.slice!(full, @tPostLog.length)
 		build_thread(full / 40 + 1)
 	end
 end

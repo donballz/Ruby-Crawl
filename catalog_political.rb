@@ -37,18 +37,17 @@ def get_thread_list(fnum)
 	until tlist.include?(thread)
 		# puts in list unless already on list. also ignores the sticky
 		tlist.push(thread) unless thread == STICKY
-		if found == -1
-			# get next page, report the page num, and save results to prevent error loss
-			page = get_page(build_url(fnum, pnum)) 
-			found = 0
-			puts pnum
-			write(tlist, "thread_list_#{fnum}")
-		end
 		found = page.find('<td class="alt1" id="td_threadtitle_', found)
 		end_tnum = page.index('"', found)
 		if found == -1
+			# get next page, report the page num, and save results to prevent error loss
 			pnum += 1
+			page = get_page(build_url(fnum, pnum)) 
+			found = 0
+			puts pnum
+			#write(tlist, "thread_list_#{fnum}")
 			thread = STICKY
+			break if pnum == 5
 		else
 			thread = page[found...end_tnum].to_i
 		end
@@ -69,4 +68,7 @@ def get_all_threads(fnum)
 	end
 end
 	
-write(get_thread_list(23), 'thread_list_23')
+#write(get_thread_list(23), 'thread_list_23')
+
+p get_thread_list(23)
+p read('thread_list_23')

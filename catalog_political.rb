@@ -42,7 +42,7 @@ def get_thread_list(fnum)
 			page = get_page(build_url(fnum, pnum)) 
 			found = 0
 			puts pnum
-			write(tlist, "thread_list_#{fnum}"
+			write(tlist, "thread_list_#{fnum}")
 		end
 		found = page.find('<td class="alt1" id="td_threadtitle_', found)
 		end_tnum = page.index('"', found)
@@ -69,4 +69,4 @@ def get_all_threads(fnum)
 	end
 end
 	
-#write(get_thread_list(23), 'thread_list_23')
+write(get_thread_list(23), 'thread_list_23')

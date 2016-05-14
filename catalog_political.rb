@@ -3,6 +3,18 @@ require_relative 'StringFind.rb'
 
 STICKY = 280594
 
+class MyThread
+	# extend class to allow partial builds
+	def add_to_thread()
+		# cuts off post-array at last full page and then starts over at new posts
+		full = @tPosts.length % 40
+		@tPosts.slice!(full, @tPosts.length)
+		url = build_url(tnum, full + 1)
+		page = get_page(url)
+		build_thread(page, full + 1)
+	end
+end
+
 def write(obj, fname)
 	# writes any object to supplied filename. naming conflict with rT class func
 	path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'

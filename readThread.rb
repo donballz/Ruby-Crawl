@@ -54,7 +54,7 @@ class MyThread
 		# inner loop to parse the page into an array of Posts
 		page = get_page(build_url(@tNum, pageNum))
 		@tTitle = get_title(page) if pageNum == 1
-		while page do
+		while page and page != "" do
 			while page do
 				meta, post, endpos, pnum = get_next_post(page)
 				if post

@@ -106,11 +106,11 @@ def update_tlist(fnum)
 	return tlist
 end
 
-def get_all_threads(fnum)
+def get_all_threads(fnum, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
 	tlist = read("thread_list_#{fnum}")
-	tlist.each do |thread|
+	tlist.slice(start, tlist.length).each do |thread|
 		tcat = read("thread_cat_#{fnum}")
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
 			if tcat.has_key?(thread)
@@ -134,4 +134,4 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #puts write(update_tlist(23), 'tllist_update_23')
-#get_all_threads(23)
+get_all_threads(23, 1383)

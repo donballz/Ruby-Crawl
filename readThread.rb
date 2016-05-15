@@ -15,7 +15,7 @@ class MyThread
 		@tTitle = ""
 		build_thread(1)
 		@curDate = DateTime.now
-		@tOP = @tPosts[0].pPoster
+		@tOP = @tPosts[0].pPoster unless @tPosts[0] == nil
 	end
 	
 	def write()

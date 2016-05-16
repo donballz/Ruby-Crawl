@@ -134,4 +134,4 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #puts write(update_tlist(23), 'tllist_update_23')
-get_all_threads(23, 4681)
+get_all_threads(23, 23372)

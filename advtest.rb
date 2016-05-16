@@ -31,5 +31,6 @@ def remove_thread(tlist, tnum)
 end
 
 tlist = read('thread_list_23')
-get_next(tlist, 255549)
+get_next(tlist, 38229)
 #remove_thread(tlist, 255841)
+puts tlist.length

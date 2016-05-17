@@ -109,7 +109,7 @@ end
 def get_all_threads(fnum, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
-	tlist = read("thread_list_#{fnum}")
+	tlist = read("tllist_update_#{fnum}")
 	tlist.slice(start, tlist.length).each do |thread|
 		tcat = read("thread_cat_#{fnum}")
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
@@ -155,15 +155,15 @@ end
 def test_tf_stat()
 	# testing for tfile_status
 	tcat = read('thread_cat_23')
-	tlist = read('thread_list_23')
-	status = tfile_status(tlist, tcat)
-	hist = Hash.new(0)
-	status.each { |k, v| hist[v[1]] += 1 }
+	#tlist = read('thread_list_23')
+	#status = tfile_status(tlist, tcat)
+	#hist = Hash.new(0)
+	#status.each { |k, v| hist[v[1]] += 1 }
 	#puts status.keep_if { |k,v| v[1] == 2 }
-	puts hist
+	puts tcat.keep_if { |k,v| [305755, 305483, 306133, 290400].include?(k) }
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-#puts write(update_tlist(23), 'tllist_update_23')
-#get_all_threads(23, 37374)
-test_tf_stat
+#write(update_tlist(23), 'tllist_update_23')
+#get_all_threads(23, 0)
+#test_tf_stat

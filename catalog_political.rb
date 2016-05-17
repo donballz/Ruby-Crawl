@@ -6,7 +6,7 @@ PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
 
 ###############
 #### TO DO ####
-# 1. 
+# 1. Why does update list have dupes?
 ###############
 
 class MyThread
@@ -53,7 +53,7 @@ def get_last_post(thread)
 	page = get_page(url)
 	found = page.find('title="First Page - Results 1 to 10 of ')
 	last = page.index('"', found)
-	return page[found...last].to_i unless found == -1
+	return page[found...last].tr(',','').to_i unless found == -1
 	return 0
 end
 

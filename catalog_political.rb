@@ -2,6 +2,7 @@ require_relative 'readThread.rb'
 require_relative 'StringFind.rb'
 
 STICKY = 280594
+PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
 
 ###############
 #### TO DO ####
@@ -21,14 +22,12 @@ end
 
 def write(obj, fname)
 	# writes any object to supplied filename. naming conflict with rT class func
-	path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
-	File.open(path + "#{fname}.yml", 'w') { |f| f.write obj.to_yaml }
+	File.open(PATH + "#{fname}.yml", 'w') { |f| f.write obj.to_yaml }
 end
 
 def read(fname)
 	# reads yaml file to object
-	path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
-	return YAML.load_file(path + "#{fname}.yml")
+	return YAML.load_file(PATH + "#{fname}.yml")
 end
 
 def get_page(url)
@@ -131,7 +130,37 @@ def get_all_threads(fnum, start)
 	end
 	return nil
 end
+
+def tfile_status(tlist, tcat)
+	# sets status indictors for each thread in tlist
+	#   0 = 0 posts
+	#   1 = file good
+	#   2 = file missing
+	tcat_new = {}
+	tlist.each do |t| 
+		if tcat.has_key?(t)
+			if not File.exist?("#{PATH}Threads/#{t}.rb")
+				tcat_new[t] = [t, 2]
+			elsif tcat[t] == 0
+				tcat_new[t] = [t, 0]
+			else
+				tcat_new[t] = [t, 1]
+			end
+		end
+	end
+	return tcat_new
+end
+
+def test_tf_stat()
+	# testing for tfile_status
+	tcat = read('thread_cat_23')
+	tlist = read('thread_list_23')
+	tlist.slice!(0, 50)
+	puts tlist.length
+	puts tfile_status(tlist, tcat.delete_if { |k,v| tlist.include?(k) } )
+end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #puts write(update_tlist(23), 'tllist_update_23')
-get_all_threads(23, 23372)
+#get_all_threads(23, 37374)
+test_tf_stat

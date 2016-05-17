@@ -17,6 +17,7 @@ class MyThread
 		@tPosts.slice!(full, @tPosts.length)
 		@tPostLog.slice!(full, @tPostLog.length)
 		build_thread(full / 40 + 1)
+		@curDate = DateTime.now
 	end
 end
 
@@ -155,9 +156,7 @@ def test_tf_stat()
 	# testing for tfile_status
 	tcat = read('thread_cat_23')
 	tlist = read('thread_list_23')
-	tlist.slice!(0, 50)
-	puts tlist.length
-	puts tfile_status(tlist, tcat.delete_if { |k,v| tlist.include?(k) } )
+	puts tfile_status(tlist, tcat)
 end
 	
 #write(get_thread_list(23), 'thread_list_23')

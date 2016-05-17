@@ -1,12 +1,12 @@
 require_relative 'readThread.rb'
 require_relative 'StringFind.rb'
+require_relative 'common_funcs.rb'
 
 STICKY = 280594
-PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
 
 ###############
 #### TO DO ####
-# 1. Why does update list have dupes?
+# 1. 
 ###############
 
 class MyThread
@@ -19,21 +19,6 @@ class MyThread
 		build_thread(full / 40 + 1)
 		@curDate = DateTime.now
 	end
-end
-
-def write(obj, fname)
-	# writes any object to supplied filename. naming conflict with rT class func
-	File.open(PATH + "#{fname}.yml", 'w') { |f| f.write obj.to_yaml }
-end
-
-def read(fname)
-	# reads yaml file to object
-	return YAML.load_file(PATH + "#{fname}.yml")
-end
-
-def get_page(url)
-	# fetches webpage as flat string
-	return Net::HTTP.get(URI.parse(url))
 end
 
 def build_url(fNum, pageNum)
@@ -155,15 +140,16 @@ end
 def test_tf_stat()
 	# testing for tfile_status
 	tcat = read('thread_cat_23')
-	#tlist = read('thread_list_23')
-	#status = tfile_status(tlist, tcat)
-	#hist = Hash.new(0)
-	#status.each { |k, v| hist[v[1]] += 1 }
+	tlist = read('thread_list_23')
+	status = tfile_status(tlist, tcat)
+	hist = Hash.new(0)
+	status.each { |k, v| hist[v[1]] += 1 }
 	#puts status.keep_if { |k,v| v[1] == 2 }
-	puts tcat.keep_if { |k,v| [305755, 305483, 306133, 290400].include?(k) }
+	#puts tcat.keep_if { |k,v| [305755, 305483, 306133, 290400].include?(k) }
+	puts hist
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-write(update_tlist(23), 'tllist_update_23')
-get_all_threads(23, 0)
-#test_tf_stat
+#write(update_tlist(23), 'tllist_update_23')
+#get_all_threads(23, 0)
+test_tf_stat

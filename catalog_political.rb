@@ -6,7 +6,7 @@ PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
 
 ###############
 #### TO DO ####
-# 1. Modify get_all_threads to add new posts instead of rebuilding thread each time
+# 1. 
 ###############
 
 class MyThread
@@ -140,12 +140,12 @@ def tfile_status(tlist, tcat)
 	tcat_new = {}
 	tlist.each do |t| 
 		if tcat.has_key?(t)
-			if not File.exist?("#{PATH}Threads/#{t}.rb")
-				tcat_new[t] = [t, 2]
+			if not File.exist?("#{PATH}Threads/#{t}.yml")
+				tcat_new[t] = [tcat[t], 2]
 			elsif tcat[t] == 0
-				tcat_new[t] = [t, 0]
+				tcat_new[t] = [tcat[t], 0]
 			else
-				tcat_new[t] = [t, 1]
+				tcat_new[t] = [tcat[t], 1]
 			end
 		end
 	end
@@ -156,7 +156,11 @@ def test_tf_stat()
 	# testing for tfile_status
 	tcat = read('thread_cat_23')
 	tlist = read('thread_list_23')
-	puts tfile_status(tlist, tcat)
+	status = tfile_status(tlist, tcat)
+	hist = Hash.new(0)
+	status.each { |k, v| hist[v[1]] += 1 }
+	#puts status.keep_if { |k,v| v[1] == 2 }
+	puts hist
 end
 	
 #write(get_thread_list(23), 'thread_list_23')

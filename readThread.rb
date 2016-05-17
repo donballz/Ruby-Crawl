@@ -27,6 +27,10 @@ class MyThread
 		return @curDate.strftime("%-m/%-d/%Y %l:%M %p")
 	end
 	
+	def each
+		self.tPosts.each { |post| yield post }
+	end
+	
 	private # all subsequent methods are private to the class
 	
 	def build_url(tnum, pageNum)

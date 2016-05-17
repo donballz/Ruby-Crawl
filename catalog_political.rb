@@ -87,7 +87,7 @@ def update_tlist(fnum)
 	tlist = []
 	thread = STICKY
 	page = get_page(build_url(fnum, 1))
-	(1..5).to_a.each do |pnum|
+	(2..5).to_a.each do |pnum|
 		found = 0
 		until found == -1
 			found = page.find('<td class="alt1" id="td_threadtitle_', found)
@@ -164,6 +164,6 @@ def test_tf_stat()
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-#write(update_tlist(23), 'tllist_update_23')
-#get_all_threads(23, 0)
+write(update_tlist(23), 'tllist_update_23')
+get_all_threads(23, 0)
 #test_tf_stat

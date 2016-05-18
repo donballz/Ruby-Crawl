@@ -5,7 +5,7 @@ require_relative 'common_funcs.rb'
 def annual_hash
 	# return hash of blank hashes by year
 	mh = {}
-	[2001...2016].each { |y| mh[y] = Hash.new(0) }
+	(2001..2016).to_a.each { |y| mh[y] = Hash.new(0) }
 	return mh
 end
 
@@ -18,7 +18,7 @@ def per_year_stats(fnum)
 	tcat.each do |k, v|
 		if v > 0
 			mt = read("Threads/#{k}")
-			tpy[mt.tPosts[0].tYear] += 1
+			tpy[mt.tPosts[0].pYear] += 1
 			mt.each do |post| 
 				ppy[post.pYear] += 1 
 				top_posters[post.pYear][post.pPoster] += 1
@@ -36,7 +36,7 @@ end
 
 now = Time.now
 #puts posts_per_year(23)
-tpy, ppy, tp = threads_per_year(23)
+tpy, ppy, tp = per_year_stats(23)
 puts tpy
 puts ppy
 puts tp

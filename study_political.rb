@@ -10,22 +10,29 @@ def annual_hash
 end
 
 def per_year_stats(fnum)
-	# returns hash of posts by year for given subforum
+	# returns hashes by year for given subforum
 	tcat = read("thread_cat_#{fnum}")
 	ppy = Hash.new(0)
 	tpy = Hash.new(0)
-	top_posters = annual_hash
+	pppy = annual_hash
+	ptpy = annual_hash
+	pqpy = annual_hash
+	pwpy = annual_hash
 	tcat.each do |k, v|
 		if v > 0
 			mt = read("Threads/#{k}")
 			tpy[mt.tPosts[0].pYear] += 1
 			mt.each do |post| 
 				ppy[post.pYear] += 1 
-				top_posters[post.pYear][post.pPoster] += 1
+				pppy[post.pYear][post.pPoster] += 1
+				ptpy[post.pYear]["#{mt.tNum}: #{mt.tTitle}"] += 1
+				post.pQuoted.each { |q, qnum| pqpy[post.pYear][q] += 1 }
+				words = post.pPost.downcase.tr('.,;[]{}!@#$%^&*()<>?:"\|/`~', '').split
+				words.each { |w| pwpy[post.pYear][w] += 1 }
 			end
 		end
 	end
-	return tpy, ppy
+	return tpy, ppy, pppy, ptpy, pqpy, pwpy
 end
 
 def ttesting(thread)
@@ -36,9 +43,16 @@ end
 
 now = Time.now
 #puts posts_per_year(23)
-tpy, ppy, tp = per_year_stats(23)
-puts tpy
-puts ppy
-puts tp
+tpy, ppy, pppy, ptpy, pqpy, pwpy = per_year_stats(23)
+puts pppy
+puts ptpy
+puts pqpy
+puts pwpy
+write(tpy, 'threads_per_year')
+write(ppy, 'posts_per_year')
+write(pppy, 'per_poster_per_year')
+write(ptpy, 'per_thread_per_year')
+write(pqpy, 'per_quoted_per_year')
+write(pwpy, 'per_word_per_year')
 #ttesting(308671)
 puts "Run time: #{Time.now - now}"

@@ -119,6 +119,10 @@ class Post
 		return @pTime.strftime("%-m/%-d/%Y %l:%M %p")
 	end
 	
+	def pYear
+		return @pTime.year
+	end
+	
 	private # all subsequent methods are private to the class
 	
 	def clean_posts(post)

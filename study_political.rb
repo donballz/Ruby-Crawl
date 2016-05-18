@@ -7,11 +7,20 @@ def posts_per_year(fnum)
 	tcat = read("thread_cat_#{fnum}")
 	tcat.each do |k, v|
 		if v > 0
+			ppy = Hash.new(0)
 			mt = read("Threads/#{k}")
-			mt.each { |post| puts post.pTime }
+			puts mt.curDate
+			mt.each { |post| puts mt.tPosts.index(post) + 1 if post.pYear == 1779 }
 			break
 		end
 	end
 end
 
-posts_per_year(23)
+def ttesting(thread)
+	mt = read("Threads/#{thread}")
+	puts mt.curDate
+	mt.each { |post| puts post.pTime }
+end
+
+#posts_per_year(23)
+ttesting(308671)

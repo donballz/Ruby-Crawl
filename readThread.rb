@@ -171,7 +171,7 @@ class Post
 	def parse_date(tstamp) 
 		# takes string date and creates DateTime object
 		if tstamp[0,9] == 'Yesterday'
-			now = DateTime.now - 24 * 60 * 60
+			now = DateTime.now - 1
 			time = DateTime.strptime(tstamp[11,8], "%H:%M %p")
 		elsif tstamp[0,5] == 'Today'
 			now = DateTime.now

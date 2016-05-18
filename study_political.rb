@@ -18,21 +18,27 @@ def per_year_stats(fnum)
 	ptpy = annual_hash
 	pqpy = annual_hash
 	pwpy = annual_hash
+	uppt = Hash.new(0)
 	tcat.each do |k, v|
 		if v > 0
 			mt = read("Threads/#{k}")
 			tpy[mt.tPosts[0].pYear] += 1
 			mt.each do |post| 
+				unique_posters = []
 				ppy[post.pYear] += 1 
 				pppy[post.pYear][post.pPoster] += 1
 				ptpy[post.pYear]["#{mt.tNum}: #{mt.tTitle}"] += 1
 				post.pQuoted.each { |q, qnum| pqpy[post.pYear][q] += 1 }
 				words = post.pPost.downcase.tr('.,;[]{}!@#$%^&*()<>?:"\|/`~', '').split
 				words.each { |w| pwpy[post.pYear][w] += 1 }
+				unless unique_posters.include?(post.pPoster)
+					uppt[mt.tNum] += 1
+					unique_posters.push(post.pPoster)
+				end
 			end
 		end
 	end
-	return tpy, ppy, pppy, ptpy, pqpy, pwpy
+	return tpy, ppy, pppy, ptpy, pqpy, pwpy, uppt
 end
 
 def ttesting(thread)
@@ -42,17 +48,15 @@ def ttesting(thread)
 end
 
 def run_stats(fnum)
-	tpy, ppy, pppy, ptpy, pqpy, pwpy = per_year_stats(fnum)
-	puts pppy
-	puts ptpy
-	puts pqpy
-	puts pwpy
-	write(tpy, 'threads_per_year')
-	write(ppy, 'posts_per_year')
-	write(pppy, 'per_poster_per_year')
-	write(ptpy, 'per_thread_per_year')
-	write(pqpy, 'per_quoted_per_year')
-	write(pwpy, 'per_word_per_year')
+	tpy, ppy, pppy, ptpy, pqpy, pwpy, uppt = per_year_stats(fnum)
+	puts uppt
+	#write(tpy, 'threads_per_year')
+	#write(ppy, 'posts_per_year')
+	#write(pppy, 'per_poster_per_year')
+	#write(ptpy, 'per_thread_per_year')
+	#write(pqpy, 'per_quoted_per_year')
+	#write(pwpy, 'per_word_per_year')
+	write(uppt, 'unique_posters_per_thread')
 end
 
 def simple_print(mh)
@@ -69,7 +73,8 @@ def complex_print(mh, limit)
 end
 
 now = Time.now
-mh = read('per_word_per_year')
-complex_print(mh, 1)
+run_stats(23)
+#mh = read('per_word_per_year')
+#complex_print(mh, 1)
 #ttesting(308671)
 puts "Run time: #{Time.now - now}"

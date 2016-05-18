@@ -41,18 +41,35 @@ def ttesting(thread)
 	mt.each { |post| puts post.pTime }
 end
 
+def run_stats(fnum)
+	tpy, ppy, pppy, ptpy, pqpy, pwpy = per_year_stats(fnum)
+	puts pppy
+	puts ptpy
+	puts pqpy
+	puts pwpy
+	write(tpy, 'threads_per_year')
+	write(ppy, 'posts_per_year')
+	write(pppy, 'per_poster_per_year')
+	write(ptpy, 'per_thread_per_year')
+	write(pqpy, 'per_quoted_per_year')
+	write(pwpy, 'per_word_per_year')
+end
+
+def simple_print(mh)
+	# prints naive hash by year
+	mh.each { |y, v| puts "#{y} #{v}" }
+	return nil
+end
+
+def complex_print(mh, limit)
+	# prints more complex annual hash
+	mh.each do |y, subhash|
+		subhash.each { |k, v| puts "#{y} #{k} #{v}" if v > limit}
+	end
+end
+
 now = Time.now
-#puts posts_per_year(23)
-tpy, ppy, pppy, ptpy, pqpy, pwpy = per_year_stats(23)
-puts pppy
-puts ptpy
-puts pqpy
-puts pwpy
-write(tpy, 'threads_per_year')
-write(ppy, 'posts_per_year')
-write(pppy, 'per_poster_per_year')
-write(ptpy, 'per_thread_per_year')
-write(pqpy, 'per_quoted_per_year')
-write(pwpy, 'per_word_per_year')
+mh = read('per_word_per_year')
+complex_print(mh, 1)
 #ttesting(308671)
 puts "Run time: #{Time.now - now}"

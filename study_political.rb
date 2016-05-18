@@ -9,7 +9,7 @@ def posts_per_year(fnum)
 		if v > 0
 			ppy = Hash.new(0)
 			mt = read("Threads/#{k}")
-			puts mt.curDate
+			puts mt.tTitle
 			mt.each { |post| puts mt.tPosts.index(post) + 1 if post.pYear == 1779 }
 			break
 		end
@@ -23,4 +23,4 @@ def ttesting(thread)
 end
 
 #posts_per_year(23)
-ttesting(308671)
+#ttesting(308671)

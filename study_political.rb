@@ -23,8 +23,8 @@ def per_year_stats(fnum)
 		if v > 0
 			mt = read("Threads/#{k}")
 			tpy[mt.tPosts[0].pYear] += 1
+			unique_posters = []
 			mt.each do |post| 
-				unique_posters = []
 				ppy[post.pYear] += 1 
 				pppy[post.pYear][post.pPoster] += 1
 				ptpy[post.pYear]["#{mt.tNum}: #{mt.tTitle}"] += 1
@@ -43,20 +43,26 @@ end
 
 def ttesting(thread)
 	mt = read("Threads/#{thread}")
-	puts mt.curDate
-	mt.each { |post| puts post.pTime }
+	uppt = Hash.new(0)
+	unique_posters = []
+	mt.each do |post| 
+		unless unique_posters.include?(post.pPoster)
+			uppt[mt.tNum] += 1
+			unique_posters.push(post.pPoster)
+		end
+	end
+	return uppt
 end
 
 def run_stats(fnum)
 	tpy, ppy, pppy, ptpy, pqpy, pwpy, uppt = per_year_stats(fnum)
-	puts uppt
 	#write(tpy, 'threads_per_year')
 	#write(ppy, 'posts_per_year')
 	#write(pppy, 'per_poster_per_year')
 	#write(ptpy, 'per_thread_per_year')
 	#write(pqpy, 'per_quoted_per_year')
 	#write(pwpy, 'per_word_per_year')
-	write(uppt, 'unique_posters_per_thread')
+	#write(uppt, 'unique_posters_per_thread')
 end
 
 def simple_print(mh)
@@ -74,7 +80,8 @@ end
 
 now = Time.now
 run_stats(23)
-#mh = read('per_word_per_year')
-#complex_print(mh, 1)
-#ttesting(308671)
+#mh = read('unique_posters_per_thread')
+#complex_print(mh, 1) # set to 1 for words, else 0
+#simple_print(mh)
+#puts ttesting(308604)
 puts "Run time: #{Time.now - now}"

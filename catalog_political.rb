@@ -150,6 +150,6 @@ def test_tf_stat()
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-#write(update_tlist(23), 'tllist_update_23')
-#get_all_threads(23, 0)
-test_tf_stat
+write(update_tlist(23), 'tllist_update_23')
+get_all_threads(23, 0)
+#test_tf_stat

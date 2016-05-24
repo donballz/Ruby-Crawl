@@ -78,10 +78,42 @@ def complex_print(mh, limit)
 	end
 end
 
+def obsessed(fnum)
+	# comparative stats for TAA and erose
+	tcat = read("thread_cat_#{fnum}")
+	erose = ['erosewater', "Rex Ryan's pet coyote"]
+	ero_m = ['erosewater', "rex ryan's pet coyote", 'rrpc', 'erose']
+	taa = ['TheActuarialAssistant']
+	taa_m = ['theactuarialassistant', 'taa']
+	mh = annual_hash
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			mt.each do |post|
+				tq, eq = 0, 0 # track if either quotes the other
+				words = post.pPost.downcase.tr('.,;[]{}!@#$%^&*()<>?:"\|/`~', '').split
+				if taa.include?(post.pPoster) 
+					mh[post.pYear]['TAA'] += 1
+					tq = 1 if post.pQuoted.keys.any? { |q| erose.include? q }
+					mh[post.pYear]['TAQ'] += tq
+					mh[post.pYear]['TAM'] += 1 - tq if words.any? { |w| ero_m.include? w }
+				elsif erose.include?(post.pPoster)
+					mh[post.pYear]['ERS'] += 1
+					eq = 1 if post.pQuoted.keys.any? { |q| taa.include? q }
+					mh[post.pYear]['ERQ'] += eq
+					mh[post.pYear]['ERM'] += 1 - eq if words.any? { |w| taa_m.include? w }
+				end
+			end
+		end
+	end
+	return mh
+end
+
 now = Time.now
 run_stats(23)
 #mh = read('unique_posters_per_thread')
 #complex_print(mh, 1) # set to 1 for words, else 0
 #simple_print(mh)
 #puts ttesting(308604)
+simple_print(obsessed(23))
 puts "Run time: #{Time.now - now}"

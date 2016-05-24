@@ -82,6 +82,19 @@ class MyThread
 
 end
 
+def annual_hash
+	# return hash of blank hashes by year
+	mh = {}
+	(2001..2016).to_a.each { |y| mh[y] = Hash.new(0) }
+	return mh
+end
+
+def simple_print(mh)
+	# prints naive hash by year
+	mh.each { |y, v| puts "#{y} #{v}" }
+	return nil
+end
+
 def Main()
 	#blasphemy = read(306133)
 	#blasphemy.first_post
@@ -96,7 +109,35 @@ def Main()
 	#puts 'confirmed' if millenial.tTitle == nil
 	
 	#bump = read(101562)
-
+	
+	#trump = read(305755)
+	#trump.who_posted
+	
+	#veep = read(308177)
+	#veep.posts_by('erosewater')
+	
+	obsessed = read(306286)
+	erose = ['erosewater', "Rex Ryan's pet coyote"]
+	ero_m = ['erosewater', "rex ryan's pet coyote", 'rrpc', 'erose']
+	taa = ['TheActuarialAssistant']
+	taa_m = ['thetctuarialassistant', 'taa']
+	mh = annual_hash
+	obsessed.each do |post|
+		words = post.pPost.downcase.tr('.,;[]{}!@#$%^&*()<>?:"\|/`~', '').split
+		tq, eq = 0, 0 # track if either quotes the other
+		if taa.include?(post.pPoster) 
+			mh[post.pYear]['TAA'] += 1
+			tq = 1 if post.pQuoted.keys.any? { |q| erose.include? q }
+			mh[post.pYear]['TAQ'] += tq
+			mh[post.pYear]['TAM'] += 1 - tq if words.any? { |w| ero_m.include? w }
+		elsif erose.include?(post.pPoster)
+			mh[post.pYear]['ERS'] += 1
+			eq = 1 if post.pQuoted.keys.any? { |q| taa.include? q }
+			mh[post.pYear]['ERQ'] += eq
+			mh[post.pYear]['ERM'] += 1 - eq if words.any? { |w| taa_m.include? w }
+		end
+	end
+	simple_print(mh)
 end
 
 def store_threads()
@@ -115,6 +156,6 @@ def store_threads()
 end
 
 now = Time.now
-#Main()
-store_threads()
+Main()
+#store_threads()
 puts "Run time: #{Time.now - now}"

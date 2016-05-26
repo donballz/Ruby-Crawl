@@ -109,11 +109,32 @@ def obsessed(fnum)
 	return mh
 end
 
+def find_all(fnum, poster, phrase, skip=0)
+	# finds all instances of a poster and post phrase unless skip is set to 1, then only finds first
+	tcat = read("thread_cat_#{fnum}")
+	mh = annual_hash
+	found = 0
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			mt.each do |post|
+				if post.pPoster == poster and post.pPost.downcase.find(phrase) != 0
+					puts "thread: #{k}, post: #{post.pNum}"
+					found = 1
+					break if skip == 1
+				end
+			end
+		end
+		break if skip == 1 and found == 1
+	end
+end
+
 now = Time.now
-run_stats(23)
+#run_stats(23)
 #mh = read('unique_posters_per_thread')
 #complex_print(mh, 1) # set to 1 for words, else 0
 #simple_print(mh)
 #puts ttesting(308604)
-simple_print(obsessed(23))
+#simple_print(obsessed(23))
+find_all(23, 'nonlnear', 'bearable arms', 1)
 puts "Run time: #{Time.now - now}"

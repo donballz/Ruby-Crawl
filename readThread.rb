@@ -104,7 +104,7 @@ class MyThread
 end
 
 class Post
-	ATTRS = [:pNum, :pPoster, :pPost, :pQuoted]
+	ATTRS = [:pNum, :pPoster, :pPost, :pQuoted, :pTime]
 	attr_reader(*ATTRS)
 	
 	def initialize(pnum, post, meta)

@@ -2,13 +2,6 @@ require_relative 'readThread.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
 
-def annual_hash
-	# return hash of blank hashes by year
-	mh = {}
-	(2001..2016).to_a.each { |y| mh[y] = Hash.new(0) }
-	return mh
-end
-
 def per_year_stats(fnum)
 	# returns hashes by year for given subforum
 	tcat = read("thread_cat_#{fnum}")
@@ -118,7 +111,7 @@ def find_all(fnum, poster, phrase, skip=0)
 		if v > 0
 			mt = read("Threads/#{k}")
 			mt.each do |post|
-				if post.pPoster == poster and post.pPost.downcase.find(phrase) != 0
+				if post.pPoster == poster and post.pPost.downcase.find(phrase) != -1
 					puts "thread: #{k}, post: #{post.pNum}"
 					found = 1
 					break if skip == 1
@@ -136,5 +129,5 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(23))
-find_all(23, 'nonlnear', 'bearable arms', 1)
+find_all(23, 'Childish Gambino', 'die down', 1)
 puts "Run time: #{Time.now - now}"

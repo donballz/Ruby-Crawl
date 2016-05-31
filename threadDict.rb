@@ -25,7 +25,8 @@ class ThreadDict
 	
 	def write
 		# write yaml file of this object
-		write(self, "thread_dict_#{@fNum}")
+		path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
+		File.open(path + "thread_dict_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
 	def make_lists(fnum)

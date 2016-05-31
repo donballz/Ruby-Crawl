@@ -1,4 +1,5 @@
 require_relative 'readThread.rb'
+require_relative 'threadDict.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
 
@@ -129,5 +130,7 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(23))
-find_all(23, 'Childish Gambino', 'die down', 1)
+#find_all(23, 'Childish Gambino', 'die down', 1)
+mtd = ThreadDict.new(23)
+mtd.write
 puts "Run time: #{Time.now - now}"

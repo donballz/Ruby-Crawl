@@ -40,7 +40,7 @@ class ThreadDict
 				op = 1
 				mt.each do |post|
 					if op == 1
-						@tTimesUnq.push(mt.pTime)
+						@tTimesUnq.push(post.pTime)
 						op = 0
 					end
 					@pNums.push(post.pNum)

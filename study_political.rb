@@ -131,6 +131,7 @@ now = Time.now
 #puts ttesting(308604)
 #simple_print(obsessed(23))
 #find_all(23, 'Childish Gambino', 'die down', 1)
-mtd = ThreadDict.new(23)
-mtd.write
+#mtd = ThreadDict.new(23)
+#mtd.write
+find_all(23, 'ShebaPoe', '9/11')
 puts "Run time: #{Time.now - now}"

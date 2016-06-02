@@ -3,6 +3,8 @@ require_relative 'threadDict.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
 
+FORUM = 23
+
 def per_year_stats(fnum)
 	# returns hashes by year for given subforum
 	tcat = read("thread_cat_#{fnum}")
@@ -124,14 +126,14 @@ def find_all(fnum, poster, phrase, skip=0)
 end
 
 now = Time.now
-#run_stats(23)
+#run_stats(FORUM)
 #mh = read('unique_posters_per_thread')
 #complex_print(mh, 1) # set to 1 for words, else 0
 #simple_print(mh)
 #puts ttesting(308604)
-#simple_print(obsessed(23))
-#find_all(23, 'Childish Gambino', 'die down', 1)
-#mtd = ThreadDict.new(23)
+#simple_print(obsessed(FORUM))
+#find_all(FORUM, 'Childish Gambino', 'die down', 1)
+#mtd = ThreadDict.new(FORUM)
 #mtd.write
-find_all(23, 'ShebaPoe', '9/11')
+find_all(FORUM, 'ShebaPoe', '9/11')
 puts "Run time: #{Time.now - now}"

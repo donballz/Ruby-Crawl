@@ -72,7 +72,7 @@ def update_tlist(fnum)
 	tlist = []
 	thread = STICKY
 	page = get_page(build_url(fnum, 1))
-	(2..5).to_a.each do |pnum|
+	(2..10).to_a.each do |pnum|
 		found = 0
 		until found == -1
 			found = page.find('<td class="alt1" id="td_threadtitle_', found)

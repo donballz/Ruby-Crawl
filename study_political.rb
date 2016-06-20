@@ -135,5 +135,5 @@ now = Time.now
 #find_all(FORUM, 'Childish Gambino', 'die down', 1)
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
-find_all(FORUM, 'ShebaPoe', '9/11')
+find_all(FORUM, 'PeppermintPatty', 'delete')
 puts "Run time: #{Time.now - now}"

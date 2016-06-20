@@ -4,7 +4,7 @@ require 'yaml'
 require 'cgi'
 
 class MyThread
-	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum]
+	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum, :tPostLog]
 	attr_reader(*ATTRS)
 		
 	def initialize(tnum)

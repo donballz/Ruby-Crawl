@@ -2,7 +2,7 @@ require_relative 'readThread.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
 
-STICKY = 280594
+STICKY = [280594, 310192]
 
 ###############
 #### TO DO ####
@@ -45,11 +45,11 @@ end
 def get_thread_list(fnum)
 	# function crawls given subforum and returns array of threads
 	tlist = []
-	thread, pnum, found = STICKY, 1, 0
+	thread, pnum, found = STICKY[0], 1, 0
 	page = get_page(build_url(fnum, pnum))
 	until tlist.include?(thread)
 		# puts in list unless already on list. also ignores the sticky
-		tlist.push(thread) unless thread == STICKY
+		tlist.push(thread) unless STICKY.include?(thread)
 		found = page.find('<td class="alt1" id="td_threadtitle_', found)
 		end_tnum = page.index('"', found)
 		if found == -1
@@ -59,7 +59,7 @@ def get_thread_list(fnum)
 			found = 0
 			puts pnum
 			#write(tlist, "thread_list_#{fnum}")
-			thread = STICKY
+			thread = STICKY[0]
 		else
 			thread = page[found...end_tnum].to_i
 		end
@@ -70,7 +70,7 @@ end
 def update_tlist(fnum)
 	# function crawls given subforum and returns array of threads
 	tlist = []
-	thread = STICKY
+	thread = STICKY[0]
 	page = get_page(build_url(fnum, 1))
 	(2..10).to_a.each do |pnum|
 		found = 0
@@ -81,11 +81,11 @@ def update_tlist(fnum)
 				# get next page, report the page num, and save results to prevent error loss
 				page = get_page(build_url(fnum, pnum)) 
 				puts pnum
-				thread = STICKY
+				thread = STICKY[0]
 			else
 				thread = page[found...end_tnum].to_i
 			end
-			tlist.push(thread) unless thread == STICKY
+			tlist.push(thread) unless STICKY.include?(thread)
 		end
 	end
 	return tlist

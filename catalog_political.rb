@@ -118,7 +118,7 @@ def get_all_threads(fnum, start)
 		end
 	end
 	parse_hist.write
-	return nil
+	return time
 end
 
 def tfile_status(tlist, tcat)
@@ -155,6 +155,5 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 write(update_tlist(23), 'tllist_update_23')
-get_all_threads(23, 0)
-puts Time.now
+puts get_all_threads(23, 0)
 #test_tf_stat

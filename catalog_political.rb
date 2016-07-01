@@ -95,6 +95,8 @@ def get_all_threads(fnum, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
 	tlist = read("tllist_update_#{fnum}")
+	parse_hist = read("parse_history_#{fnum}")
+	time = Time.now
 	tlist.slice(start, tlist.length).each do |thread|
 		tcat = read("thread_cat_#{fnum}")
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
@@ -108,12 +110,14 @@ def get_all_threads(fnum, start)
 			end
 			parsed.write
 			tcat[thread] = parsed.tPosts.length
+			parse_hist.update(thread, parsed.tPosts.length, time)
 			write(tcat, "thread_cat_#{fnum}")
 			puts "#{thread}, #{tcat[thread]} #{status}"
 		else
 			puts "#{thread}, #{tcat[thread]} cleared"
 		end
 	end
+	parse_hist.write
 	return nil
 end
 

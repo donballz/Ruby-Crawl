@@ -73,10 +73,6 @@ class ParseHistory
 		File.open(path + "parse_history_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
-	def updateTimes=(time_list)
-		@updateTimes = time_list
-	end
-	
 	def build_history(fnum, init)
 		# the real initialize method
 		tcat = read("thread_cat_#{fnum}")

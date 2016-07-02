@@ -2,4 +2,8 @@ require_relative 'threadDict.rb'
 require_relative 'common_funcs.rb'
 
 ph = read('parse_history_23')
-puts ph.updateTimes
+repair = []
+ph.updateTimes.each { |t| repair.push(t) unless repair.include?(t) }
+#puts repair
+ph.updateTimes = repair
+ph.write

@@ -61,7 +61,7 @@ class ParseHistory
 	
 	def initialize(fnum, init)
 		@fNum = fnum
-		@updateTimes = []
+		@updateTimes = [init]
 		@threadTimes = {}
 		@threadPosts = {}
 		build_history(fnum, init)
@@ -80,7 +80,6 @@ class ParseHistory
 			if v > 0
 				# political initial time:
 				#init = Time.new(2016,06,24,21,14,0)
-				@updateTimes.push(init)
 				@threadTimes[k] = [init]
 				@threadPosts[k] = [v]
 			end

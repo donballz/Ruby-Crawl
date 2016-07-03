@@ -51,6 +51,27 @@ class ThreadDict
 			end
 		end
 	end
+	
+	def update(mt)
+		# method to update the ThreadDict to keep in sync with active library
+		unless @tNumsUnq.include?(mt.tNum)
+			@tNumsUnq.push(mt.tNum) 
+			@tTitlesUnq.push(mt.tTitle)
+			@tOPsUnq.push(mt.tTitle)
+			@tTimesUnq.push(mt.tPosts[0].pTime)
+		end
+		mt.each do |post|
+			unless @pNums.include?(post.pNum)
+				@pNums.push(post.pNum)
+				@pPosters.push(post.pPoster)
+				@pQuoted.push(post.pQuoted)
+				@pTimes.push(post.pTime)
+				@tNums.push(mt.tNum)
+				@tTitles.push(mt.tTitle)
+				@tOPs.push(mt.tTitle)
+			end
+		end
+	end
 end
 
 class ParseHistory

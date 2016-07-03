@@ -74,7 +74,7 @@ def update_tlist(fnum)
 	tlist = []
 	thread = STICKY[0]
 	page = get_page(build_url(fnum, 1))
-	(2..10).to_a.each do |pnum|
+	(2..2).to_a.each do |pnum| #set back to 10 after test
 		found = 0
 		until found == -1
 			found = page.find('<td class="alt1" id="td_threadtitle_', found)
@@ -97,7 +97,8 @@ def get_all_threads(fnum, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
 	tlist = read("tllist_update_#{fnum}")
-	parse_hist = read("parse_history_#{fnum}")
+	phist = read("parse_history_#{fnum}")
+	tdict = read("thread_dict_#{fnum}")
 	time = Time.now
 	tlist.slice(start, tlist.length).each do |thread|
 		tcat = read("thread_cat_#{fnum}")
@@ -112,14 +113,16 @@ def get_all_threads(fnum, start)
 			end
 			parsed.write
 			tcat[thread] = parsed.tPosts.length
-			parse_hist.update(thread, parsed.tPosts.length, time)
+			phist.update(thread, parsed.tPosts.length, time)
+			tdict.update(parsed)
 			write(tcat, "thread_cat_#{fnum}")
 			puts "#{thread}, #{tcat[thread]} #{status}"
 		else
 			puts "#{thread}, #{tcat[thread]} cleared"
 		end
 	end
-	parse_hist.write
+	phist.write
+	tdict.write
 	return time
 end
 

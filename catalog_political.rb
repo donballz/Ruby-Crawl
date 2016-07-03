@@ -7,9 +7,6 @@ STICKY = [280594, 310192]
 
 ###############
 #### TO DO ####
-# 1. Clean up the thread dict definition
-#   a. tTitles is unused. Is it needed?
-#   b. Posts are not qualified by thread. Should they be?
 # 2. Update the thread dict after parse
 # 3. Combine the parse history and thread dict classes to save i/o
 ###############

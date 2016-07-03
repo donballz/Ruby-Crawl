@@ -38,16 +38,15 @@ class ThreadDict
 				@tNumsUnq.push(k)
 				@tTitlesUnq.push(mt.tTitle)
 				@tOPsUnq.push(mt.tTitle)
-				op = 1
+				@tTimesUnq.push(mt.tPosts[0].pTime)
 				mt.each do |post|
-					if op == 1
-						@tTimesUnq.push(post.pTime)
-						op = 0
-					end
 					@pNums.push(post.pNum)
 					@pPosters.push(post.pPoster)
-					#@pQuoted # add later
+					@pQuoted.push(post.pQuoted)
 					@pTimes.push(post.pTime)
+					@tNums.push(k)
+					@tTitles.push(mt.tTitle)
+					@tOPs.push(mt.tTitle)
 				end
 			end
 		end

@@ -98,7 +98,7 @@ def get_all_threads(fnum, start)
 	#   keeps running hash of thread stats in case it errors out.
 	tlist = read("tllist_update_#{fnum}")
 	phist = read("parse_history_#{fnum}")
-	tdict = read("thread_dict_#{fnum}")
+	#tdict = read("thread_dict_#{fnum}")
 	time = Time.now
 	tlist.slice(start, tlist.length).each do |thread|
 		tcat = read("thread_cat_#{fnum}")
@@ -114,7 +114,7 @@ def get_all_threads(fnum, start)
 			parsed.write
 			tcat[thread] = parsed.tPosts.length
 			phist.update(thread, parsed.tPosts.length, time)
-			tdict.update(parsed)
+			#tdict.update(parsed)
 			write(tcat, "thread_cat_#{fnum}")
 			puts "#{thread}, #{tcat[thread]} #{status}"
 		else
@@ -122,7 +122,7 @@ def get_all_threads(fnum, start)
 		end
 	end
 	phist.write
-	tdict.write
+	#tdict.write
 	return time
 end
 

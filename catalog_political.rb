@@ -74,7 +74,7 @@ def update_tlist(fnum)
 	tlist = []
 	thread = STICKY[0]
 	page = get_page(build_url(fnum, 1))
-	(2..2).to_a.each do |pnum| #set back to 10 after test
+	(2..10).to_a.each do |pnum| 
 		found = 0
 		until found == -1
 			found = page.find('<td class="alt1" id="td_threadtitle_', found)
@@ -93,15 +93,15 @@ def update_tlist(fnum)
 	return tlist
 end
 
-def get_all_threads(fnum, start)
+def get_all_threads(fnum, tlist, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
-	tlist = read("tllist_update_#{fnum}")
+	#tlist = read("tllist_update_#{fnum}")
 	phist = read("parse_history_#{fnum}")
 	#tdict = read("thread_dict_#{fnum}")
+	tcat = read("thread_cat_#{fnum}")
 	time = Time.now
 	tlist.slice(start, tlist.length).each do |thread|
-		tcat = read("thread_cat_#{fnum}")
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
 			if tcat.has_key?(thread)
 				parsed = read("Threads/#{thread}")
@@ -115,7 +115,6 @@ def get_all_threads(fnum, start)
 			tcat[thread] = parsed.tPosts.length
 			phist.update(thread, parsed.tPosts.length, time)
 			#tdict.update(parsed)
-			write(tcat, "thread_cat_#{fnum}")
 			puts "#{thread}, #{tcat[thread]} #{status}"
 		else
 			puts "#{thread}, #{tcat[thread]} cleared"
@@ -123,6 +122,7 @@ def get_all_threads(fnum, start)
 	end
 	phist.write
 	#tdict.write
+	write(tcat, "thread_cat_#{fnum}")
 	return time
 end
 
@@ -159,6 +159,7 @@ def test_tf_stat()
 end
 	
 #write(get_thread_list(23), 'thread_list_23')
-write(update_tlist(23), 'tllist_update_23')
-puts get_all_threads(23, 0)
+#write(update_tlist(23), 'tllist_update_23')
+tlist = update_tlist(23)
+puts get_all_threads(23, tlist, 0)
 #test_tf_stat

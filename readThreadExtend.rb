@@ -39,6 +39,13 @@ class MyThread
 		return nil
 	end
 	
+	def posts_per_day(poster)
+		days = Hash.new(0)
+		self.tPosts.each { |post| days[post.pTime.split[0]] += 1 if post.pPoster = poster }
+		days.myPrint(true)
+		return nil
+	end
+	
 	def most_quoted() 	
 		posters = Hash.new(0)
 		self.tPosts.each do |post| 
@@ -135,7 +142,7 @@ def store_threads()
 	nnnnnot.write
 end
 
-now = Time.now
+#now = Time.now
 #Main()
-store_threads()
-puts "Run time: #{Time.now - now}"
+#store_threads()
+#puts "Run time: #{Time.now - now}"

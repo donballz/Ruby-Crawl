@@ -28,22 +28,22 @@ class MyThread
 	def who_posted()
 		posters = Hash.new(0)
 		self.tPosts.each { |post| posters[post.pPoster] += 1 }
-		posters.myPrint(true)
-		return nil
+		#posters.myPrint(true)
+		return posters
 	end
 	
 	def posts_per_day()
 		days = Hash.new(0)
 		self.tPosts.each { |post| days[post.pTime.split[0]] += 1 }
-		days.myPrint(true)
-		return nil
+		#days.myPrint(true)
+		return days
 	end
 	
 	def posts_per_day(poster)
 		days = Hash.new(0)
 		self.tPosts.each { |post| days[post.pTime.split[0]] += 1 if post.pPoster = poster }
-		days.myPrint(true)
-		return nil
+		#days.myPrint(true)
+		return days
 	end
 	
 	def most_quoted() 	
@@ -51,8 +51,8 @@ class MyThread
 		self.tPosts.each do |post| 
 			post.pQuoted.each { |q, qnum| posters[q] += 1 }
 		end
-		posters.myPrint(true)
-		return nil
+		#posters.myPrint(true)
+		return posters
 	end
 	
 	def first_post() 
@@ -75,8 +75,8 @@ class MyThread
 		self.tPosts.each do |post|
 			posters[post.pPoster] += 1 if post.pQuoted.has_key?(poster)
 		end
-		posters.myPrint(true)
-		return nil
+		#posters.myPrint(true)
+		return posters
 	end
 	
 	def find_word(word)
@@ -102,7 +102,7 @@ def simple_print(mh)
 	return nil
 end
 
-def Main()
+def Main_dontrun()
 	#blasphemy = read(306133)
 	#blasphemy.first_post
 	

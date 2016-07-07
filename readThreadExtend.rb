@@ -14,6 +14,15 @@ class Hash
 			sorted.each { |k, v| puts "#{k}: #{v}" }
 		end
 	end
+	
+	def +(that)
+		# adds two hashes with numerical values together. 
+		# returns new hash for mutable avoidance
+		plus = Hash.new(0)
+		self.each { |k,v| plus[k] += v }
+		that.each { |k,v| plus[k] += v }
+		return plus
+	end
 end
 
 class MyThread

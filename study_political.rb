@@ -1,4 +1,5 @@
 require_relative 'readThread.rb'
+require_relative 'readThreadExtend.rb'
 require_relative 'threadDict.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
@@ -125,6 +126,19 @@ def find_all(fnum, poster, phrase, skip=0)
 	end
 end
 
+def ppd_all(fnum, poster)
+	# returns posts per day for given poster and forum
+	ppd = Hash.new(0)
+	tcat = read("thread_cat_#{fnum}")
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			ppd = ppd + mt.posts_per_day(poster)
+		end
+	end
+	return ppd
+end
+
 now = Time.now
 #run_stats(FORUM)
 #mh = read('unique_posters_per_thread')
@@ -135,5 +149,6 @@ now = Time.now
 #find_all(FORUM, 'Childish Gambino', 'die down', 1)
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
-find_all(FORUM, 'jas66Kent', 'coon')
+#find_all(FORUM, 'jas66Kent', 'coon')
+ppd_all(23, 'Childish Gambino').myPrint
 puts "Run time: #{Time.now - now}"

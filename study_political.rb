@@ -53,13 +53,13 @@ end
 
 def run_stats(fnum)
 	tpy, ppy, pppy, ptpy, pqpy, pwpy, uppt = per_year_stats(fnum)
-	#write(tpy, 'threads_per_year')
-	#write(ppy, 'posts_per_year')
-	#write(pppy, 'per_poster_per_year')
-	#write(ptpy, 'per_thread_per_year')
-	#write(pqpy, 'per_quoted_per_year')
-	#write(pwpy, 'per_word_per_year')
-	#write(uppt, 'unique_posters_per_thread')
+	write(tpy, 'threads_per_year')
+	write(ppy, 'posts_per_year')
+	write(pppy, 'per_poster_per_year')
+	write(ptpy, 'per_thread_per_year')
+	write(pqpy, 'per_quoted_per_year')
+	write(pwpy, 'per_word_per_year')
+	write(uppt, 'unique_posters_per_thread')
 end
 
 def simple_print(mh)
@@ -139,6 +139,17 @@ def ppd_all(fnum, poster)
 	return ppd
 end
 
+def all_posts_by(fnum, poster)
+	# prints all of a poster's posts in a given forum
+	tcat = read("thread_cat_#{fnum}")
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			mt.posts_by(poster)
+		end
+	end
+end
+
 now = Time.now
 #run_stats(FORUM)
 #mh = read('unique_posters_per_thread')
@@ -146,9 +157,10 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(FORUM))
-#find_all(FORUM, 'Childish Gambino', 'die down', 1)
+#find_all(FORUM, 'Childish Gambino', 'word of the day', 1)
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
 #find_all(FORUM, 'jas66Kent', 'coon')
-ppd_all(23, 'Childish Gambino').myPrint
+#ppd_all(23, 'Childish Gambino').myPrint
+all_posts_by(FORUM, "Ito's Phlegm")
 puts "Run time: #{Time.now - now}"

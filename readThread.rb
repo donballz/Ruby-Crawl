@@ -2,6 +2,7 @@ require 'net/http'
 require 'uri'
 require 'yaml'
 require 'cgi'
+require_relative 'StringFind.rb'
 
 class MyThread
 	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum, :tPostLog]
@@ -193,12 +194,19 @@ class Post
 			poster = post[start_quote...end_quote]
 			
 			# find post# of quoted post
-			start_quote = post.index('<a href="showthread.php?p=', end_quote + 1)
+			start_quote = post.find('<a href="showthread.php?p=', end_quote + 1)
 			if start_quote
 				end_quote = post.index('#', start_quote)
-				qnum = post[start_quote + 26...end_quote]
+				qnum = post[start_quote...end_quote]
 			end
 			
+			# find quoted string itself
+			start_quote = post.find('<div style="font-style:italic">', end_quote + 1)
+			if start_quote
+				end_quote = post.index('</div>', start_quote)
+				quote = post[start_quote...end_quote]
+			end
+			puts clean_posts(quote)
 			posters[poster] = qnum.to_i
 			post = post[end_quote + 1..-1]
 		end

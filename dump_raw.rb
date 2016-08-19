@@ -20,4 +20,4 @@ def dump(tnum)
 	return get_page(url)		
 end
 
-puts dump(295916).type
+puts CGI.unescapeHTML(dump(312446))

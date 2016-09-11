@@ -41,16 +41,13 @@ class MyThread
 		return posters
 	end
 	
-	def posts_per_day()
+	def posts_per_day(poster='n/a')
 		days = Hash.new(0)
-		self.tPosts.each { |post| days[post.pTime.split[0]] += 1 }
-		#days.myPrint(true)
-		return days
-	end
-	
-	def posts_per_day(poster)
-		days = Hash.new(0)
-		self.tPosts.each { |post| days[post.pTime.split[0]] += 1 if post.pPoster == poster }
+		if poster == 'n/a'
+			self.tPosts.each { |post| days[post.pTime.split[0]] += 1 }
+		else
+			self.tPosts.each { |post| days[post.pTime.split[0]] += 1 if post.pPoster == poster }
+		end
 		#days.myPrint(true)
 		return days
 	end

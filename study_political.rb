@@ -162,5 +162,8 @@ now = Time.now
 #mtd.write
 #find_all(FORUM, 'jas66Kent', 'coon')
 #ppd_all(23, 'Childish Gambino').myPrint
-all_posts_by(FORUM, "Ito's Phlegm")
+#all_posts_by(FORUM, "Ito's Phlegm")
+stump = read('Threads/305755')
+ppd = stump.posts_per_day()
+ppd.myPrint
 puts "Run time: #{Time.now - now}"

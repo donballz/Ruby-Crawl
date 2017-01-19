@@ -157,10 +157,10 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(FORUM))
-#find_all(FORUM, 'Childish Gambino', 'word of the day', 1)
+find_all(FORUM, "Childish Gambino", 'turnout')
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
 #find_all(FORUM, 'jas66Kent', 'coon')
 #ppd_all(23, 'Childish Gambino').myPrint
-all_posts_by(FORUM, "Ito's Phlegm")
+#all_posts_by(FORUM, "Ito's Phlegm")
 puts "Run time: #{Time.now - now}"

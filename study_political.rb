@@ -38,6 +38,24 @@ def per_year_stats(fnum)
 	return tpy, ppy, pppy, ptpy, pqpy, pwpy, uppt
 end
 
+def threads_per_day(fnum)
+	# returns hash by date with number of threads and posts
+	tcat = read("thread_cat_#{fnum}")
+	dates = Hash.new([0,0])
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			if mt.tOP == '2pac Shakur'
+				date = mt.tPosts[0].pTime
+				dates[date][0] += 1
+				dates[date][1] += mt.tPosts.length
+				puts "#{date} 1 #{v}"
+			end
+		end
+	end
+	return dates
+end
+
 def ttesting(thread)
 	mt = read("Threads/#{thread}")
 	uppt = Hash.new(0)
@@ -157,10 +175,11 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(FORUM))
-find_all(FORUM, "Childish Gambino", 'turnout')
+find_all(FORUM, "win diesel", 'Obama')
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
 #find_all(FORUM, 'jas66Kent', 'coon')
 #ppd_all(23, 'Childish Gambino').myPrint
 #all_posts_by(FORUM, "Ito's Phlegm")
+#simple_print(threads_per_day(FORUM))
 puts "Run time: #{Time.now - now}"

@@ -106,7 +106,7 @@ def get_all_threads(fnum, tlist, start)
 			if tcat.has_key?(thread)
 				parsed = read("Threads/#{thread}")
 				parsed.add_to_thread
-				status = "#{tcat[thread]} added"
+				status = "#{parsed.tPosts.length - tcat[thread]} added"
 			else
 				parsed = MyThread.new(thread)
 				status = 'created'

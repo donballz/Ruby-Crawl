@@ -106,7 +106,7 @@ def get_all_threads(fnum, tlist, start)
 			if tcat.has_key?(thread)
 				parsed = read("Threads/#{thread}")
 				parsed.add_to_thread
-				status = 'added'
+				status = "#{tcat[thread]} added"
 			else
 				parsed = MyThread.new(thread)
 				status = 'created'
@@ -115,9 +115,9 @@ def get_all_threads(fnum, tlist, start)
 			tcat[thread] = parsed.tPosts.length
 			phist.update(thread, parsed.tPosts.length, time)
 			#tdict.update(parsed)
-			puts "#{thread}, #{tcat[thread]} #{status}"
+			puts "#{thread}, #{tcat[thread]} posts #{status}"
 		else
-			puts "#{thread}, #{tcat[thread]} cleared"
+			puts "#{thread}, #{tcat[thread]} no change"
 		end
 	end
 	phist.write

@@ -45,7 +45,7 @@ def get_last_post(thread)
 end
 
 def get_thread_list(fnum)
-	# function crawls given subforum and returns array of threads
+	# function crawls given subforum and returns array of ALL threads
 	tlist = []
 	thread, pnum, found = STICKY[0], 1, 0
 	page = get_page(build_url(fnum, pnum))
@@ -69,8 +69,39 @@ def get_thread_list(fnum)
 	return tlist
 end
 
+def manual_thread_list(max)
+	# takes manually saved html files and returns array of threads
+	tlist = []
+	thread, found = STICKY[0], 0
+	ten, dig = 0, 1
+	page = File.read("#{PATH}Manual/page#{ten}#{dig}.html")
+	until ten*10 + dig > max - 1
+		# puts in list unless already on list. also ignores the sticky
+		tlist.push(thread) unless STICKY.include?(thread)
+		found = page.find('<td class="alt1" id="td_threadtitle_', found)
+		end_tnum = page.index('"', found)
+		if found == -1
+			# get next file, report the file num
+			puts "retrieving page#{ten*10 + dig}.html..."
+			if dig == 9
+				ten += 1
+				dig = 0
+			else
+				dig += 1
+			end
+			page = File.read("#{PATH}Manual/page#{ten}#{dig}.html")
+			found = 0
+			thread = STICKY[0]
+		else
+			thread = page[found...end_tnum].to_i
+		end
+	end
+	puts 'term manual thread pull'
+	return tlist
+end
+
 def update_tlist(fnum)
-	# function crawls given subforum and returns array of threads
+	# function crawls given subforum and returns array of threads (10 pages)
 	tlist = []
 	thread = STICKY[0]
 	page = get_page(build_url(fnum, 1))
@@ -97,17 +128,21 @@ def get_all_threads(fnum, tlist, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
 	#tlist = read("tllist_update_#{fnum}")
+	puts 'retreiving parse history...'
 	phist = read("parse_history_#{fnum}")
 	#tdict = read("thread_dict_#{fnum}")
+	puts 'retrieving thread catalog...'
 	tcat = read("thread_cat_#{fnum}")
 	time = Time.now
 	tlist.slice(start, tlist.length).each do |thread|
 		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
 			if tcat.has_key?(thread)
+				puts "parsing existing thread #{thread}..."
 				parsed = read("Threads/#{thread}")
 				parsed.add_to_thread
 				status = "#{parsed.tPosts.length - tcat[thread]} added"
 			else
+				puts "parsing new thread #{thread}..."
 				parsed = MyThread.new(thread)
 				status = 'created'
 			end
@@ -160,6 +195,6 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #write(update_tlist(23), 'tllist_update_23')
-tlist = update_tlist(23)
+tlist = manual_thread_list(40)
 puts get_all_threads(23, tlist, 0)
 #test_tf_stat

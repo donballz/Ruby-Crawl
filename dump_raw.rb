@@ -20,6 +20,6 @@ def dump(tnum)
 	return get_page(url)		
 end
 
-puts dump(319911)
+#puts dump(319911)
 
-#puts get_page("http://www.actuarialoutpost.com/actuarial_discussion_forum/group.php?groupid=257&pp=50")
+puts get_page("http://www.actuarialoutpost.com/actuarial_discussion_forum/login.php?user=adoggiedetective&password=curtis3078")

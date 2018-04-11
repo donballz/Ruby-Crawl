@@ -175,7 +175,7 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(FORUM))
-find_all(FORUM, "Ito's Phlegm", 'burn')
+find_all(FORUM, "Childish Gambino", 'wants?')
 #mtd = ThreadDict.new(FORUM)
 #mtd.write
 #find_all(FORUM, 'jas66Kent', 'coon')

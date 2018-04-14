@@ -10,13 +10,20 @@ agent.submit(login, login.buttons.first)
 
 pol = agent.get('http://www.actuarialoutpost.com/actuarial_discussion_forum/forumdisplay.php?f=23')
 
-#pp pol.links_with(:text => 'showthread.php?t=')
-threads = []
+# From forum page, build list of unique threads
+threads, links = [], []
 pol.links.each do |l|
-	p l.uri.to_s
-	#if l.uri.to_s.find('showthread.php?t=') != -1
-	#	threads.push(l)
-	#end
+	uriStr = l.uri.to_s 
+	begl = uriStr.index('showthread.php?t=')
+	if begl != nil
+		endl = uriStr.index('&', begl+1)
+		endl = 0 if endl == nil
+		t = uriStr[begl+17..endl-1]
+		unless threads.include?(t)
+			threads.push(t)
+			links.push(l)
+		end
+	end
 end
 
-#threads.each { |t| pp t }
+links.each { |t| pp t.uri }

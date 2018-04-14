@@ -69,56 +69,23 @@ def get_thread_list(fnum)
 	return tlist
 end
 
-def manual_thread_list(max)
-	# takes manually saved html files and returns array of threads
+def update_tlist(fnum, num)
+	# function crawls given subforum and returns array of threads (num pages)
 	tlist = []
-	thread, found = STICKY[0], 0
-	ten, dig = 0, 1
-	page = File.read("#{PATH}Manual/page#{ten}#{dig}.html")
-	until ten*10 + dig > max - 1
-		# puts in list unless already on list. also ignores the sticky
-		tlist.push(thread) unless STICKY.include?(thread)
-		found = page.find('<td class="alt1" id="td_threadtitle_', found)
-		end_tnum = page.index('"', found)
-		if found == -1
-			# get next file, report the file num
-			puts "retrieving page#{ten*10 + dig}.html..."
-			if dig == 9
-				ten += 1
-				dig = 0
-			else
-				dig += 1
+	agent = login()
+	(1..num).to_a.each do |pnum|
+		pol = agent.get(build_url(fnum, pnum))
+		pol.links.each do |l|
+			uriStr = l.uri.to_s 
+			begl = uriStr.index('showthread.php?t=')
+			if begl != nil
+				endl = uriStr.index('&', begl+1)
+				endl = 0 if endl == nil
+				t = uriStr[begl+17..endl-1].to_i
+				unless tlist.include?(t) or STICKY.include?(t)
+					tlist.push(t)
+				end
 			end
-			page = File.read("#{PATH}Manual/page#{ten}#{dig}.html")
-			found = 0
-			thread = STICKY[0]
-		else
-			thread = page[found...end_tnum].to_i
-		end
-	end
-	puts 'term manual thread pull'
-	return tlist
-end
-
-def update_tlist(fnum)
-	# function crawls given subforum and returns array of threads (10 pages)
-	tlist = []
-	thread = STICKY[0]
-	page = get_page(build_url(fnum, 1))
-	(2..10).to_a.each do |pnum| 
-		found = 0
-		until found == -1
-			found = page.find('<td class="alt1" id="td_threadtitle_', found)
-			end_tnum = page.index('"', found)
-			if found == -1
-				# get next page, report the page num, and save results to prevent error loss
-				page = get_page(build_url(fnum, pnum)) 
-				puts pnum
-				thread = STICKY[0]
-			else
-				thread = page[found...end_tnum].to_i
-			end
-			tlist.push(thread) unless STICKY.include?(thread)
 		end
 	end
 	return tlist
@@ -195,6 +162,7 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #write(update_tlist(23), 'tllist_update_23')
-tlist = manual_thread_list(40)
-puts get_all_threads(23, tlist, 0)
+tlist = update_tlist(23, 4)
+puts tlist
+#puts get_all_threads(23, tlist, 0)
 #test_tf_stat

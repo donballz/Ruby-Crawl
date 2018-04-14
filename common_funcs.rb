@@ -1,6 +1,8 @@
 require 'net/http'
 require 'uri'
 require 'yaml'
+require 'rubygems'
+require 'mechanize'
 
 PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
 
@@ -24,4 +26,15 @@ def annual_hash
 	mh = {}
 	(2001..2016).to_a.each { |y| mh[y] = Hash.new(0) }
 	return mh
+end
+
+def login
+	# login to AO and return agent
+	agent = Mechanize.new
+	page = agent.get('http://www.actuarialoutpost.com/actuarial_discussion_forum/index.php')
+	login = page.form_with(:action => "login.php?do=login")
+	login.vb_login_username = 'ADoggieDetective'
+	login.vb_login_password = 'H2A5cVQzT28wCLx#'
+	agent.submit(login, login.buttons.first)
+	return agent
 end

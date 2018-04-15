@@ -17,8 +17,7 @@ class MyThread
 	end
 	
 	def write()
-		path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/Threads/'
-		File.open(path + "#{@tNum}.yml", 'w') { |f| f.write self.to_yaml }
+		File.open("#{PATH}/Threads/#{@tNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
 	def curDate
@@ -32,9 +31,8 @@ class MyThread
 	private # all subsequent methods are private to the class
 	
 	def build_url(tnum, pageNum)
-		server = "http://www.actuarialoutpost.com/"
-    	tbase = "actuarial_discussion_forum/showthread.php?t="
-    	url = server + tbase + tnum.to_s
+		# pares a thread num and page num into thread url
+    	url = SERVER + '/showthread.php?t=' + tnum.to_s
     	url = url + "&pp=40&page=" + pageNum.to_s
     	return url
 	end
@@ -90,6 +88,7 @@ class MyThread
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
     	post = page[start_quote + 1...end_quote]
+    	end_quote = page.index('<td class="thead">')
 		
 		#ic = Iconv.new('UTF-8', 'WINDOWS-1252')
 		#post = post.encode("WINDOWS-1252", :invalid => :replace, :undef => :replace, :replace => "******post can't decode******")

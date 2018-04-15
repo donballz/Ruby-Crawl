@@ -25,18 +25,14 @@ end
 
 def build_url(fNum, pageNum)
 	# pares a subforum number and page into thread list url
-	server = "http://www.actuarialoutpost.com/"
-	tbase = "actuarial_discussion_forum/forumdisplay.php?f="
-	url = server + tbase + fNum.to_s
+	url = SERVER + '/forumdisplay.php?f=' + fNum.to_s
 	url = url + "&order=desc&page=" + pageNum.to_s
 	return url
 end
 
 def get_last_post(thread)
 	# returns last post of given thread
-	server = "http://www.actuarialoutpost.com/"
-	tbase = "actuarial_discussion_forum/showthread.php?t="
-	url = server + tbase + "#{thread}&page=999999"
+	url = SERVER + '/showthread.php?t=' + "#{thread}&page=999999"
 	page = get_page(url)
 	found = page.find('title="First Page - Results 1 to 10 of ')
 	last = page.index('"', found)
@@ -136,7 +132,7 @@ def tfile_status(tlist, tcat)
 	tcat_new = {}
 	tlist.each do |t| 
 		if tcat.has_key?(t)
-			if not File.exist?("#{PATH}Threads/#{t}.yml")
+			if not File.exist?("#{PATH}/Threads/#{t}.yml")
 				tcat_new[t] = [tcat[t], 2]
 			elsif tcat[t] == 0
 				tcat_new[t] = [tcat[t], 0]

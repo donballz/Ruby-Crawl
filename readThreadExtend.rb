@@ -1,8 +1,7 @@
 require_relative 'readThread.rb'
 
 def read(tnum)
-	path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/Threads/'
-	return YAML.load_file(path + "#{tnum}.yml")
+	return YAML.load_file("#{PATH}/Threads/#{tnum}.yml")
 end
 
 class Hash

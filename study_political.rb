@@ -4,7 +4,7 @@ require_relative 'threadDict.rb'
 require_relative 'StringFind.rb'
 require_relative 'common_funcs.rb'
 
-FORUM = 23
+POL = 23
 
 def per_year_stats(fnum)
 	# returns hashes by year for given subforum
@@ -169,17 +169,17 @@ def all_posts_by(fnum, poster)
 end
 
 now = Time.now
-#run_stats(FORUM)
+#run_stats(POL)
 #mh = read('unique_posters_per_thread')
 #complex_print(mh, 1) # set to 1 for words, else 0
 #simple_print(mh)
 #puts ttesting(308604)
-#simple_print(obsessed(FORUM))
-find_all(FORUM, "Childish Gambino", 'wants?')
-#mtd = ThreadDict.new(FORUM)
+#simple_print(obsessed(POL))
+find_all(POL, "Childish Gambino", 'wants?')
+#mtd = ThreadDict.new(POL)
 #mtd.write
-#find_all(FORUM, 'jas66Kent', 'coon')
+#find_all(POL, 'jas66Kent', 'coon')
 #ppd_all(23, 'Childish Gambino').myPrint
-#all_posts_by(FORUM, "Ito's Phlegm")
-#simple_print(threads_per_day(FORUM))
+#all_posts_by(POL, "Ito's Phlegm")
+#simple_print(threads_per_day(POL))
 puts "Run time: #{Time.now - now}"

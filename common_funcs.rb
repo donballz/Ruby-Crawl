@@ -30,7 +30,7 @@ end
 def login
 	# login to AO and return agent
 	agent = Mechanize.new
-	page = agent.get("/#{FORUM}/index.php")
+	page = agent.get("#{FORUM}/index.php")
 	login = page.form_with(:action => 'login.php?do=login')
 	login.vb_login_username = 'ADoggieDetective'
 	login.vb_login_password = 'H2A5cVQzT28wCLx#'

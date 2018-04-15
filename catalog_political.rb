@@ -30,16 +30,6 @@ def build_url(fNum, pageNum)
 	return url
 end
 
-def get_last_post(thread)
-	# returns last post of given thread
-	url = FORUM + '/showthread.php?t=' + "#{thread}&page=999999"
-	page = get_page(url)
-	found = page.find('title="First Page - Results 1 to 10 of ')
-	last = page.index('"', found)
-	return page[found...last].tr(',','').to_i unless found == -1
-	return 0
-end
-
 def get_thread_list(fnum)
 	# function crawls given subforum and returns array of ALL threads
 	# needs mechanize update
@@ -68,26 +58,25 @@ end
 
 def update_tlist(fnum, num)
 	# function crawls given subforum and returns array of threads (num pages)
-	tlist = []
+	tlist, replies = [], []
 	(1..num).to_a.each do |pnum|
 		pol = AGENT.get(build_url(fnum, pnum))
 		pol.links.each do |l|
 			uriStr = l.uri.to_s 
-			begl = uriStr.index('showthread.php?t=')
-			if begl != nil
-				endl = uriStr.index('&', begl+1)
-				endl = 0 if endl == nil
-				t = uriStr[begl+17..endl-1].to_i
+			begl = uriStr.find('misc.php?do=whoposted&t=')
+			if begl != -1
+				t = uriStr[begl, 99].to_i
 				unless tlist.include?(t) or STICKY.include?(t)
 					tlist.push(t)
+					replies.push(l.text.delete(',').to_i + 1)
 				end
 			end
 		end
 	end
-	return tlist
+	return tlist, replies
 end
 
-def get_all_threads(fnum, tlist, start)
+def get_all_threads(fnum, tlist, replies, start)
 	# function reads thread list, parses each thread and writes it to yaml
 	#   keeps running hash of thread stats in case it errors out.
 	#tlist = read("tllist_update_#{fnum}")
@@ -97,25 +86,25 @@ def get_all_threads(fnum, tlist, start)
 	puts 'retrieving thread catalog...'
 	tcat = read("thread_cat_#{fnum}")
 	time = Time.now
-	tlist.slice(start, tlist.length).each do |thread|
-		unless tcat.has_key?(thread) and tcat[thread] >= get_last_post(thread)
-			if tcat.has_key?(thread)
-				puts "parsing existing thread #{thread}..."
-				parsed = read("Threads/#{thread}")
+	tlist.slice(start, tlist.length).each do |tnum|
+		unless tcat.has_key?(tnum) and tcat[tnum] >= replies[tlist.find_index(tnum)]
+			if tcat.has_key?(tnum)
+				puts "parsing existing thread #{tnum}..."
+				parsed = read("Threads/#{tnum}")
 				parsed.add_to_thread
-				status = "#{parsed.tPosts.length - tcat[thread]} added"
+				status = "#{parsed.tPosts.length - tcat[tnum]} added"
 			else
-				puts "parsing new thread #{thread}..."
-				parsed = MyThread.new(thread)
+				puts "parsing new thread #{tnum}..."
+				parsed = MyThread.new(tnum)
 				status = 'created'
 			end
 			parsed.write
-			tcat[thread] = parsed.tPosts.length
-			phist.update(thread, parsed.tPosts.length, time)
+			tcat[tnum] = parsed.tPosts.length
+			phist.update(tnum, parsed.tPosts.length, time)
 			#tdict.update(parsed)
-			puts "#{thread}, #{tcat[thread]} posts #{status}"
+			puts "#{tnum}, #{tcat[tnum]} posts #{status}"
 		else
-			puts "#{thread}, #{tcat[thread]} no change"
+			puts "#{tnum}, #{tcat[tnum]} no change"
 		end
 	end
 	puts 'writing parse history...'
@@ -161,8 +150,8 @@ end
 #write(get_thread_list(23), 'thread_list_23')
 #write(update_tlist(23), 'tllist_update_23')
 time = Time.now
-tlist = update_tlist(23, 4)
-loaded = get_all_threads(23, tlist, 0)
+tlist, replies = update_tlist(23, 4)
+loaded = get_all_threads(23, tlist, replies, 0)
 puts "Time to load #{loaded - time}"
 puts "Time to parse #{Time.now - time}"
 #test_tf_stat

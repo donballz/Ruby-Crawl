@@ -1,5 +1,3 @@
-require 'net/http'
-require 'uri'
 require 'yaml'
 require 'rubygems'
 require 'mechanize'
@@ -16,9 +14,9 @@ def read(fname)
 	return YAML.load_file(PATH + "#{fname}.yml")
 end
 
-def get_page(url)
+def get_page(agent, url)
 	# fetches webpage as flat string
-	return Net::HTTP.get(URI.parse(url))
+	return agent.get(url).parser.xpath('//table').to_html
 end
 
 def annual_hash

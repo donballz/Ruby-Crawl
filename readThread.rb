@@ -1,11 +1,10 @@
-require 'net/http'
-require 'uri'
-require 'yaml'
+require_relative 'common_funcs.rb'
 require 'cgi'
 
 class MyThread
 	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum, :tPostLog]
 	attr_reader(*ATTRS)
+	AGENT = login()
 		
 	def initialize(tnum)
 		@tNum = tnum
@@ -42,14 +41,14 @@ class MyThread
 	end
 	
 	def get_page(url)
-		return Net::HTTP.get(URI.parse(url))
+		return AGENT.get(url).parser.xpath('//table').to_html
 	end
 	
 	def get_title(page)
-		start_link = page.index('<title')
+		start_link = page.index('<strong>', page.index('title') + 1)
     	return nil if start_link == nil
     	start_quote = page.index('>', start_link) + 1 
-    	end_quote = page.index('</title>', start_quote)
+    	end_quote = page.index('</strong>', start_quote)
     	return page[start_quote...end_quote].strip
 	end
 	
@@ -91,6 +90,7 @@ class MyThread
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
     	post = page[start_quote + 1...end_quote]
+    	end_quote = page.index('<td class="thead">')
 		
 		#ic = Iconv.new('UTF-8', 'WINDOWS-1252')
 		#post = post.encode("WINDOWS-1252", :invalid => :replace, :undef => :replace, :replace => "******post can't decode******")

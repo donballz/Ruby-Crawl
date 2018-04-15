@@ -1,6 +1,15 @@
 require_relative 'common_funcs.rb'
 require 'cgi'
 
+def get_poster(post)
+	# parses user name from html. used in both classes.
+	start_link = post.index('<a class="bigusername"')
+	return nil if start_link == nil
+	start_quote = post.index('>', start_link) + 1
+	end_quote = post.index('</a>', start_quote)
+	return post[start_quote...end_quote]
+end
+
 class MyThread
 	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum, :tPostLog]
 	attr_reader(*ATTRS)
@@ -80,7 +89,8 @@ class MyThread
 		start_link = page.index('post_message_')
 		return nil, nil, nil, nil if start_link == nil
 		meta = page[0...start_link]
-
+		poster = get_poster(meta)
+		
 		start_pnum = page.index('e_', start_link)
 		end_pnum = page.index('"', start_link)
 		pnum = page[start_pnum + 2...end_pnum].to_i
@@ -88,7 +98,7 @@ class MyThread
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
     	post = page[start_quote + 1...end_quote]
-    	end_quote = page.index('<td class="thead">')
+    	end_quote = page.index("<td class=\"thead\">#{poster}</td>")
 		
 		#ic = Iconv.new('UTF-8', 'WINDOWS-1252')
 		#post = post.encode("WINDOWS-1252", :invalid => :replace, :undef => :replace, :replace => "******post can't decode******")
@@ -149,14 +159,6 @@ class Post
 		end 
 		return post
 	end 
-	
-	def get_poster(post)
-		start_link = post.index('<a class="bigusername"')
-		return nil if start_link == nil
-		start_quote = post.index('>', start_link) + 1
-    	end_quote = post.index('</a>', start_quote)
-    	return post[start_quote...end_quote]
-	end
 	
 	def get_timestamp(post)
 		start_link = post.index('<!-- status icon and date -->')

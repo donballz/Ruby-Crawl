@@ -118,8 +118,10 @@ def get_all_threads(fnum, tlist, start)
 			puts "#{thread}, #{tcat[thread]} no change"
 		end
 	end
+	puts 'writing parse history...'
 	phist.write
 	#tdict.write
+	puts 'writing thread catalog...'
 	write(tcat, "thread_cat_#{fnum}")
 	return time
 end

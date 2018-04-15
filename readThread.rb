@@ -32,7 +32,7 @@ class MyThread
 	
 	def build_url(tnum, pageNum)
 		# pares a thread num and page num into thread url
-    	url = SERVER + '/showthread.php?t=' + tnum.to_s
+    	url = FORUM + '/showthread.php?t=' + tnum.to_s
     	url = url + "&pp=40&page=" + pageNum.to_s
     	return url
 	end

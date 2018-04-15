@@ -2,17 +2,17 @@ require 'yaml'
 require 'rubygems'
 require 'mechanize'
 
-PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
+PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port'
 FORUM = 'http://www.actuarialoutpost.com/actuarial_discussion_forum'
 
 def write(obj, fname)
 	# writes any object to supplied filename. naming conflict with rT class func
-	File.open(PATH + "#{fname}.yml", 'w') { |f| f.write obj.to_yaml }
+	File.open(PATH + "/#{fname}.yml", 'w') { |f| f.write obj.to_yaml }
 end
 
 def read(fname)
 	# reads yaml file to object
-	return YAML.load_file(PATH + "#{fname}.yml")
+	return YAML.load_file(PATH + "/#{fname}.yml")
 end
 
 def get_page(agent, url)
@@ -30,8 +30,8 @@ end
 def login
 	# login to AO and return agent
 	agent = Mechanize.new
-	page = agent.get("#{FORUM}/index.php")
-	login = page.form_with(:action => "login.php?do=login")
+	page = agent.get("/#{FORUM}/index.php")
+	login = page.form_with(:action => 'login.php?do=login')
 	login.vb_login_username = 'ADoggieDetective'
 	login.vb_login_password = 'H2A5cVQzT28wCLx#'
 	agent.submit(login, login.buttons.first)

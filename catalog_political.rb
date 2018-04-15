@@ -25,14 +25,14 @@ end
 
 def build_url(fNum, pageNum)
 	# pares a subforum number and page into thread list url
-	url = SERVER + '/forumdisplay.php?f=' + fNum.to_s
+	url = FORUM + '/forumdisplay.php?f=' + fNum.to_s
 	url = url + "&order=desc&page=" + pageNum.to_s
 	return url
 end
 
 def get_last_post(thread)
 	# returns last post of given thread
-	url = SERVER + '/showthread.php?t=' + "#{thread}&page=999999"
+	url = FORUM + '/showthread.php?t=' + "#{thread}&page=999999"
 	page = get_page(url)
 	found = page.find('title="First Page - Results 1 to 10 of ')
 	last = page.index('"', found)

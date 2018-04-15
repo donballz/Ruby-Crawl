@@ -46,6 +46,7 @@ end
 
 def get_thread_list(fnum)
 	# function crawls given subforum and returns array of ALL threads
+	# needs mechanize update
 	tlist = []
 	thread, pnum, found = STICKY[0], 1, 0
 	page = get_page(build_url(fnum, pnum))
@@ -72,9 +73,8 @@ end
 def update_tlist(fnum, num)
 	# function crawls given subforum and returns array of threads (num pages)
 	tlist = []
-	agent = login()
 	(1..num).to_a.each do |pnum|
-		pol = agent.get(build_url(fnum, pnum))
+		pol = AGENT.get(build_url(fnum, pnum))
 		pol.links.each do |l|
 			uriStr = l.uri.to_s 
 			begl = uriStr.index('showthread.php?t=')

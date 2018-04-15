@@ -36,3 +36,5 @@ def login
 	agent.submit(login, login.buttons.first)
 	return agent
 end
+
+AGENT = login

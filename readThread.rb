@@ -4,7 +4,6 @@ require 'cgi'
 class MyThread
 	ATTRS = [:tTitle, :tUrl, :tOP, :tPosts, :tNum, :tPostLog]
 	attr_reader(*ATTRS)
-	AGENT = login()
 		
 	def initialize(tnum)
 		@tNum = tnum
@@ -41,6 +40,7 @@ class MyThread
 	end
 	
 	def get_page(url)
+		# uses mechanize global agent in common_funcs
 		return AGENT.get(url).parser.xpath('//table').to_html
 	end
 	
@@ -90,7 +90,6 @@ class MyThread
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
     	post = page[start_quote + 1...end_quote]
-    	end_quote = page.index('<td class="thead">')
 		
 		#ic = Iconv.new('UTF-8', 'WINDOWS-1252')
 		#post = post.encode("WINDOWS-1252", :invalid => :replace, :undef => :replace, :replace => "******post can't decode******")

@@ -158,7 +158,9 @@ end
 	
 #write(get_thread_list(23), 'thread_list_23')
 #write(update_tlist(23), 'tllist_update_23')
+time = Time.now
 tlist = update_tlist(23, 4)
-puts tlist
-#puts get_all_threads(23, tlist, 0)
+loaded = get_all_threads(23, tlist, 0)
+puts "Time to load #{loaded - time}"
+puts "Time to parse #{Time.now - time}"
 #test_tf_stat

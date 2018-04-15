@@ -46,11 +46,6 @@ class MyThread
     	return url
 	end
 	
-	def get_page(url)
-		# uses mechanize global agent in common_funcs
-		return AGENT.get(url).parser.xpath('//table').to_html
-	end
-	
 	def get_title(page)
 		start_link = page.index('<strong>', page.index('title') + 1)
     	return nil if start_link == nil

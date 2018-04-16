@@ -140,6 +140,9 @@ class Post
 	def clean_string(post)
 		# loops through the post text and strips out the html garbage
 		start_link = 0
+		quote_begin = '<div class="smallfont" style="margin-bottom:2px">'
+		quote_search = 0
+		quote_count = 0
 		while true do
 			start_link = post.index('<')
 			return post if start_link == nil
@@ -150,7 +153,22 @@ class Post
 			else
 				smilie = ''
 			end
-			post = post[0...start_link] + smilie + post[end_quote + 1..-1]
+			if post[start_link...start_link + 49] == quote_begin
+				qmark = '{'
+				quote_search = 1
+			elsif quote_search == 1 and post[start_link...start_link + 6] == '</div>'
+				quote_count += 1
+				if quote_count == 3
+					qmark = '}'
+					quote_search = 0
+					quote_count = 1
+				else
+					qmark = ''
+				end
+			else
+				qmark = ''
+			end
+			post = post[0...start_link] + qmark + smilie + post[end_quote + 1..-1]
 		end 
 		return post
 	end 

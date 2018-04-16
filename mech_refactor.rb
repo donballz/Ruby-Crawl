@@ -3,8 +3,8 @@ require_relative 'StringFind.rb'
 
 STICKY = [280594, 310192]
 testT = MyThread.new(331538)
-#testT.print_thread
-
+#testT = read(331451)
+testT.print_thread
 #page = get_page(login, testT.tUrl)
 
 def find_all(page, loc)
@@ -86,5 +86,5 @@ def test_whopost
 end
 
 #pol = AGENT.get(build_url(23, 30))
-tlist, replies = update_tlist(23, 1)
-(0...tlist.length).to_a.each { |i| puts "thread: #{tlist[i]} replies; #{replies[i]}" }
+#tlist, replies = update_tlist(23, 1)
+#(0...tlist.length).to_a.each { |i| puts "thread: #{tlist[i]} replies; #{replies[i]}" }

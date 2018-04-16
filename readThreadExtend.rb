@@ -1,9 +1,5 @@
 require_relative 'readThread.rb'
 
-def read(tnum)
-	return YAML.load_file("#{PATH}/Threads/#{tnum}.yml")
-end
-
 class Hash
 	def myPrint(reverse = false)
 		sorted = self.sort_by { |k, v| v }

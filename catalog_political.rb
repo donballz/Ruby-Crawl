@@ -150,8 +150,9 @@ end
 #write(get_thread_list(23), 'thread_list_23')
 #write(update_tlist(23), 'tllist_update_23')
 time = Time.now
-tlist, replies = update_tlist(23, 4)
+tlist, replies = update_tlist(23, 41)
 loaded = get_all_threads(23, tlist, replies, 0)
 puts "Time to load #{loaded - time}"
 puts "Time to parse #{Time.now - time}"
+puts loaded # Saved time stamp
 #test_tf_stat

@@ -175,7 +175,7 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(POL))
-find_all(POL, "bigb", 'black friends', 1)
+find_all(POL, "bigb", 'black friends', 0)
 #mtd = ThreadDict.new(POL)
 #mtd.write
 #find_all(POL, 'jas66Kent', 'coon')

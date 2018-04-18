@@ -20,13 +20,15 @@ def row_to_string(row, cols)
 			if row[i] == '' or row[i] == nil
 				str += "'NA',"
 			else
-				str += "'#{row[i].gsub("'", "`")}'," 
+				str += "'#{row[i].to_s.gsub("'", "`")}'," 
 			end
+		elsif cols[i] == 'datetime'
+			str += "'#{row[i].to_s[0,19]}',"
 		else
 			if row[i] == '' or row[i] == nil
 				str += "0,"
 			else
-				str += "#{row[i].to_f}," 
+				str += "#{row[i].to_i}," 
 			end
 		end
 	end
@@ -40,6 +42,7 @@ def up_to_sql(con, t, first, last)
 	row = [t.tNum, t.tTitle, t.tOP, t.tPosts[0].pTime, first, last]
 	str = row_to_string(row, thread_cols)
 	con.query("INSERT INTO THREADS VALUES #{str}")
+	cnt = 1
 	t.each do |post|
 		if post.pQuoted.length > 3
 			mq = 'Y'
@@ -60,9 +63,10 @@ def up_to_sql(con, t, first, last)
 			q3 = post.pQuoted.keys[2]
 			q3n = post.pQuoted[q3]
 		end
-		row = [post.pNum, t.tNum, post.pPoster, q1, q1n, q2, q2n, q3, q3n, mq]
+		row = [post.pNum, t.tNum, cnt, post.pPoster, post.pTime, q1, q1n, q2, q2n, q3, q3n, mq]
 		str = row_to_string(row, post_cols)
 		con.query("INSERT INTO POSTS VALUES #{str}")
+		cnt += 1
 	end
 	return nil
 end
@@ -92,7 +96,6 @@ end
 
 begin
 	key = File.read("#{PATH}/key.txt")
-	#con = Mysql2::Client.new SRVR, USER, PSWD.decrypt(key)
 	con = Mysql2::Client.new(:host => SRVR, :username => USER, :password => PSWD.decrypt(key))
 	con.query("USE #{SCMA}")
 	

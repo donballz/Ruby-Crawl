@@ -3,25 +3,6 @@ require_relative 'threadDict.rb'
 
 STICKY = [280594, 310192]
 
-class MyThread
-	# extend class to allow partial builds
-	def add_to_thread()
-		# cuts off post-array at last full page and then starts over at new posts
-		full = @tPosts.length - @tPosts.length % 40
-		@tPosts.slice!(full, @tPosts.length)
-		@tPostLog.slice!(full, @tPostLog.length)
-		build_thread(full / 40 + 1)
-		@curDate = DateTime.now
-	end
-end
-
-def build_url(fNum, pageNum)
-	# pares a subforum number and page into thread list url
-	url = FORUM + '/forumdisplay.php?f=' + fNum.to_s
-	url = url + "&order=desc&page=" + pageNum.to_s
-	return url
-end
-
 def get_gap_threads(fnum)
 	# function reads thread catalog and gets any files found to be missing
 	puts 'retreiving parse history...'

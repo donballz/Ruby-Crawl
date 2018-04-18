@@ -1,7 +1,7 @@
 require 'yaml'
+require 'mysql2'
 require 'rubygems'
 require 'mechanize'
-require 'mysql'
 require_relative 'StringFind.rb'
 
 PATH = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port'

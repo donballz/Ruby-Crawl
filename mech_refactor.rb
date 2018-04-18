@@ -1,5 +1,4 @@
 require_relative 'readThreadExtend.rb'
-require_relative 'StringFind.rb'
 
 STICKY = [280594, 310192]
 testT = MyThread.new(331538)

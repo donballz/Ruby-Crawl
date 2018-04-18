@@ -1,7 +1,5 @@
 require_relative 'readThread.rb'
-require_relative 'StringFind.rb'
 require_relative 'threadDict.rb'
-require_relative 'common_funcs.rb'
 
 STICKY = [280594, 310192]
 

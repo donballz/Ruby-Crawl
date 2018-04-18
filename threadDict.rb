@@ -25,8 +25,7 @@ class ThreadDict
 	
 	def write
 		# write yaml file of this object
-		path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
-		File.open(path + "thread_dict_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
+		File.open(PATH + "/thread_dict_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
 	def make_lists(fnum)
@@ -89,8 +88,7 @@ class ParseHistory
 	
 	def write
 		# write yaml file of this object
-		path = '/Users/donald/Dropbox/AO Thread Crawl/Ruby Port/'
-		File.open(path + "parse_history_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
+		File.open(PATH + "parse_history_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
 	def build_history(fnum, init)

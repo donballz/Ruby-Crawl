@@ -52,15 +52,15 @@ def up_to_sql(con, t, first, last)
 		q1, q2, q3 = ' ', ' ', ' '
 		q1n, q2n, q3n = 0, 0, 0
 		if post.pQuoted.length > 0
-			q1 = post.pQuoted.keys[0]
+			q1 = post.pQuoted.keys[0][0,40].gsub('/','')
 			q1n = post.pQuoted[q1]
 		end
 		if post.pQuoted.length > 1
-			q2 = post.pQuoted.keys[1]
+			q2 = post.pQuoted.keys[1][0,40].gsub('/','')
 			q2n = post.pQuoted[q2]
 		end
 		if post.pQuoted.length > 2
-			q3 = post.pQuoted.keys[2]
+			q3 = post.pQuoted.keys[2][0,40].gsub('/','')
 			q3n = post.pQuoted[q3]
 		end
 		row = [post.pNum, t.tNum, cnt, post.pPoster, post.pTime, q1, q1n, q2, q2n, q3, q3n, mq]
@@ -97,9 +97,14 @@ end
 begin
 	key = File.read("#{PATH}/key.txt")
 	con = Mysql2::Client.new(:host => SRVR, :username => USER, :password => PSWD.decrypt(key))
-	con.query("USE #{SCMA}")
+	con.query("USE #{SCMA};")
 	
 	time = Time.now
+	puts 'creating empty tables...'
+	con.query('DROP TABLE IF EXISTS THREADS;')
+	sql_qry('mk_threads', con)
+	con.query('DROP TABLE IF EXISTS POSTS;')
+	sql_qry('mk_posts', con)
 	loaded = upload_threads(23, con)
 	puts "Time to load #{loaded - time}"
 	puts "Time to parse #{Time.now - time}"

@@ -28,6 +28,12 @@ def annual_hash
 	return mh
 end
 
+def sql_qry(fname, con)
+	# runs single sql query saved in a .sql file
+	qry = File.read("#{PATH}/#{fname}.sql")
+	return con.query(qry)
+end
+
 def login
 	# login to AO and return agent
 	key = File.read("#{PATH}/key.txt")

@@ -53,6 +53,29 @@ def threads_per_day(fnum)
 	return dates
 end
 
+def active_posters(fnum, year)
+	# returns hash by poster with number of threads and posts for given year
+	tcat = read("thread_cat_#{fnum}")
+	posters = Hash.new(0)
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			#posters[mt.tOP][0] += 1 if mt.tPosts[0].pYear == year
+			mt.each { |post| posters[post.pPoster] += 1 if post.pYear == year }
+		end
+	end
+	return posters
+end
+
+def active_testing(fnum, year)
+	# test function for the above
+	posters = Hash.new(0)
+	mt = read("Threads/333577")
+	#posters[mt.tOP][0] += 1 if mt.tPosts[0].pYear == year
+	mt.each { |post| posters[post.pPoster] += 1 if post.pYear == year }
+	return posters
+end
+
 def ttesting(thread)
 	mt = read("Threads/#{thread}")
 	uppt = Hash.new(0)
@@ -92,6 +115,37 @@ end
 
 def obsessed(fnum)
 	# comparative stats for TAA and erose
+	tcat = read("thread_cat_#{fnum}")
+	erose = ['erosewater', "Rex Ryan's pet coyote"]
+	ero_m = ['erosewater', "rex ryan's pet coyote", 'rrpc', 'erose']
+	taa = ['TheActuarialAssistant']
+	taa_m = ['theactuarialassistant', 'taa']
+	mh = annual_hash
+	tcat.each do |k, v|
+		if v > 0
+			mt = read("Threads/#{k}")
+			mt.each do |post|
+				tq, eq = 0, 0 # track if either quotes the other
+				words = post.pPost.downcase.tr('.,;[]{}!@#$%^&*()<>?:"\|/`~', '').split
+				if taa.include?(post.pPoster) 
+					mh[post.pYear]['TAA'] += 1
+					tq = 1 if post.pQuoted.keys.any? { |q| erose.include? q }
+					mh[post.pYear]['TAQ'] += tq
+					mh[post.pYear]['TAM'] += 1 - tq if words.any? { |w| ero_m.include? w }
+				elsif erose.include?(post.pPoster)
+					mh[post.pYear]['ERS'] += 1
+					eq = 1 if post.pQuoted.keys.any? { |q| taa.include? q }
+					mh[post.pYear]['ERQ'] += eq
+					mh[post.pYear]['ERM'] += 1 - eq if words.any? { |w| taa_m.include? w }
+				end
+			end
+		end
+	end
+	return mh
+end
+
+def best_friends(fnum)
+	# get pairs of people who quote each other - not started
 	tcat = read("thread_cat_#{fnum}")
 	erose = ['erosewater', "Rex Ryan's pet coyote"]
 	ero_m = ['erosewater', "rex ryan's pet coyote", 'rrpc', 'erose']
@@ -172,7 +226,9 @@ now = Time.now
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(POL))
-find_all(POL, "epeddy1", 'hundreds', 0)
+#find_all(POL, "epeddy1", 'hundreds', 0)
+actives = active_posters(POL, 2018)
+actives.each { |k, v| puts "#{k}: #{v}" }
 #mtd = ThreadDict.new(POL)
 #mtd.write
 #find_all(POL, 'jas66Kent', 'coon')

@@ -88,7 +88,7 @@ class ParseHistory
 	
 	def write
 		# write yaml file of this object
-		File.open(PATH + "parse_history_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
+		File.open(PATH + "/parse_history_#{@fNum}.yml", 'w') { |f| f.write self.to_yaml }
 	end
 	
 	def build_history(fnum, init)

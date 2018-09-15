@@ -221,18 +221,25 @@ end
 
 now = Time.now
 #run_stats(POL)
-#mh = read('unique_posters_per_thread')
+#mh = read('per_poster_per_year')
 #complex_print(mh, 1) # set to 1 for words, else 0
 #simple_print(mh)
 #puts ttesting(308604)
 #simple_print(obsessed(POL))
 #find_all(POL, "epeddy1", 'hundreds', 0)
-actives = active_posters(POL, 2018)
-actives.each { |k, v| puts "#{k}: #{v}" }
+#actives = active_posters(POL, 2018)
+#actives.each { |k, v| puts "#{k}: #{v}" }
 #mtd = ThreadDict.new(POL)
 #mtd.write
 #find_all(POL, 'jas66Kent', 'coon')
 #ppd_all(23, 'Childish Gambino').myPrint
 #all_posts_by(POL, "Ito's Phlegm")
 #simple_print(threads_per_day(POL))
+bigb = ppd_all(POL, 'bigb')
+taa = ppd_all(POL, 'TheActuarialAssistant')
+puts 'bigb'
+bigb.each { |k, v| puts "#{k}: #{v}" }
+puts
+puts 'taa'
+taa.each { |k, v| puts "#{k}: #{v}" }
 puts "Run time: #{Time.now - now}"

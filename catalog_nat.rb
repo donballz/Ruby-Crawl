@@ -1,9 +1,9 @@
 require_relative 'forum_crawl.rb'
 
-STICKY = [280594, 310192]
+STICKY = [15859]
 
-fnum = 23
-
+fnum = 22
+	
 time = Time.now
 #write(get_thread_list(fnum), "thread_list_#{fnum}")
 #write(update_tlist(fnum), "tllist_update_#{fnum}")

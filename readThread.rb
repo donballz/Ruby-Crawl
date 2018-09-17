@@ -89,8 +89,10 @@ class MyThread
 		start_pnum = page.index('e_', start_link)
 		end_pnum = page.index('"', start_link)
 		pnum = page[start_pnum + 2...end_pnum].to_i
+		
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
+    	return nil, nil, nil, nil if end_quote == nil
     	post = page[start_quote + 1...end_quote]
     	end_quote = page.index("<td class=\"thead\">", end_quote)
 		

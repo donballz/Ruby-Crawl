@@ -4,7 +4,7 @@ require 'cgi'
 def get_poster(post)
 	# parses user name from html. used in both classes.
 	start_link = post.index('<a class="bigusername"')
-	return nil if start_link == nil
+	return 'guest_anon' if start_link == nil
 	start_quote = post.index('>', start_link) + 1
 	end_quote = post.index('</a>', start_quote)
 	return post[start_quote...end_quote]
@@ -89,11 +89,10 @@ class MyThread
 		start_pnum = page.index('e_', start_link)
 		end_pnum = page.index('"', start_link)
 		pnum = page[start_pnum + 2...end_pnum].to_i
-		
 		start_quote = page.index('>', start_link)
     	end_quote = page.index('<!-- / message -->', start_quote + 1)
     	post = page[start_quote + 1...end_quote]
-    	end_quote = page.index("<td class=\"thead\">#{poster}</td>")
+    	end_quote = page.index("<td class=\"thead\">", end_quote)
 		
 		#ic = Iconv.new('UTF-8', 'WINDOWS-1252')
 		#post = post.encode("WINDOWS-1252", :invalid => :replace, :undef => :replace, :replace => "******post can't decode******")

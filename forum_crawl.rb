@@ -55,6 +55,7 @@ end
 def update_tlist(fnum, num)
 	# function crawls given subforum and returns array of threads (num pages)
 	tlist, replies = [], []
+	puts 'updating thread list...'
 	(1..num).to_a.each do |pnum|
 		pol = AGENT.get(build_url(fnum, pnum))
 		pol.links.each do |l|
@@ -81,24 +82,39 @@ def get_all_threads(fnum, tlist, replies, start)
 	#tdict = read("thread_dict_#{fnum}")
 	puts 'retrieving thread catalog...'
 	tcat = read("thread_cat_#{fnum}")
+	fails = []
 	time = Time.now
 	tlist.slice(start, tlist.length).each do |tnum|
 		unless tcat.has_key?(tnum) and tcat[tnum] >= replies[tlist.find_index(tnum)]
 			if tcat.has_key?(tnum)
 				puts "parsing existing thread #{tnum}..."
 				parsed = read("Threads/#{tnum}")
-				parsed.add_to_thread
-				status = "#{parsed.tPosts.length - tcat[tnum]} added"
+				begin
+					parsed.add_to_thread
+					status = "#{parsed.tPosts.length - tcat[tnum]} added"
+				rescue
+					status =  "failure to add thread #{tnum}"
+					fails.push(tnum)
+				end
 			else
 				puts "parsing new thread #{tnum}..."
-				parsed = MyThread.new(tnum)
-				status = 'created'
+				begin
+					parsed = MyThread.new(tnum)
+					status = 'created'
+				rescue
+					status =  "failure to create thread #{tnum}"
+					fails.push(tnum)
+				end
 			end
-			parsed.write
-			tcat[tnum] = parsed.tPosts.length
-			phist.update(tnum, parsed.tPosts.length, time)
-			#tdict.update(parsed)
-			puts "#{tnum}, #{tcat[tnum]} posts #{status}"
+			if status[0,7] == 'failure'
+				puts status
+			else
+				parsed.write
+				tcat[tnum] = parsed.tPosts.length
+				phist.update(tnum, parsed.tPosts.length, time)
+				#tdict.update(parsed)
+				puts "#{tnum}, #{tcat[tnum]} posts #{status}"
+			end
 		else
 			puts "#{tnum}, #{tcat[tnum]} no change"
 		end
@@ -108,6 +124,7 @@ def get_all_threads(fnum, tlist, replies, start)
 	#tdict.write
 	puts 'writing thread catalog...'
 	write(tcat, "thread_cat_#{fnum}")
+	puts fails unless fails.length == 0
 	return time
 end
 
